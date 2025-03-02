@@ -1,9 +1,17 @@
-/* Change background color */
+/* Box Sizing does not work*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Change background color does not work*/
 body {
     background-color: lightblue;
 }
 
-/* Style the heading */
+/* Style the heading does not work*/
 h1 {
     color: darkblue;
     font-size: 24px;
