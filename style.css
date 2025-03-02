@@ -11,7 +11,7 @@ h1 {
 
 /* Carousel */
 /* scss-docs-start carousel-variables */
-.carousel-control {
+/*.carousel-control {
     color: white;
     width: 15%;
     opacity: .5;
@@ -55,11 +55,11 @@ h1 {
 
 .carousel-transition {                
     transform: carousel-transition-duration ease-in-out; /* Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)*/
-}
+/*}*/
 /* scss-docs-end carousel-variables */
 
 /* scss-docs-start carousel-dark-variables */
-.carousel-dark-indicator {
+/*.carousel-dark-indicator {
     active-bg: black default;
 }
 
