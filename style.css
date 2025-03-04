@@ -36,6 +36,11 @@ body {
     border: 1px solid #0d6efd;
 }
 
+.articletext {
+    font-size: 20px;
+    text-align: justify;
+}
+
 /* Carousel */
 /* scss-docs-start carousel-variables */
 /*.carousel-control {
