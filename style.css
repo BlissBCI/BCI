@@ -6,20 +6,20 @@ html {
     box-sizing: inherit;
   }
 
-/* Change background color does not work*/
+/* Change background color*/
 body {
     background-color: white;
 }
 
 /* Style the heading does not work*/
 h1 {
-    color: darkblue;
-    font-size: 24px;
+    /*font-size: 24px;*/
 }
 
 /* Card */
 .card {
-    padding: .5rem
+    /*padding: .5rem*/
+    padding: 1.5 rem
 }
 
 /* Carousel */
