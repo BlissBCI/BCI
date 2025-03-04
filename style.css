@@ -17,6 +17,11 @@ h1 {
     font-size: 24px;
 }
 
+/* Card */
+.card {
+    padding: .1rem
+}
+
 /* Carousel */
 /* scss-docs-start carousel-variables */
 /*.carousel-control {
