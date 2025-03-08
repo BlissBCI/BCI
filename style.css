@@ -24,27 +24,28 @@ body {
 }*/
 
 /* Banner Carousel */
-.carousel-control-prev-icon {
-    border: #0d6efd;
+.carousel-control-prev-iconold {
     width: 25px;
     height: 25px;
-    /* margin-left: 5px;
+    /* border: #0d6efd;
+    margin-left: 5px;
     margin-right: 5px;
     padding: 0px;
     padding: 10px 20px;*/
 }
 
-.carousel-control-next-icon {
-    border: #0d6efd;
+.carousel-control-next-iconold {
     width: 25px;
     height: 25px;
-    /* margin-left: 5px;
+    /* border: #0d6efd;
+    margin-left: 5px;
     margin-right: 5px;
     padding: 0px;
     padding: 10px 20px;*/
 }
 
 .carousel-control-prev {
+    border: #0d6efd;
     width: 50px;
     height: 50px;
     margin-left: 5px;
@@ -56,6 +57,7 @@ body {
 }
 
 .carousel-control-next {
+    border: #0d6efd;
     width: 50px;
     height: 50px;
     margin-left: 5px;
@@ -80,6 +82,7 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+
     /*width: 80%;
     height: 60%;
     padding: 0px;
@@ -88,9 +91,9 @@ body {
 
 /* Carousel Test */
 .carousel-caption {
-    bottom: 50%;
+    bottom: 80%;
     transform: translate(0, 80%);
-    padding: 80px;
+    padding: 130px;
 }
 
 /* Responsive */
@@ -100,12 +103,83 @@ body {
     }
 }
 
-/*.carousel-control-prev-icontest {
+.carousel-innertest {
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 50px;
+    /*width: 80%;
+    height: 60%;
+    padding: 0px;
+    padding: 10px 20px;*/
+}
+
+.carousel-control-prevtest {
     border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*margin-right:650px;*/
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    /* padding: 0px;
+    padding: 10px 20px;*/
+}
+
+.carousel-control-nexttest {
+    border: #0d6efd;
+    width: 55px;
+    height: 50px;
+    margin-left: 1513px;
+    margin-right: 0px;
+    margin-top: 34px;
+    margin-bottom: 0px;
+    
+    /* padding: 0px;
+    padding: 10px 20px;*/
+}
+
+.carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    /*border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;*/
+}
+
+.carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+   /* border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;*/
+}
+
+/*.carousel-control-prev {
+    color: #0d6efd;
+}
+
+.carousel-control-next {
+    color: #0d6efd;
+}*/
+
+/*.carousel-control-prev-icontest {
+    color: #0d6efd;
 }
 
 .carousel-control-next-icontest {
-    border: #0d6efd;
+    color: #0d6efd;
 }*/
 
 /* Card */
