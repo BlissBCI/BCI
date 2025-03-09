@@ -25,6 +25,13 @@ body {
 
 /* Banner Carousel */
 
+/* Responsive */
+@media (min-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+}
+
 .carousel-control-prev {
     border: #0d6efd;
     width: 50px;
@@ -81,7 +88,7 @@ body {
     margin-left: 1513px;
     margin-right: 0px;
     margin-top: 34px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .carousel-control-prev-icon {
@@ -96,6 +103,8 @@ body {
     margin-top: 6px;
 }
 
+/* Photo Carousel */
+
 /* Responsive */
 @media (min-width: 992px) {
     .carousel-caption h5 {
@@ -103,16 +112,14 @@ body {
     }
 }
 
-/* Photo Carousel */
-
 .carousel-control-prevph {
     border: #0d6efd;
     width: 50px;
     height: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .carousel-control-nextph {
@@ -121,8 +128,8 @@ body {
     height: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 0px;
 }
 
 .carousel-innerph {
@@ -132,42 +139,36 @@ body {
 }
 
 .carousel-captionph {
-    bottom: 80%;
-    transform: translate(0, 80%);
-    padding: 130px;
+    margin-left: 550px;
+    margin-right: 0px;
+    /*padding: 630px;*/
 }
 
 .carousel-innerph {
     align-items: center;
-    margin-left: 40px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .carousel-control-prevph {
     border: #0d6efd;
     width: 50px;
     height: 50px;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 0px;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .carousel-control-nextph {
     border: #0d6efd;
     width: 55px;
     height: 50px;
-    margin-left: 1513px;
+    margin-left: 1450px;
+    /* margin-left: 1540px; */
     margin-right: 0px;
-    margin-top: 34px;
-    margin-bottom: 0px;
-}
-
-/* Responsive */
-@media (min-width: 992px) {
-    .carousel-caption h5 {
-        font-size: 1.5rem;
-    }
+    margin-top: 250px;
+    margin-bottom: 300px;
 }
 
 /* Card */
