@@ -58,14 +58,7 @@ body {
     padding: 130px;
 }
 
-/* Responsive */
-@media (min-width: 992px) {
-    .carousel-caption h5 {
-        font-size: 1.5rem;
-    }
-}
-
-.carousel-innertest {
+.carousel-innerup {
     align-items: center;
     margin-left: 40px;
     margin-right: 50px;
@@ -94,13 +87,87 @@ body {
 .carousel-control-prev-icon {
     width: 25px;
     height: 25px;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 .carousel-control-next-icon {
     width: 25px;
     height: 25px;
-    margin-top: 5px;
+    margin-top: 6px;
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Photo Carousel */
+
+.carousel-control-prevph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-control-nextph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-innerph {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-captionph {
+    bottom: 80%;
+    transform: translate(0, 80%);
+    padding: 130px;
+}
+
+.carousel-innerph {
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.carousel-control-prevph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.carousel-control-nextph {
+    border: #0d6efd;
+    width: 55px;
+    height: 50px;
+    margin-left: 1513px;
+    margin-right: 0px;
+    margin-top: 34px;
+    margin-bottom: 0px;
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
 }
 
 /* Card */
