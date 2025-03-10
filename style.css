@@ -25,40 +25,35 @@ body {
 
 /* Nav Bar and Menu Bar*/
 
-/* Nav Bar link does not work*/
+/* Nav Bar link */
 
-/*.nav-link {
+.nav-link {
+    color:#0d6efd;
+    font-weight: 500;
     position: relative;
-}*/
+}
 
-/*.nav-link::after {
-    text-decoration: underline;
+.nav-link:hover, .nav-link.active {
+    color: #0d6efd;
+}
+
+.nav-link::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
     background-color: #0d6efd;
-    height: 2px;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::after {
     width: 100%;
-    opacity: 0;
-}*/
-
-/*.nav-link::after {
-    content: '';
-    opacity: 0;
-    transition: all 0.2s;
-    height: 2px;
-    /*width: 100%;co*/
-
-    /*width: 10%;
-    background-color: #0d6efd;*/
-    
-    /*position: absolute;co*/
-    
-    /*position: relative;
-    margin-bottom: 0;
-    margin-left: 0;
-}*/
-
-/*.nav-link:hover::after {
-    opacity: 1;
-}*/
+    visibility: visible;
+}
 
 /* BCI Email modal */
 .modalemailconsent {
