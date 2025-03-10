@@ -23,6 +23,43 @@ body {
     font-size: 24px;
 }*/
 
+/* Nav Bar and Menu Bar*/
+
+/* Nav Bar link does not work*/
+
+/*.nav-link {
+    position: relative;
+}*/
+
+/*.nav-link::after {
+    text-decoration: underline;
+    background-color: #0d6efd;
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+}*/
+
+/*.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    /*width: 100%;co*/
+
+    /*width: 10%;
+    background-color: #0d6efd;*/
+    
+    /*position: absolute;co*/
+    
+    /*position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
+}*/
+
+/*.nav-link:hover::after {
+    opacity: 1;
+}*/
+
 /* BCI Email modal */
 .modalemailconsent {
     text-align:justify
