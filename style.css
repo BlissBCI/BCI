@@ -263,6 +263,12 @@ body {
     /*margin-bottom: 200px; does not work */
 }
 
+.paypallogo {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+
 .iframe {
     /*width: 150%; width does not change */
     /*width: 100%;  width does not change */
