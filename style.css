@@ -13,6 +13,10 @@
     border: #0d6efd;
 }*/
 
+.navbar {
+    border: #0d6efd;
+}
+
 /* Change background color*/
 body {
     background-color: white;
@@ -204,6 +208,28 @@ body {
     margin-right: 0px;
     margin-top: 250px;
     margin-bottom: 300px;
+}
+
+/* Divider */
+
+.pagebreaktop {
+    /*margin: 1rem 0;*/
+    /*margin: 0px;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;*/
+    margin-left: 10px;
+    /*opacity: 0.25;*/
+}
+
+.pagebreak {
+    /*margin: 1rem 0;*/
+    /*width: 100%;
+    margin: 0px;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;*/
+    /*opacity: 0.25;*/
 }
 
 /* Card */
