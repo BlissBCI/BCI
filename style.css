@@ -222,15 +222,17 @@ body {
     /*opacity: 0.25;*/
 }
 
-.pagebreak {
-    /*margin: 1rem 0;*/
-    /*width: 100%;
-    margin: 0px;
+/*.pagebreak {
+    margin: 1rem 0;*/
+    /*width: 100%;*/
+    
+    /*margin: 0px;
     color: inherit;
     background-color: currentColor;
     border: 0;*/
+    
     /*opacity: 0.25;*/
-}
+/*}*/
 
 /* Card */
 .card {
@@ -256,7 +258,16 @@ body {
 
 .btncenter {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 47.5%;
+    transform: translateX(-50%);
+    /*margin-bottom: 200px; does not work */
+}
+
+.iframe {
+    /*width: 150%; width does not change */
+    /*width: 100%;  width does not change */
+    width: 100vw; /* Full viewport width */
+    /*height: 100vh;  Full viewport height */
 }
 
 /* Footer */
@@ -274,3 +285,4 @@ body {
     text-align: left;
     padding-right: 275px;
 }
+
