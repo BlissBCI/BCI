@@ -276,6 +276,19 @@ body {
     /*height: 100vh;  Full viewport height */
 }
 
+/* Contact Us */
+.cardcontactus {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+}
+
+.contactus-footer {
+    position: relative;
+    margin-left: 42%;
+}
+
 /* Footer */
 .footer {
     display: flex;
