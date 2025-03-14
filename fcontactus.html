@@ -236,18 +236,23 @@
 
     <!-- Contact Us -->
     <div> 
-      <div class = "textheading">
-        <h2 class = "text-center mt-2">Contact Us</h2>
+      <div class="textheading">
+        <h2 class="text-center mt-2">Contact Us</h2>
       </div>
       <div class="cardcontactus">
         <div class="card-body">
           <!-- text in card body -->
+          <form action="fcontactus.php" method="POST"> 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="email" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
-          </div> 
+            <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
+          </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Email address</label>
+            <label for="exampleFormControlInput2" class="form-label">Subject</label>
+            <input type="subject" class="form-control border-primary" id="exampleFormControlInput2" placeholder="subject">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label">Email address</label>
             <input type="email" class="form-control border-primary" id="exampleFormControlInput2" placeholder="name@example.com">
           </div>
           <div class="mb-3">
