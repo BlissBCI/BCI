@@ -9,17 +9,9 @@ $mailheader="From:".$name."<".$email.">\r\n;
 
 $recipient="uodaccw@gmail.com";
 
-mail ($recipient, $subject, $message, $mailheader)
+mail($recipient, $subject, $message, $mailheader)
 or die("Error! Cannot send mail!");
 
-echo'message sent
-
-  <div class = "messagesent mt-3">
-    <p>Thank you for contacting us.</p>
-    <p>We will get back to you as soon as possible!</p>
-  </div>
-
-
-';
+echo'message sent';
 
 ?>
