@@ -239,29 +239,48 @@
       <div class="textheading">
         <h2 class="text-center mt-2">Contact Us</h2>
       </div>
+      <hr>
+        <!-- php alert -->
+        <?php
+          $exampleFormControlTextarea1=""; 
+          if (isset($_GET['error']))
+          {
+            $exampleFormControlTextarea1="Please fill in the blanks";
+            echo '<div class="alert alert-danger">'.exampleFormControlTextarea1.'</div>';
+          }
+
+          if (isset($_GET['success']))
+          {
+            $exampleFormControlTextarea1="Your message has been sent!";
+            echo '<div class="alert alert-success">'.exampleFormControlTextarea1.'</div>';
+          }
+        ?>
+        <!-- end php alert -->
       <div class="cardcontactus">
         <div class="card-body">
           <!-- text in card body -->
-          <form action="https://conceptography.org/fcontactus.php" method="POST"> 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput3" class="form-label">Email address</label>
-            <input type="email" class="form-control border-primary" id="exampleFormControlInput2" placeholder="email@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Subject</label>
-            <input type="subject" class="form-control border-primary" id="exampleFormControlInput2" placeholder="subject">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control border-primary" id="exampleFormControlTextarea1" placeholder="Write message" rows="3"></textarea>
-          </div>
-          <div class="contactus-footer">
-            <button type="button" class="btn btn-primary" name="btnsend">Send message</button>
-          </div>
+          <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
+          <form action="fcontactus.php" method="post"> 
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name</label>
+              <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput3" class="form-label">Email address</label>
+              <input type="email" class="form-control border-primary" id="exampleFormControlInput2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput2" class="form-label">Subject</label>
+              <input type="subject" class="form-control border-primary" id="exampleFormControlInput2" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control border-primary" id="exampleFormControlTextarea1" placeholder="Write message" rows="3"></textarea>
+            </div>
+            <div class="contactus-footer">
+              <button type="button" class="btn btn-primary" name="btnsend">Send message</button>
+            </div>
+          </form>  
         </div>
       </div>
     </div>  
