@@ -260,7 +260,7 @@
         <div class="card-body">
           <!-- text in card body -->
           <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
-          <form action="fcontactus.php" method="post"> 
+          <form action="https://conceptography.org/contactmessage.php" method="post"> 
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
               <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
@@ -348,7 +348,7 @@
               <h5> <a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a> </h5>
               <h5> <a class="nav-link text-primary" href="#">BCI</a> </h5>
               <h5> <a class="nav-link text-primary" href="#">Blissymbolics</a> </h5>
-              <h5> <a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.html">Contact Us</a> </h5>
+              <h5> <a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact Us</a> </h5>
             <!--</nav>-->
             </div>
           </div>   

@@ -9,7 +9,7 @@
 
         if (empty($exampleFormControlInput1) || empty($exampleFormControlInput2) || empty($exampleFormControlInput3) || empty($exampleFormControlTextarea1) )
             {
-                header('location:https://conceptography.org/fcontactus.html?error');
+                header('location:https://conceptography.org/fcontactus.php?error');
             }
             else
             {
@@ -17,13 +17,13 @@
 
                 if(mail($recipient, $subject, $message, $mailheader))
                 {
-                    header('location:https://conceptography.org/fcontactus.html?success');
+                    header('location:https://conceptography.org/fcontactus.php?success');
                 }
             } 
 
         else {
             
-            header("location:https://conceptography.org/fcontactus.html?success")
+            header("location:https://conceptography.org/fcontactus.php?success")
         }
     }
 ?>
