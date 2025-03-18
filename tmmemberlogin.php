@@ -41,11 +41,12 @@
                   <h5> <a class="text-center text-primary nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a> </h5>
                   <li class="nav-itemtm">
                   <!--<h5> <a class="text-center text-primary nav-link active" aria-current="page" href="#">Join BCI Mailing List</a> </h5>-->
-                  <h5> <a class="text-center text-primary nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a> </h5>
+                  <h5><a class="text-center text-primary nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a></h5>
                   <!-- Button trigger modal -->
                   <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Launch demo modal
                   </button>-->
+
                   <!-- Modal -->
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -233,78 +234,49 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- BCI Sub Menu -->
-    <!--<div>
-      <div class = "navsub">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <h4> <a class="nav-link active" aria-current="page" href="#">About BCI</a> </h4>
-          </li>
-          <li class="nav-item">
-            <h4> <a class="nav-link" href="#">BCI Board Members</a> </h4>
-           </li>
-           <li class="nav-item">
-            <h4> <a class="nav-link" href="#">BCI News</a> </h4>
-          </li>
-          <li class="nav-item">
-            <h4> <a class="nav-link" href="#">BCI Announcements</a> </h4>
-          </li>
-          <li class="nav-item">
-            <h4> <a class="nav-link" href="#">BCI International Panel</a> </h4>
-          </li>
-          <li class="nav-item">
-            <h4> <a class="nav-link" href="#">BCI Meetings</a> </h4>
-          </li>
-          <li class="nav-item">
-            <h4> <a class="nav-link" href="#">Support BCI</a> </h4>
-           </li>
-          </ul>
-      </div>      
-    </div>-->
-    <!-- End Sub Menu -->
-
-    <!-- Welcome -->
+    <!-- BCI Member Log In -->
     <div> 
-      <div class = "textheading">
-        <h2 class = "text-center mt-2">Welcome</h2>
-      </div>  
-      <div>
-        <div class = "articletext">
-        <p class="fs-5 ml-10 mr-10">Blissymbolics is a semantic graphical language that is currently composed of more than 5000 authorized symbols - Bliss-characters and Bliss-words. It is a generative language that allows its users to create new Bliss-words as needed. It is used by individuals with severe speech and physical impairments around the world, but also by others for language learning and support, or just for the fascination and joy of this unique language representation.</p>
-        <p class="fs-5 ml-10 mr-10">Blissymbolics Communication International is a non-profit, charitable organization that holds the perpetual, worldwide rights for the use and publication of Blissymbols. BCI provides leadership in the development of the system of Blissymbolics. Blissymbolics is offered for all to use under a choice of two generous licensing schemes - either a free, copyleft license, or a proprietary license agreement. See under Licensing for more information.</p>
-        </div>
-      </div>  
-    </div>  
-    <!-- End Welcome -->
+      <div class="textheading">
+        <h2 class="text-center mt-2">BCI Member Log In</h2>
+      </div>
+      <hr>
+        <!-- php alert -->
+        <?php
+          $exampleFormControlTextarea1=""; 
+          if (isset($_GET['error']))
+          {
+            $exampleFormControlTextarea1="Please fill in the blanks";
+            echo '<div class="alert alert-danger">'.exampleFormControlTextarea1.'</div>';
+          }
 
-    <!-- 2 Grid Card -->
-    <div>
-      <div class="row row-cols-2 row-cols-md-2 g-2"> 
-        <div class="col">
-          <div class="card">
-            <div class="card text-center text-primary">
-              <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/updates/assets/bci_bliss_logo_whitebg.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5> <a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Primary link</a> </h5>
-                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-              </div>
-            </div>         
-          </div>
+          if (isset($_GET['success']))
+          {
+            $exampleFormControlTextarea1="Your message has been sent!";
+            echo '<div class="alert alert-success">'.exampleFormControlTextarea1.'</div>';
+          }
+        ?>
+        <!-- end php alert -->
+      <div class="cardmemberlogin">
+        <div class="card-body">
+          <!-- text in card body -->
+          <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
+          <form action="https://conceptography.org/memberlogin.php" method="post"> 
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+              <input type="emailaddress" class="form-control border-primary" id="exampleFormControlInput1" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput3" class="form-label">Password</label>
+              <input type="password" class="form-control border-primary" id="exampleFormControlInput2" placeholder="password">
+            </div>
+            <div class="tmmemberlogin">
+              <button type="button" class="btn btn-primary" name="btnsend">Login</button>
+            </div>
+          </form>  
         </div>
-        <div class="col">
-          <div class="card">
-            <div class="card text-center text-primary">
-              <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/updates/assets/bci_bliss_logo_whitebg.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5> <a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Primary link</a> </h5>
-                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-              </div>
-            </div>         
-          </div>
-        </div>
-      </div>  
+      </div>
     </div>  
-    <!-- End Grid Card -->
+    <!-- End BCI Member Log In -->
 
     <!-- Divider -->
     <div>
@@ -313,7 +285,7 @@
       </div>
     </div> 
     <!-- End Divider -->
-
+  
     <!-- Footer -->
     <!-- Left Footer Menu -->
     <div class="row">
@@ -366,7 +338,7 @@
           <div class="footer">
             <div class="rightfooter ml-0">
               <h5><a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
-              <h5><a class="nav-link text-primary" href="https://conceptography.org/tmmemberlogin.php">BCI</a></h5>
+              <h5><a class="nav-link text-primary" href="#">BCI</a></h5>
               <h5><a class="nav-link text-primary" href="#">Blissymbolics</a></h5>
               <h5><a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact Us</a></h5>
             <!--</nav>-->
@@ -377,5 +349,5 @@
     </div>
     <!-- End Right Footer Menu -->
     <!-- End Footer -->
-  </body>
-</html>
+    </body>
+  </html>
