@@ -41,7 +41,7 @@
                   <h5> <a class="text-center text-primary nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a> </h5>
                   <li class="nav-itemtm">
                   <!--<h5> <a class="text-center text-primary nav-link active" aria-current="page" href="#">Join BCI Mailing List</a> </h5>-->
-                  <h5> <a class="text-center text-primary nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a> </h5>
+                  <h5><a class="text-center text-primary nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a></h5>
                   <!-- Button trigger modal -->
                   <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Launch demo modal
@@ -234,59 +234,33 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- Contact Us -->
+    <!-- BCI Member Log In -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">Contact Us</h2>
+        <h2 class="text-center mt-2">BCI Member Log In</h2>
       </div>
-      <hr>
-        <!-- php alert -->
-        <?php
-          $exampleFormControlTextarea1=""; 
-          if (isset($_GET['error']))
-          {
-            $exampleFormControlTextarea1="Please fill in the blanks";
-            echo '<div class="alert alert-danger">'.exampleFormControlTextarea1.'</div>';
-          }
-
-          if (isset($_GET['success']))
-          {
-            $exampleFormControlTextarea1="Your message has been sent!";
-            echo '<div class="alert alert-success">'.exampleFormControlTextarea1.'</div>';
-          }
-        ?>
-        <!-- end php alert -->
-      <div class="cardcontactus">
+      <div class="cardmemberlogin">
         <div class="card-body">
           <!-- text in card body -->
-          <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
-          <!-- <form action="https://conceptography.org/contactmessage.php" method="post"> -->
-          <form action="contactmessage.php" method="post">  
+          <form action="testphp.php" method="post"> 
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Name</label>
-              <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control border-primary" id="email" placeholder="email@example.com">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlInput3" class="form-label">Email address</label>
-              <input type="email" class="form-control border-primary" id="exampleFormControlInput2" placeholder="email@example.com">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control border-primary" id="password" placeholder="password">
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput2" class="form-label">Subject</label>
-              <input type="subject" class="form-control border-primary" id="exampleFormControlInput2" placeholder="Subject">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control border-primary" id="exampleFormControlTextarea1" placeholder="Write message" rows="3"></textarea>
-            </div>
-            <div class="contactus-footer">
-              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="tmmemberlogin">
+              <!-- <button type="button" class="btn btn-primary" name="btnsend">Login</button> -->
+              <!-- <input type="submit" class="btn btn-primary" name="btnsend"></button> -->
+              <button class="btn btn-primary" type="submit">Log In</button>
             </div>
           </form>  
         </div>
       </div>
     </div>  
-    <!-- End Contact Us -->
+    <!-- End BCI Member Log In -->
 
     <!-- Divider -->
     <div>
