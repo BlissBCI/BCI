@@ -1,0 +1,353 @@
+/* HTML Page */
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    /*font-family: 'poppins', sans-serif;
+    font: size 18px;*/
+}
+
+/*Change background color does not work
+.navbartop {
+    background-color: white;
+    border: #0d6efd;
+}*/
+
+.navbar {
+    border: #0d6efd;
+}
+
+/* Change background color*/
+body {
+    background-color: white;
+}
+
+/* Style the heading does not work*/
+/*h1 {
+    font-size: 24px;
+}*/
+
+/* Nav Bar and Menu Bar*/
+
+/* Nav Bar link */
+
+.nav-link {
+    color:#0d6efd;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #0d6efd;
+}
+
+.nav-link::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #0d6efd;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::after {
+    width: 100%;
+    visibility: visible;
+}
+
+/* BCI Email modal */
+.modalemailconsent {
+    text-align:justify
+}
+
+/* Banner Carousel */
+
+/* Responsive */
+@media (min-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+}
+
+.carousel-control-prev {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-control-next {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-inner {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Updated Banner Carousel */
+.carousel-caption {
+    bottom: 80%;
+    transform: translate(0, 80%);
+    padding: 160px;
+}
+
+.carousel-innerup {
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.carousel-control-prevup {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.carousel-control-nextup {
+    border: #0d6efd;
+    width: 55px;
+    height: 50px;
+    margin-left: 1513px;
+    margin-right: 0px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+
+.carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+.carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+/* Photo Carousel */
+
+/* Responsive */
+@media (min-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+}
+
+.carousel-control-prevph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel-control-nextph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.carousel-innerph {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-captionph {
+    margin-left: 550px;
+    margin-right: 0px;
+}
+
+.carousel-innerph {
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.carousel-control-prevph {
+    border: #0d6efd;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.carousel-control-nextph {
+    border: #0d6efd;
+    width: 55px;
+    height: 50px;
+    margin-left: 1450px;
+    margin-right: 0px;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+/* Divider */
+
+.pagebreaktop {
+    /*margin: 1rem 0;*/
+    /*margin: 0px;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;*/
+    margin-left: 10px;
+    /*opacity: 0.25;*/
+}
+
+/*.pagebreak {
+    margin: 1rem 0;*/
+    /*width: 100%;*/
+    
+    /*margin: 0px;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;*/
+    
+    /*opacity: 0.25;*/
+/*}*/
+
+/* Card */
+.card {
+    /*padding: .5rem*/
+    /*padding: 1.5 rem*/
+    /*width 300px;*/
+    /*height: 100px; padding:50px;*/
+    padding: 0px;
+    border: 1px solid #0d6efd;
+}
+
+/* Body Text */
+.articletext {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.articletext > p > i {
+    font-size: 0.5em;
+    position: relative;
+    bottom: 3px;
+}
+
+.btncenter {
+    position: absolute;
+    margin-left: 47.5%;
+    transform: translateX(-50%);
+    /*margin-bottom: 200px; does not work */
+}
+
+.paypallogo {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+
+.iframe {
+    /*width: 150%; width does not change */
+    /*width: 100%;  width does not change */
+    width: 100vw; /* Full viewport width */
+    /*height: 100vh;  Full viewport height */
+}
+
+/* BCI Board of Directors Cards */
+.cardbcibm {
+/*  position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;*/
+    padding: 0px;
+    border: 1px solid #0d6efd;
+    margin-left: 670px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+.cardbcibmsec {
+  /*position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #0d6efd;*/
+
+    padding: 0px; 
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    column-count: 5;
+    }
+
+/*.cardbcibmsec2 {
+    position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        border: 1px solid #0d6efd;
+    
+        padding: 0px; 
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }*/
+
+/* Contact Us */
+.cardcontactus {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+}
+
+.contactus-footer {
+    position: relative;
+    margin-left: 42%;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftfooter {
+    text-align: right;
+    padding-left: 274px;
+}
+
+.rightfooter {
+    text-align: left;
+    padding-right: 275px;
+}
+
