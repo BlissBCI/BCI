@@ -281,6 +281,12 @@ body {
     /*height: 100vh;  Full viewport height */
 }
 
+/*.pdfsouthafrica {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    /*align-items: center; /* Vertical */
+/*}*/
+
 /* BCI Board of Directors Cards */
 .cardbcibm {
 /*  position: absolute;
