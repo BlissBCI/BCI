@@ -305,15 +305,20 @@ body {
 
 /* About Blissymbolics Photos */
 .blissarticleimage {
-    /*  position: absolute;
-        top: 50%;
-        width: 100%;*/
-    
-        padding: 0px;
-        border: 1px solid #0d6efd;
-        margin-left: 600px;
-        margin-right: 0px;
-      }
+/*  position: absolute;
+    top: 50%;
+    width: 100%;*/
+
+    padding: 0px;
+    border: 1px solid #0d6efd;
+    margin-left: 600px;
+    margin-right: 0px;
+}
+
+/* Text Indent */
+.textindent {
+    margin-left: 50px;
+}
 
 /* Contact Us */
 .cardcontactus {
