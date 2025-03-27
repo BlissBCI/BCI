@@ -303,6 +303,18 @@ body {
     margin-bottom: 10px;
   }
 
+  /* About Blissymbolics Photos */
+.blissarticleimage {
+    /*  position: absolute;
+        top: 50%;
+        width: 100%;*/
+    
+        padding: 0px;
+        border: 1px solid #0d6efd;
+        margin-left: 600px;
+        margin-right: 0px;
+      }
+
 /* Contact Us */
 .cardcontactus {
     align-items: center;
