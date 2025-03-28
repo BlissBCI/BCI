@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- JavaScript -->
+    <!-- jQuery, Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Responsive Viewport Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Website CSS -->
+    <link rel="stylesheet" href="https://conceptography.org/style.css">
+
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>BCI</title>
+  </head>
+  <body>
+    
+    <!-- Top Menu -->
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://conceptography.org/index.html">
+              <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" alt="BCI logo " width="300" height="120"> 
+            </a>
+          </div>
+          <div class="container"> 
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-itemtm">
+                  <h5> <a class="text-center text-primary nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a> </h5>
+                  <li class="nav-itemtm">
+                  <!--<h5> <a class="text-center text-primary nav-link active" aria-current="page" href="#">Join BCI Mailing List</a> </h5>-->
+                  <h5> <a class="text-center text-primary nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a> </h5>
+                  <!-- Button trigger modal -->
+                  <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>-->
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join BCI Mailing List</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <form action="maillist.php" method="post"> 
+                          Sign up for the BCI email list!
+                          <div class="input-group mb-3 mt-3">
+                            <span class="input-group-text" id="basic-addon1">Email address:</span>
+                            <!-- <input type="text" class="form-control" placeholder="email" aria-label="Email" aria-describedby="basic-addon1"> -->
+                            <input type="text" class="form-control" placeholder="email" aria-label="Email" aria-describedby="basic-addon1" id="maillist" name="maillist">
+                          </div>  
+                          <div class = "modalemailconsent mt-3">
+                            <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!--<button type="button" class="btn btn-primary">Save</button>-->
+                          <button class="btn btn-primary" type="submit">Submit</button>
+                        </form>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- End Modal -->
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary nav-link" aria-current="page" href="https://conceptography.org/tmjoinbci.html">Join BCI</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary nav-link" aria-current="page" href="https://conceptography.org/tmmemberlogin.php">BCI Member Log In</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary nav-link" aria-current="page" href="#">BCI Admin</a></h5>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <h5><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></h5>
+              <h5><button class="btn btn-outline-primary" type="submit"><i class="fa fa-search"></i></h5>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End Top Menu -->
+
+    <!-- Banner Message Carousel -->
+    <div>
+      <div>
+        <div>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-innerup">
+              <div class="carousel-item active">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 1</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 2</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 3</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 4</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 5</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 6</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 7</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
+                <div class="carousel-caption text-primary">
+                  <h6>Banner 8</h6>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- End Banner Message Carousel -->
+
+    <!-- Photo Carousel Basic -->
+    <div>
+      <div>
+        <div>
+          <div>
+            <div id="carouselExampleRide" class="carousel slide">
+              <div class="carousel-innerph">
+                <div class="carousel-item active">
+                  <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
+                  <div class="carousel-captionph text-primary">
+                    <h5>Samara at ISAAC 2024 Photo set 1</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
+                  <div class="carousel-captionph text-primary">
+                    <h5>Samara at ISAAC 2024 Photo set 2</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
+                  <div class="carousel-captionph text-primary">
+                    <h5>Samara at ISAAC 2024 Photo set 3</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <!-- End Photo Carousel Basic -->
+
+    <!-- Divider -->
+    <div> 
+      <div class="pagebreaktop" style="width: 98.85%">
+        <hr class="bg-primary border-0 border-top border-primary"/>
+      </div>
+    </div>  
+    <!-- End Divider -->
+
+    <!-- Main Menu -->
+    <div>
+      <div class = "navmain">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+          </li>
+          <li class="nav-item">
+            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+          </li>
+        </ul>
+      </div>
+    </div>    
+    <!-- End Main Menu -->
+
+    <!-- Divider -->
+    <div> 
+      <div class="pagebreak" style="width: 100%">
+        <hr class="bg-primary border-0 border-top border-primary"/>
+      </div>
+    </div>  
+    <!-- End Divider -->
+
+    <!-- Bliss Sub Menu -->
+    <div>
+      <div class = "navsub">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <h4><a class="nav-link active" aria-current="page" href="#">About Blissymbolics</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">Why Is Bliss Used?</a></h4>
+           </li>
+           <li class="nav-item">
+            <h4><a class="nav-link" href="#">Who Uses Bliss?</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">Where Is Bliss Used?</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">How Is Bliss Used – Workshop</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">BCI Authorised Vocabulary (AV)</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">Learn More</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">BCI Archives</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="#">Licensing</a></h4>
+          </li>
+        </ul>
+      </div>      
+    </div>
+    <!-- End Bliss Menu -->
+     
+    <!-- Blissful Communication; Symbols Open Doors For People Who Can't Speak -->
+    <div> 
+      <div class = "textheading">
+        <h2 class = "text-center mt-2">Blissful Communication; Symbols Open Doors For People Who Can't Speak</h2>
+      </div>
+      <div>
+        <div class = "articletext">
+          <p class="fs-5 ml-10 mr-10 text-center"><b>First published in Hamilton Spectator May 10, 2001</b></p>
+          <p class="fs-5 ml-10 mr-10">A cry of a new born baby, gives birth to a new life that will interact with the world. Without learning how to communicate through language, individuals wouldn't be able to get an education, get jobs or have a normal lifestyle. Moreover, language gives each one of us the gateway to express our needs, dreams and hopes. Without this capability, life becomes a war within the soul. I lived through this until I was twelve. I fought a battle daily trying to interact with those in my environment.</p>
+          <p class="fs-5 ml-10 mr-10">Three decades ago, a visionary teacher was looking for an alternative way to unlock the inner person of her ten nonspeaking students, at the Ontario Crippled Children's Centre (now the Bloorview MacMillan Centre). As a result of her search, Shirley McNaughton, a teacher at the Centre, discovered "Signs and Symbols Around The World" by Elizabeth Helfman in a Toronto library in September, 1971. In Helfman's book there was a chapter on "the newest symbol language - Blissymbolics. It would prove to be the key to open up the flood gates to a new language for nonspeaking persons. A dawning of a new day was just about to make its greatest journey which would offer peace to souls without a voice, across the nations.</p>
+          <p class="fs-5 ml-10 mr-10">The section in Helfman's book prompted a search across Canada for the source book, which was called Semantography (Blissymbolics) "A logical Writing for an illogical world. It was located In February 1972 at Laurentian University In Sudbury. This gave the team of professionals at the Ontario Crippled Children's Centre great hope for a new language that would allow nonspeaking persons the ability to communicate. Semantography was written by Charles K. Bliss. He developed his pictographic, ideographic symbol system between 1942 - 1949. He wanted this system to be used by persons from different language backgrounds to have a common way to communicate.</p>
+          <p class="fs-5 ml-10 mr-10">Although his vision never became a reality in the way he intended, the application of his symbols in Toronto caused another branch to develop. This vital form of communicating spread throughout Ontario and the world in the early seventies - a system that brought new horizons and new realities to children who couldn't communicate with their families and others in their environments.</p>
+          <p class="fs-5 ml-10 mr-10">In Hamilton, it was a dedicated teacher, Barbara Rush, who became the pioneer leader. Teachers, other professionals and parents saw the vital amazing changes in the children's outlooks. Everybody who was involved knew that they found a vital key that could unlock trapped minds. While picture systems enable nonspeaking individuals to have an immediate way of communicating, these systems don't offer a comprehensive way to further exploring language and print. I can testify to this because Bliss gave me the platform which started me on my journey of being a writer.</p>
+          <p class="fs-5 ml-10 mr-10">I was one of Barbara Rush's first students. Without Bliss, there is no doubt in my mind I wouldn't be sitting behind a keyboard, writing this article. I have the words of another of my early teachers to prove it! In 1976, Wayne Atones, Orthopaedic Class teacher wrote: "Paul's training at the C.P. Centre was extremely successful. In ten months, he had mastered 643 symbols and many strategies which enabled him to say almost anything... one could sense the air of self-confidence which radiated from his proud face. Teachers and students who had known Paul from his previous Linger days were amazed and excited to see how one small board containing many strange symbols could have such an influence on his self-confidence... Paul's ability to communicate using his symbols has had many positive effects on his academic, emotional and social life. He carries his compact symbol board everywhere and has repeatedly acclaimed that 'this is one of the greatest things to ever happen to me'".</p>
+          <p class="fs-5 ml-10 mr-10">Blissymbolics Communication International (BCI) was organized in 1975 to support the use of Blissymbolics for persons who are nonspeaking spreaded worldwide and was a major breakthrough. It is now used in over 33 countries and has been translated into 17 languages. I have been pleased to served on the BCI board of directors for the past nine years and have witnessed the vital help Blissymbolics can provide on both a local and international level. It is a very special feeling for me to be on the giving end of the system that gave me the crucial communication element that allowed me to bloom as a teenager.</p>
+          <p class="fs-5 ml-10 mr-10">We are celebrating our thirtieth Anniversary of Using Blissymbolics in Canada. In June we will be participating in the Celebration Weekend, entitled "Canadians from Eh to Zed", June 1-3, at the new 'Canada and the World Pavilion' in Rideau Falls Park, 50 Sussex Drive, Ottawa. Bliss Canada, on behalf of Blissymbolics Communication International, will have a permanent display at this site for the next three years. We anticipate this will be an informative and enjoyable place for persons to visit when they come to Canada's capital. In the fall, we will be having a 30th Anniversary Celebration in Southern Ontario.</p>
+          <p class="fs-5 ml-10 mr-10">The concern and caring of a team of professionals, following one teacher's discovery, gave birth to an international language that has impacted greatly on many individuals as they found a way to communicate and in turn to take part in their world.</p>
+        </div>  
+      </div>  
+    </div>  
+    <!-- End Blissful Communication; Symbols Open Doors For People Who Can't Speak -->
+
+    <!-- Make Positive Imprints During Your Life's Journey -->
+    <div> 
+      <div class = "textheading">
+        <h2 class = "text-center mt-2">Make Positive Imprints During Your Life's Journey</h2>
+      </div>
+      <div>
+        <div class = "articletext">
+          <p class="fs-5 ml-10 mr-10 text-center"><b>First published in Hamilton Spectator March 22, 2001</b></p>
+          <p class="fs-5 ml-10 mr-10">I still remember dad plowing and harvesting the fields. As a child, I could see the hope in dad's eyes that next spring his turning over the soil would give birth to a new producing crop. He never knew, but a few weeks ago I received an email message from an individual who wrote how her father was greatly influenced by my dad. In the same way dad plowed in the hopes of a future crop, he lived his life and nurtured friendships. He was, and still is, a role model to many. My email friend wrote of how she is teaching her own kids the lessons that her dad learned from my family.</p>
+          <p class="fs-5 ml-10 mr-10">Just the other day I was travelling to Guelph with a friend. We started to talk about how different the landscape will be a hundred years from now. A spark went off in my head. The thought was, I should have a hundred years perspective on my own life. Has Paul gone crazy or something because he doesn't have that amount of time to live, you might be thinking. Well, I went crazy a long time ago, but just bear with me for a minute while you read on. In a real way, our lives are where it's at. Each of us is on a journey day after day. We have the awesome responsibility of making history between the two poles of life - birth and death. One of the greatest gifts that we can offer to others is, I am convinced, the gift of service - not of material resources as much as just being there when needed. Another part of my email message said, "They talked. Often. About everything. About nothing. He became my father's friend, and, although he never told him, my father loved and respected the man."</p>
+          <p class="fs-5 ml-10 mr-10">Have you ever wondered why some people can bloom and even soar under great difficulties? Others give in and crawl inside themselves and give up. It often amazes me how powerful the human spirit really is. I deeply believe the reason why many human beings are able to triumph over barriers is because someone is willing to reach out and offer a helping hand. This compassion and generosity of spirit is sometimes all that is needed to help those who are troubled to find their way.</p>
+          <p class="fs-5 ml-10 mr-10">Tears came when I read on as the email story unfolded. It was about two farmers, one farmed all his life and was ready to give this other farmer the start he needed. This person was recalling coming over to a farm and playing with the dog. The tears really started to flow, folks, when I realized the farmer who went out of his way to help was my own father and that dog was my family's farm dog. It blew me away - the vital impact my family made upon this man and, in turn, upon his daughter and now his grandchildren. Again, I marvel at the awesome responsibility we as individuals have to our communities. What a wonderful example my own father left for my two brothers and me to follow.</p>
+          <p class="fs-5 ml-10 mr-10">I don't think my dad ever had a hundred year perspective on his own life. He was a simple man in the purest sense, just working to provide for his family, hoping that his own actions would teach his sons the act of helping and being there for others. The email message concluded, "I learned about people. Differences. Similarities. Challenges. Communication. I learned to teach my children that every person faces a challenge...some are just more obvious than others. I taught my children what I learned from my father and the family in the story."</p>
+          <p class="fs-5 ml-10 mr-10">Yep, a hundred year perspective is what society badly needs from us. How are we doing as being a resource of empowerment to others? Will people give positive testimony to what we did for others? Proverbs 1 8-9 says, "Listen, my son, to your father's instructions and do not forsake your mother's teaching. They will be a garland to grace your head and a chain to adorn your neck." Thanks, dad and mom, for your instructions and teachings. We hopefully will instruct and teach others because of your love for us.</p>
+          <p class="fs-5 ml-10 mr-10">God gives us the resources to impact greatly upon our world, but it is up to us to be His compassionate hands, feet and voice to make imprints on people's lives.</p>
+        </div>    
+      </div>  
+    </div>  
+    <!-- End Make Positive Imprints During Your Life's Journey -->
+
+    <!-- Word Prediction Program Is A Great Equalizer -->
+    <div> 
+      <div class = "textheading">
+        <h2 class = "text-center mt-2">Word Prediction Program Is A Great Equalizer</h2>
+      </div>
+      <div>
+        <div class = "articletext">
+          <p class="fs-5 ml-10 mr-10 text-center"><b>First published in Hamilton Spectator February 9, 2001</b></p>
+          <p class="fs-5 ml-10 mr-10">It is used daily. It is everywhere. It is one of the most powerful tools society has ever used or ever will use. It is the written word. This amazing tool enables us to exchange and share opinions, experiences, stories, ideas, wants, needs, instructions, information, etc. It comes in many forms -- books, magazines, newspapers, journals, manuals, e-mail and Web pages, to name only some. Mastering the skills of reading and writing is so crucial to our well-being in today's world. In order to function with competence in terms of employment, safety, recreation, health and the general care of our lives, we must interact with the printed word in one way or another. My own journey into the huge text world was a long and difficult one. Due to my lack of speech and inability to experiment with the spoken word, I encountered tremendous problems learning to read and write. I guess it is because of these difficulties that I hold the gift of being literate and able to function in the print environment in such high esteem. If you are reading this column, you, too, are able to operate in the literacy world. We are blessed beyond measure because, surprisingly enough, a high percentage of the population has trouble when it comes to reading and/or writing.</p>
+          <p class="fs-5 ml-10 mr-10">I well remember that period of my past when I looked at a page of text and couldn't decode the meaning of most of the words. Talk about being scared and fearful! I firmly believe that if anyone can't grasp the basics of literacy training in the mainstream educational system, we need to provide alternative ways to learn or to cope. I am thinking of the many literacy councils and other programs in our community that offer ways to learn the skills required.</p>
+          <p class="fs-5 ml-10 mr-10">Living in the age of the personal computer, we have word processors at our fingertips, with spell checkers and thesauruses that provide that little extra help many of us need. For individuals who need further help when it comes to feeling comfortable creating text on a computer, there are programs called word prediction that have the capability of predicting the next word.</p>
+          <p class="fs-5 ml-10 mr-10">For the past two years, I have been blessed enough to be a member of a team at Bloorview MacMillan Centre in Toronto working on this very subject. Our department believes that we have developed a state-of-the-art word prediction program called WordQ. WordQ is a new product for people of all ages and levels of writing ability. With its exceptional word prediction capabilities and effective text-to-speech feedback, writing is made easier for those who need assistance with spelling, grammar and punctuation. And unlike other writing tools that require a dedicated word-processing application, WordQ software can be used with any standard Windows application.</p>
+          <p class="fs-5 ml-10 mr-10">Giving a state-of-the-art prediction tool to a child, a teenager or an adult can be a great equalizer. I personally believe that WordQ can offer a totally alternative way of writing for anyone who has writing difficulties. Not only does this software predict the next word, but it has text-to-speech feedback capabilities that I find very useful.</p>
+          <p class="fs-5 ml-10 mr-10">On a personal level, I use the software day in and day out. Working largely out of my home, I do most of my correspondence by e-mail. I also do a lot of writing on disability issues - for presentations or to be published in magazines or this column.</p>
+          <p class="fs-5 ml-10 mr-10">WordQ levels the playing field in the world of text. It provides the cues that are needed when I am preparing any document, from writing an e-mail message to a friend to preparing an erudite column for publication. WordQ is able to give or predict the next word 90 per cent of the time. My writing experiences would be hugely different and very limited without this amazing application.</p>
+          <p class="fs-5 ml-10 mr-10">The following is from a parent, whose daughter has been using WordQ for the past few months. Julie has really improved her written work for school. Book reports that were almost impossible to understand and very short because of her frustration level, now have to be shortened. We are working on acquiring a laptop so she will be able to use WordQ at school. I know this will become an invaluable asset to help her progress and self-esteem in the school environment and in the work place in the future. WordQ is an excellent tool for Julie, and I hope that it will reach others who so desperately need a program like this."</p>
+          <p class="fs-5 ml-10 mr-10">For more information, visit our Web site at <a class="text-primary link" aria-current="page" href="https://www.quillsoft.ca/">WordQ</a>.</p>
+        </div>
+      </div>  
+    </div>  
+    <!-- End Word Prediction Program Is A Great Equalizer -->
+
+    <!-- How To Keep Christmas In Your Heart -->
+    <div> 
+      <div class = "textheading">
+        <h2 class = "text-center mt-2">How To Keep Christmas In Your Heart</h2>
+      </div>
+      <div>
+        <div class = "articletext">
+          <p class="fs-5 ml-10 mr-10 text-center"><b>First published in Hamilton Spectator January 4, 2001</b></p>
+          <p class="fs-5 ml-10 mr-10">Isn't it miraculous how a second miracle occurs each Christmas? A feeling of good will seems to creep quietly into the hallways and byways of everyday life. There are people from all walks of life sharing in the giving of the season, from the shaking of hands in our governmental offices to the giving of warm winter clothing to individuals who live on the streets. People raising money for the less fortunate. People preparing meals for those in need. People opening their homes, offering one of the true gifts of this Christmas season, compassion. This festival brings out the best in people. The going of the extra mile is almost an unspoken creed. Although there are numerous beliefs, disbeliefs and customs associated with this festival, the greatest is love for our fellow man. Christmas acts as a bridge, spanning the gap between the haves and the have-nots.</p>
+          <p class="fs-5 ml-10 mr-10">The linking of Christmas to the Christian faith is there, even though Christianity is not universally practised. Through the beautiful songs of the season, through the many practices and customs, the biblical story is forever unfolding in front of our eyes. Many years ago, I accepted the Christian faith. I believe that Jesus Christ was born to save His People from their sins. We celebrate His birth at Christmas. This is where the lines sometimes cross and the old heads bump. Although many of us differ in our position regarding the Christian faith, we probably could agree that Christmas offers our community and our world love, hope and even peace. I have heard it said, that the only way to make hostility disappear is to throw love at it. You literally just throw love at it. Isn't that a radical idea? Love is so powerful! And it is something that everyone can toss!</p>
+          <p class="fs-5 ml-10 mr-10">Isn't this the underlying story/message of Christmas? From the very first Christmas, the yearly event has consisted of, literally, throwing love against all types of hostility - in our work places, in our homes, in our community, in our churches and especially in our world. How do we throw this powerful tool of love and make a difference within each of our lives? Here is my list:</p>
+          <p class="fs-5 ml-10 mr-10">by giving dignity to everyone we know
+            by sharing a smile with someone each day of our lives
+            by going easy on ourselves and seeing the roses along our paths (they are there)
+            by accepting and honouring human life
+            by picking up one piece of garbage daily (our children need a clean environment in which to play and work)
+            by being ready to give a hand in need (a returning hand will be there for you)
+            by each of us keeping a song in our heart (others will hear it)
+            by refusing to limit our horizons, and trusting in God and His love
+            by doing to others even better than to ourselves (the deeds will flow back to us)
+            by keeping Christmas in our hearts daily (our friendship will be on the wanted list of many).</p>
+          <p class="fs-5 ml-10 mr-10">As I look back on this holiday season, I rejoice that the miracle of love, hope and peace appeared in many of our lives. It flew into our houses and ruled over our going and coming. It cut through the dark nights. It was like a beautiful sunrise breaking through to create a brand new day. Without the love, hope and peace of Christmas, we are nothing. With it we are everything.</p>
+          <p class="fs-5 ml-10 mr-10">How many gifts did you get? Did you unwrap the real gift of Christmas? It came with each smile. It was packaged by those whom you love so dearly. It was that feeling you received as you gave each gift. It was love hitting and impacting on our lives as it has done ever since that night two thousand years ago. It was thrown by you and at you with each Christmas greeting!</p>
+          <p class="fs-5 ml-10 mr-10">I wish you the very best for the New Year.</p>
+        </div>
+      </div>  
+    </div>  
+    <!-- End How To Keep Christmas In Your Heart -->
+
+    <!-- Divider -->
+    <div>
+      <div class="pagebreak" style="width: 100%">
+        <hr class="bg-primary border-0 border-top border-primary"/>
+      </div>
+    </div> 
+    <!-- End Divider -->
+
+    <!-- Footer -->
+    <!-- Left Footer Menu -->
+    <div class="row">
+      <div class="col">
+        <div class="footer">
+          <div class="leftfooter ml-5">
+          <!--<nav class="nav flex-column">-->      
+            <h5><a class="nav-link text-primary active" data-bs-toggle="modal" data-bs-target="#exampleModal">Join BCI Mailing List</a></h5>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join BCI Mailing List</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    Sign up for the BCI email list!
+                    <div class="input-group mb-3 mt-3">
+                      <span class="input-group-text" id="basic-addon1">Email address:</span>
+                      <input type="text" class="form-control" placeholder="email" aria-label="Email" aria-describedby="basic-addon1">
+                    </div>  
+                    <div class = "modalemailconsent mt-3">
+                      <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5><a class="nav-link text-primary" href="https://conceptography.org/tmjoinbci.html">Join BCI</a></h5>
+            <h5><a class="nav-link text-primary" href="https://conceptography.org/tmmemberlogin.php">BCI Member Log In</a></h5>
+            <h5><a class="nav-link text-primary" href="#">BCI Admin</a></h5>
+            <!--</nav>-->
+          </div>
+        </div>      
+      </div>
+      <!-- Left Footer Menu -->
+      <!-- Image --> 
+      <div class="col">
+        <div class="image" style="width: 25rem;"></div>
+          <img src="https://blissymbolics.org/images/chelha.png" class="rounded mx-auto d-block" alt="...">
+        </div>
+        <!-- End Image --> 
+        <!-- Right Footer Menu -->
+        <div class="col">
+          <div class="footer">
+            <div class="rightfooter ml-0">
+              <h5><a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
+              <h5><a class="nav-link text-primary" href="https://conceptography.org/mmbci.html">BCI</a></h5>
+              <h5><a class="nav-link text-primary" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h5>
+              <h5><a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact Us</a></h5>
+            <!--</nav>-->
+            </div>
+          </div>   
+        </div>
+      </div>
+    </div>
+    <!-- End Right Footer Menu -->
+    <!-- End Footer -->
+  </body>
+</html>
