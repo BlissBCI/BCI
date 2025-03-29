@@ -289,19 +289,35 @@ body {
 
 /* BCI Board of Directors Cards */
 .cardbcibm {
-/*  position: absolute;
+/*position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+font-size: 18px;*/
+
+padding: 0px;
+border: 1px solid #0d6efd;
+margin-left: 670px;
+margin-right: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.cardbcibmsec {
+/*position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 18px;*/
+    font-size: 18px;
+    border: 1px solid #0d6efd;*/
 
-    padding: 0px;
-    border: 1px solid #0d6efd;
-    margin-left: 670px;
+    padding: 0px; 
+    margin-left: 100px;
     margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+    column-count: 5;
+    }  
 
 /* About Blissymbolics Photos */
 .blissarticleimage {
