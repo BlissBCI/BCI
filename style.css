@@ -315,6 +315,12 @@ body {
     margin-right: 0px;
 }
 
+/* Lee Merlich's photo */
+.figurelmphoto{
+    border: 1px solid #0d6efd;
+    margin-left: 600px;
+}
+
 /* Text Indent */
 .textindent {
     margin-left: 50px;
