@@ -342,6 +342,22 @@ margin-bottom: 10px;
     margin-left: 50px;
 }
 
+/* Accordion */
+.accordion {
+    margin-left: 250px;
+}
+
+.accordion-button {
+    align-items: center;
+    border: 1px solid #0d6efd;
+}
+
+.accordion-body
+{
+    align-items: center;
+    margin-left: 2px;
+}
+
 /* Contact Us */
 .cardcontactus {
     align-items: center;
