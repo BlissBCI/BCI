@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
 
         if (mail($to, $subject, $body)) {
             // Redirect back to form with a success message
-            header("Location: https://conceptography.org/contactus.php?sent=1");
+            header("Location: https://conceptography.org/contactus.php");
             exit();
         }
     }
