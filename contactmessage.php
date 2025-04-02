@@ -2,12 +2,12 @@
 
     if(isset($_POST['btnsend']))
     {
-        $exampleFormControlInput1=$_POST['name'];
-        $exampleFormControlInput2=$_POST['email'];
-        $exampleFormControlInput3=$_POST['subject'];
-        $exampleFormControlTextarea1=$_POST['message'];
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $subject=$_POST['subject'];
+        $message=$_POST['message'];
 
-        if (empty($exampleFormControlInput1) || empty($exampleFormControlInput2) || empty($exampleFormControlInput3) || empty($exampleFormControlTextarea1) )
+        if (empty($name) || empty($email) || empty($subject) || empty($message) )
             {
                 header('location:https://conceptography.org/fcontactus.php?error');
             }

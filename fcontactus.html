@@ -1,12 +1,3 @@
-<?php
-
-echo "<prev>";
-
-  print_r($POST);
-
-echo "<prev>";  
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -233,7 +224,7 @@ echo "<prev>";
           </li>
         </ul>
       </div>
-    </div>    
+    </div>   
     <!-- End Main Menu -->
 
     <!-- Divider -->
@@ -246,31 +237,33 @@ echo "<prev>";
 
     <!-- Contact Us -->
     <div> 
-      <div class="textheading">
+      <div class="contactheading">
+        <!-- <form action="https://api.web3forms.com/submit" method="POST"> -->
         <h2 class="text-center mt-2">Contact Us</h2>
       </div>
-      <hr>
+      <input type="hidden" name="access_key" value="e5f63a5c-7ab8-41f6-88ed-9665c720dd0c">
       <div class="cardcontactus">
         <div class="card-body">
           <!-- text in card body -->
           <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
           <!-- <form action="https://conceptography.org/contactmessage.php" method="post"> -->
-          <form action="contactmessage.php" method="post">  
+          <!-- <form action="contactmessage.php" method="post"> -->
             <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary" id="name" name="name" placeholder="Name">
+              <!-- <label for="exampleFormControlInput1" class="form-label">Name</label> -->
+              <form action="https://formsubmit.co/uodaccw@gmail.com" method="POST">
+              <input type="name" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Name">
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com">
+              <label for="exampleFormControlInput3" class="form-label">Email address</label>
+              <input type="email" class="form-control border-primary" id="exampleFormControlInput2" placeholder="email@example.com">
             </div>
             <div class="mb-3">
-              <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control border-primary" id="subject" name="subject" placeholder="Subject">
+              <label for="exampleFormControlInput2" class="form-label">Subject</label>
+              <input type="subject" class="form-control border-primary" id="exampleFormControlInput2" placeholder="Subject">
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control border-primary" id="message" name="message" placeholder="Write message" rows="3"></textarea>
+              <label for="exampleFormControlTextarea1" class="form-label" name="message">Message</label>
+              <textarea class="form-control border-primary" id="exampleFormControlTextarea1" placeholder="Write message" rows="3"></textarea>
             </div>
             <div class="contactus-footer">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
