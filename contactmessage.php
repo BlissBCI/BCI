@@ -1,53 +1,53 @@
-//<?php
-
-//$message_sent = false;
-//if(isset($_POST['email']) && $_POST['email'] != '') {
-
-    //if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-
-        //submit form
-        //$name=$_POST['name'];
-        //$email=$_POST['email'];
-        //$subject=$_POST['subject'];
-        //$message=$_POST['message'];
-
-        //$to="gatillom@yahoo.com";
-        //$body="";
-
-        //$body.="From: ".$name. "\r\n";
-        //$body.="Email: ".$email. "\r\n";
-        //$body.="Message: ".$message. "\r\n";
-
-        //mail($to,$subject,$body);
-
-        //message_sent=true;
-    //}
-    //else{
-        //$invalid_class_name="form-invalid";
-    //}
-//}
-
+<?php
 
 $message_sent = false;
+if(isset($_POST['email']) && $_POST['email'] != '') {
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['email'] != '') {
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) { // Ensure it's a valid email
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
+        //submit form
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $subject=$_POST['subject'];
+        $message=$_POST['message'];
 
-        $to = "gatillom@yahoo.com";
-        $body = "From: $name \r\nEmail: $email \r\nMessage: $message \r\n";
+        $to="gatillom@yahoo.com";
+        $body="";
 
-        if (mail($to, $subject, $body)) {
-            // Redirect back to form with a success message
-            header("Location: https://conceptography.org/contactus.php");
-            exit();
-        }
+        $body.="From: ".$name. "\r\n";
+        $body.="Email: ".$email. "\r\n";
+        $body.="Message: ".$message. "\r\n";
+
+        mail($to,$subject,$body);
+
+        //message_sent=true;
+    }
+    else{
+        $invalid_class_name="form-invalid";
     }
 }
+
+
+//$message_sent = false;
+
+//if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['email'] != '') {
+
+    //if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) { // Ensure it's a valid email
+        //$name = $_POST['name'];
+        //$email = $_POST['email'];
+        //$subject = $_POST['subject'];
+        //$message = $_POST['message'];
+
+        //$to = "gatillom@yahoo.com";
+        //$body = "From: $name \r\nEmail: $email \r\nMessage: $message \r\n";
+
+        //if (mail($to, $subject, $body)) {
+            // Redirect back to form with a success message
+            //header("Location: https://conceptography.org/contactus.php");
+            //exit();
+        //}
+    //}
+//}
 
 
 

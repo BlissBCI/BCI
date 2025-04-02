@@ -246,10 +246,8 @@
 
     <!-- PHP --> 
     <?php
-    //if($message_sent):
-      $message_sent = isset($_GET['sent']) && $_GET['sent'] == 1;
+    if($message_sent):
     ?>
-    <?php if ($message_sent): ?>
         <h2>Thank you for contacting us, we'll reply to your message as soon as we can</h2>
     <?php
     else:
