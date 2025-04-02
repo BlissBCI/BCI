@@ -371,6 +371,10 @@ margin-bottom: 10px;
     margin-left: 42%;
 }
 
+.form-invalid{
+    outline:2px solid red !important;
+}
+
 /* Footer */
 .footer {
     display: flex;

@@ -1,10 +1,10 @@
 <?php
 
-echo "<prev>";
+//echo "<prev>";
 
-  print_r($POST);
+  //print_r($POST);
 
-echo "<prev>";  
+//echo "<prev>";  
 ?>
 
 <!doctype html>
@@ -245,6 +245,16 @@ echo "<prev>";
     <!-- End Divider -->
 
     <!-- Contact Us -->
+
+    <!-- PHP --> 
+    <?php
+    if($message_sent):
+    ?>
+        <h2>Thank you for contacting us, we'll reply to your message as soon as we can</h2>
+    <?php
+    else:
+    ?>
+
     <div> 
       <div class="textheading">
         <h2 class="text-center mt-2">Contact Us</h2>
@@ -256,10 +266,10 @@ echo "<prev>";
           <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
           <!-- <form action="https://conceptography.org/contactmessage.php" method="post"> -->
           <!-- <form action="contactmessage.php" method="post" class="form"> -->
-          <form action="fcontactus.php" method="post" class="form">   
+          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">   
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary" id="name" name="name" placeholder="Name">
+              <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
@@ -280,7 +290,12 @@ echo "<prev>";
           </form>  
         </div>
       </div>
-    </div>  
+    </div>
+    <?php
+    endif;
+    ?>
+    <!-- End PHP -->
+     
     <!-- End Contact Us -->
 
     <!-- Divider -->
