@@ -20,7 +20,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
         mail($to,$subject,$body);
 
-        message_sent=true;
+        //message_sent=true;
     }
     //else{
         //$invalid_class_name="form-invalid";
