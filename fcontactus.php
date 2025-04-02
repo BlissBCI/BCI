@@ -1,11 +1,9 @@
-<?php
+<?php 
 
-//echo "<prev>";
+  $message_sent = false;
 
-  //print_r($POST);
-
-//echo "<prev>";  
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -248,8 +246,10 @@
 
     <!-- PHP --> 
     <?php
-    if($message_sent):
+    //if($message_sent):
+      $message_sent = isset($_GET['sent']) && $_GET['sent'] == 1;
     ?>
+    <?php if ($message_sent): ?>
         <h2>Thank you for contacting us, we'll reply to your message as soon as we can</h2>
     <?php
     else:
@@ -295,7 +295,7 @@
     endif;
     ?>
     <!-- End PHP -->
-     
+
     <!-- End Contact Us -->
 
     <!-- Divider -->
