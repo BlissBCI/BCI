@@ -44,7 +44,7 @@
           <div class="container"> 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-itemtm">
-                <h5><a class="text-center text-primary nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a> </h5>#
+                <h5><a class="text-center text-primary nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
                 <li class="nav-itemtm">
                 <h5><a class="text-center text-primary nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact Us</a></h5>
                 </li>
@@ -231,14 +231,14 @@
       <div class = "navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="#">BCI</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link" href="#">Blissymbolics</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
-    </div>    
+    </div>      
     <!-- End Main Menu -->
 
     <!-- Divider -->
@@ -248,6 +248,42 @@
       </div>
     </div>  
     <!-- End Divider -->
+
+    <!-- Bliss Sub Menu -->
+    <div>
+      <div class = "navsub">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smblissaboutblissymbolics">About Blissymbolics</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisswhyisblissused">Why Is Bliss Used?</a></h4>
+           </li>
+           <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisswhousesbliss">Who Uses Bliss?</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisswhereisblissused">Where Is Bliss Used?</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisshowisblissused">How Is Bliss Used – Workshop</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblissav">BCI Authorised Vocabulary (AV)</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisslearnmore">Learn More</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblissbciarchives">BCI Archives</a></h4>
+          </li>
+          <li class="nav-item">
+            <h4><a class="nav-link" href="https://conceptography.org/smblisslicensing">Licensing</a></h4>
+          </li>
+        </ul>
+      </div>      
+    </div>
+    <!-- End Bliss Sub Menu -->
 
     <!-- Contact Us -->
 
