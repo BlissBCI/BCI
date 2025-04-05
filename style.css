@@ -246,6 +246,11 @@ body {
     height: 50px;
 }*/
 
+.card-img-top {
+    width: 100px;
+    height: 100px;
+}
+
 /* Body Text */
 .articletext {
     font-size: 20px;
