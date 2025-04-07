@@ -246,6 +246,37 @@
     <div> 
       <div class="cardcommunitysignup">
         <div class="card-body">
+          
+          <!-- PHP -->
+          <?php
+
+          include("https://conceptography.org/communitysignup.php");
+          if(isset($POST['submit'])){
+            $username=$_POST['username'];
+            $name=$_POST['name'];
+            $country=$_POST['country'];
+            $email=$_POST['email'];
+            $password=$_POST['password'];
+
+            //verify email
+            $verify_query=mysqli_query($conn,"SELECT Email FROM users WHERE Email='$email'");
+
+            if(mysqli_num_rows($verify_query) !=0 ) {
+              echo  "<div class='message'>
+                      <p>This email is already in use, please use a different one!</p>
+                    </div><br>";
+              echo  "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>"
+            }else{
+              mysqli_query($conn,"INSERT INTO users(Username, Name, Country, Email, Password) VALUES ('$username','$name','$country','$email','$password')") or ("Error Occured!");
+              echo  "<div class='message'>
+                      <p>Sign Up Successful!</p>
+                    </div><br>";
+              echo  "<a href='https://conceptography.org/communitylogin.php'><button class='btn'>Log In</button>";
+            }
+          }else{
+
+          ?>
+          
           <!-- text in card body -->
           <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
             <div class="textheading">
@@ -261,7 +292,7 @@
             </div>
             <div class="mb-3">
               <label for="country" class="form-label">Country</label>
-              <input type="text" class="form-control border-primary" id="subject" name="country" placeholder="Country" required>
+              <input type="text" class="form-control border-primary" id="country" name="country" placeholder="Country" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
@@ -281,6 +312,8 @@
           </div> 
         </div>
       </div>
+      <?php }
+      <!-- END PHP -->
     </div>
     <!-- End BCI Community Member Sign Up-->
 
