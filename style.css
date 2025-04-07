@@ -20,7 +20,7 @@
 /* Change background color*/
 body {
     background-color: white;
-    border: 5px solid red !important;
+    /*border: 5px solid red !important;*/
 }
 
 /* Style the heading does not work*/
