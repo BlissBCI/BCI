@@ -364,7 +364,7 @@ border-radius: 0.5rem;
     margin-left: 2px;
 }
 
-/* Sign Up */
+/* Community Sign Up */
 .cardcommunitysignup {
     align-items: center;
     margin-left: 500px;
@@ -388,7 +388,7 @@ border-radius: 0.5rem;
     color: black;
 }
 
-/* Log In */
+/* Community Log In */
 .cardlogin {
     align-items: center;
     margin-left: 500px;
@@ -403,7 +403,7 @@ border-radius: 0.5rem;
     margin-left: 42%;
 }
 
-/* Log Out */
+/* Community Log Out */
 .cardlogout {
     align-items: center;
     margin-left: 500px;
@@ -413,6 +413,45 @@ border-radius: 0.5rem;
 }
 
 .btnlogout {
+    position: relative;
+    margin-left: 42%;
+}
+
+/* Admin Log In */
+.cardadminlogin {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
+    border: 5px solid red !important;
+}
+
+.btnadminlogin {
+    position: relative;
+    margin-left: 42%;
+}
+
+.adminmessage {
+    text-align: center;
+    background: #ffffff;
+    padding: 15px 0px;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Admin Log Out */
+.cardadminlogout {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
+}
+
+.btnadminlogout {
     position: relative;
     margin-left: 42%;
 }
