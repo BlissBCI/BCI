@@ -297,9 +297,6 @@
     ?>
 
     <div> 
-      <div class="textheading">
-        <h2 class="text-center mt-2">Contact Us</h2>
-      </div>
       <hr>
       <div class="cardcontactus">
         <div class="card-body">
