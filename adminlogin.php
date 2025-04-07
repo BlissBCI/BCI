@@ -17,12 +17,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($stmt) {
         $stmt->bind_param("s", $username);
         $stmt->execute();
-        $stmt->bind_result($hashedPasswordFromDatabase);
+        $stmt->bind_result($passwordFromDatabase);
         $stmt->fetch();
         $stmt->close();
 
-        if (!empty($password) && !empty($hashedPasswordFromDatabase)) {
-            if (password_verify($password, $hashedPasswordFromDatabase)) {
+        if (!empty($password) && !empty($passwordFromDatabase)) {
+            if ($password === $passwordFromDatabase) {
                 // Login success
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
                 exit();
