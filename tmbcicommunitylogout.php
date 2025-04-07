@@ -248,9 +248,9 @@
         <div class="box form-box">
         <h2 class="text-center mt-2">BCI Community</h2>
       </div>     
-      <form action="https://conceptography.org/memberlogin.php" method="post">
+      <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
         <div class="btnlogout">
-          <button type="button" class="btn btn-primary btncenter" name="btnsend">Log Out</button>
+          <button type="submit" class="btn btn-primary btncenter" name="btnsend">Log Out</button>
         </div>
       </form>
     </div> 

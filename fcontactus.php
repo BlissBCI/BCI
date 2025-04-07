@@ -310,19 +310,19 @@
           <form action="https://conceptography.org/contactmessage.php" method="post" class="form">   
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name">
+              <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com">
+              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
             </div>
             <div class="mb-3">
               <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control border-primary" id="subject" name="subject" placeholder="Subject">
+              <input type="text" class="form-control border-primary" id="subject" name="subject" placeholder="Subject" required>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control border-primary" id="message" name="message" placeholder="Write message" rows="3"></textarea>
+              <textarea class="form-control border-primary" id="message" name="message" placeholder="Write message" rows="3" required></textarea>
             </div>
             <div class="contactus-footer">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
