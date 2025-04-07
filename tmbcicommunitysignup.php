@@ -262,13 +262,13 @@
             $verify_query=mysqli_query($conn,"SELECT Email FROM users WHERE Email='$email'");
 
             if(mysqli_num_rows($verify_query) !=0 ) {
-              echo  "<div class='message'>
+              echo  "<div class='signupmessage'>
                       <p>This email is already in use, please use a different one!</p>
                     </div><br>";
               echo  "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
             }else{
               mysqli_query($conn,"INSERT INTO users(Username, Name, Country, Email, Password) VALUES ('$username','$name','$country','$email','$password')") or ("Error Occured!");
-              echo  "<div class='message'>
+              echo  "<div class='signupmessage'>
                       <p>Sign Up Successful!</p>
                     </div><br>";
               echo  "<a href='https://conceptography.org/communitylogin.php'><button class='btn'>Log In</button>";
