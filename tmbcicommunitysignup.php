@@ -272,10 +272,8 @@
               <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
             <div class="btnsignup">
-              <div class="btn d-flex justify-content-center">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-                <button class="btn btn-primary" type="submit">Sign Up</button>
-              </div>  
+              <button class="btn btn-primary text-center" type="submit">Sign Up</button>
             </div>
           </form>
           <div class="link">
