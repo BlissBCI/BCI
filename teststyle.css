@@ -289,6 +289,7 @@ body {
     margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 0.5rem;
   }
   
 .cardbcibmsec {
@@ -305,6 +306,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     column-count: 5;
+    border-radius: 0.5rem;
     }
 
 /*.cardbcibmsec2 {
