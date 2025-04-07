@@ -273,7 +273,7 @@
             </div>
             <div class="btnsignup">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary text-center" type="submit">Sign Up</button>
+              <button class="btn btn-primary" type="submit">Sign Up</button>
             </div>
           </form>
           <div class="link">
