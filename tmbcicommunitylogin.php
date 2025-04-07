@@ -244,7 +244,7 @@
 
     <!-- BCI Community Member Log In -->
     <div> 
-      <div class="cardcomlogin">
+      <div class="cardli">
         <div class="card-body">
           <!-- text in card body -->
           <form action="https://conceptography.org/tmbcicommunitylogout.php" method="post" class="form">
@@ -259,7 +259,7 @@
               <label for="password" class="form-label">Password</label>
               <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
-            <div class="btncomlogin">
+            <div class="btnli">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
               <button class="btn btn-primary" type="submit" name="submit">Log In</button>
             </div>
