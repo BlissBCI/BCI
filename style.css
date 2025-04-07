@@ -304,6 +304,7 @@ margin-left: 670px;
 margin-right: 0px;
 margin-top: 10px;
 margin-bottom: 10px;
+border-radius: 0.5rem;
 }
 
 .cardbcibmsec {
@@ -320,6 +321,7 @@ margin-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     column-count: 5;
+    border-radius: 0.5rem;
     }  
 
 /* About Blissymbolics Photos */
@@ -367,6 +369,7 @@ margin-bottom: 10px;
     margin-left: 500px;
     margin-right: 500px;
     border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
 }
 
 .btnsignup {
@@ -380,6 +383,7 @@ margin-bottom: 10px;
     margin-left: 500px;
     margin-right: 500px;
     border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
 }
 
 .btnlogin {
@@ -393,6 +397,7 @@ margin-bottom: 10px;
     margin-left: 500px;
     margin-right: 500px;
     border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
 }
 
 .btnlogout {
@@ -406,6 +411,7 @@ margin-bottom: 10px;
     margin-left: 500px;
     margin-right: 500px;
     border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
 }
 
 .contactus-footer {
