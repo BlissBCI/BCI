@@ -247,7 +247,7 @@
       <div class="cardcommunitylogin">
         <div class="card-body">
           <!-- text in card body -->
-          <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post" class="form">
+          <form action="https://conceptography.org/tmbcicommunitylogout.php" method="post" class="form">
             <div class="textheading">
               <h2 class="text-center mt-2">BCI Community Member Log In</h2>
             </div>
