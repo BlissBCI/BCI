@@ -272,7 +272,6 @@
                       <p>Sign Up Successful!</p>
                     </div><br>";
               echo  "<a href='https://conceptography.org/communitylogin.php'><button class='btn'>Log In</button>";
-            }
           }else{
 
           ?>
