@@ -283,7 +283,7 @@
             </div>
           </form>
           <div class="link">
-              <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Log In Now!</a></p>
+              <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.html">Log In Now!</a></p>
           </div>
           <?php endif; ?>
           <!-- END PHP -->

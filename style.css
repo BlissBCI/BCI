@@ -388,7 +388,7 @@ border-radius: 0.5rem;
 }
 
 /* Log In */
-.cardli {
+.cardlogin {
     align-items: center;
     margin-left: 500px;
     margin-right: 500px;
@@ -396,7 +396,7 @@ border-radius: 0.5rem;
     border-radius: 0.5rem;
 }
 
-.btnli {
+.btnlogin {
     position: relative;
     margin-left: 42%;
 }
