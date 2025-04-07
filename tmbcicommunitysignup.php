@@ -244,7 +244,7 @@
     
     <!-- BCI Community Member Sign Up -->
     <div> 
-      <div class="cardcontactus">
+      <div class="cardcommunitysignup">
         <div class="card-body">
           <!-- text in card body -->
           <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
@@ -269,11 +269,13 @@
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
-              <textarea class="form-control border-primary" id="password" name="password" placeholder="Password" rows="3" required></textarea>
+              <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
             <div class="btnsignup">
+              <div class="btn d-flex justify-content-center">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary" type="submit">Sign Up</button>
+                <button class="btn btn-primary" type="submit">Sign Up</button>
+              </div>  
             </div>
           </form>
           <div class="link">
