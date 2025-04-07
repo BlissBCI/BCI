@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
         if ($stmt->execute()) {
             // Redirect on success
-            header("Location: https://conceptography.org/tmbcicommunitylogout.php");
+            header("Location: https://conceptography.org/tmbcicommunityaccount.php");
             exit();
         } else {
             echo "<div class='signupmessage'>
