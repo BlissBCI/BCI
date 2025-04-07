@@ -21,8 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($result->num_rows === 1) {
             $row = $result->fetch_assoc();
 
-            // Verify password
-            if (password_verify($password, $row['Password'])) {
+            // Verify password (if (password_verify($password, $row['Password']))) - old
+            if (password_verify($enteredPassword, $hashedPasswordFromDatabase)) {
                 // Redirect on success
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
                 exit();
