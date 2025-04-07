@@ -363,8 +363,8 @@ border-radius: 0.5rem;
     margin-left: 2px;
 }
 
-/* Sign Up, Log In, Log Out */
-.cardsignup {
+/* Sign Up */
+.cardcommunitysignup {
     align-items: center;
     margin-left: 500px;
     margin-right: 500px;
