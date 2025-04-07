@@ -244,7 +244,7 @@
 
     <!-- BCI Community Member Log Out -->
     <div> 
-      <div class="cardcommunitylogout">
+      <div class="cardcommunity">
         <div class="card-body">
           <!-- text in card body -->
           <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post" class="form">
@@ -254,7 +254,7 @@
             <div class = "articletext">
               <p class="fs-5 ml-10 mr-10 text-center">You have successfully logged in!</p>
             </div>  
-            <div class="btnlogout">
+            <div class="btncommunity">
               <button class="btn btn-primary" type="submit" name="submit">Log Out</button>
             </div>
           </form>
