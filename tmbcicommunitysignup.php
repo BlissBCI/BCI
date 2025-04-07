@@ -241,45 +241,47 @@
       </div>
     </div>  
     <!-- End Divider -->
-
+    
     <!-- BCI Community Member Sign Up -->
     <div> 
-      <div class="container">
-        <!--<div class="box form-box">-->
+      <div class="cardcontactus">
         <div class="card-body">
-          <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>     
-          <form action="https://conceptography.org/communitysignup.php" method="post">
-            <div class="mb-3">
-                <label for="username" class="form-label fs-5 ml-10 mr-10">Username</label>
-                <input type="username" class="form-control border-primary" id="username" placeholder="Username" required>
+          <!-- text in card body -->
+          <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
+            <div class="textheading">
+              <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
             </div>
             <div class="mb-3">
-              <label for="name" class="form-label fs-5 ml-10 mr-10">Name</label>
-              <input type="name" class="form-control border-primary" id="name" placeholder="Name" required>
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control border-primary" id="username" name="username" placeholder="username" required>
             </div>
             <div class="mb-3">
-              <label for="country" class="form-label fs-5 ml-10 mr-10">Country</label>
-              <input type="country" class="form-control border-primary" id="country" placeholder="Country" required>
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control border-primary" id="name" name="name" placeholder="Name" required>
             </div>
             <div class="mb-3">
-              <label for="emailaddress" class="form-label fs-5 ml-10 mr-10">Email Address</label>
-              <input type="emailaddress" class="form-control border-primary" id="emailaddress" placeholder="email@example.com" required>
+              <label for="country" class="form-label">Country</label>
+              <input type="text" class="form-control border-primary" id="subject" name="country" placeholder="Country" required>
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label fs-5 ml-10 mr-10">Password</label>
-              <input type="password" class="form-control border-primary" id="password" placeholder="Password" required>
+              <label for="email" class="form-label">Email address</label>
+              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <textarea class="form-control border-primary" id="password" name="password" placeholder="Password" rows="3" required></textarea>
             </div>
             <div class="btnsignup">
-              <!--<button type="button" class="btn btn-primary btncenter" name="btnsend">Sign Up</button>-->
-              <button type="submit" class="btn btn-primary btncenter" name="btnsend">Sign Up</button>
-            </div>
-            <div class="link">
-              <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Log In Now!</a></p>
+              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
+              <button class="btn btn-primary" type="submit">Sign Up</button>
             </div>
           </form>
+          <div class="link">
+              <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Log In Now!</a></p>
+          </div> 
         </div>
-      </div>    
-    </div> 
+      </div>
+    </div>
     <!-- End BCI Community Member Sign Up-->
 
     <!-- Divider -->
