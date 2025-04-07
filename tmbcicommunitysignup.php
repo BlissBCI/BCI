@@ -265,13 +265,14 @@
               echo  "<div class='message'>
                       <p>This email is already in use, please use a different one!</p>
                     </div><br>";
-              echo  "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>"
+              echo  "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
             }else{
               mysqli_query($conn,"INSERT INTO users(Username, Name, Country, Email, Password) VALUES ('$username','$name','$country','$email','$password')") or ("Error Occured!");
               echo  "<div class='message'>
                       <p>Sign Up Successful!</p>
                     </div><br>";
               echo  "<a href='https://conceptography.org/communitylogin.php'><button class='btn'>Log In</button>";
+            }
           }else{
 
           ?>
