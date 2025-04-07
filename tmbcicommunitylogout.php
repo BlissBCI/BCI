@@ -252,7 +252,7 @@
               <h2 class="text-center mt-2">BCI Community</h2>
             </div>
             <div class = "articletext">
-              <p class="fs-5 ml-10 mr-10">You have successfully logged in!</p>
+              <p class="fs-5 ml-10 mr-10 text-center">You have successfully logged in!</p>
             </div>  
             <div class="btnlogout">
               <button class="btn btn-primary" type="submit" name="submit">Log Out</button>
