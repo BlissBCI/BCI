@@ -245,14 +245,15 @@
     <!-- BCI Community Member Log Out -->
     <div> 
       <div class="container">
-        <div class="box form-box">
-        <h2 class="text-center mt-2">BCI Community</h2>
-      </div>     
-      <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
-        <div class="btnlogout">
-          <button type="submit" class="btn btn-primary btncenter" name="btnsend">Log Out</button>
-        </div>
-      </form>
+        <div class="card-body">
+          <h2 class="text-center mt-2">BCI Community</h2>  
+          <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
+            <div class="btnlogout">
+              <button type="submit" class="btn btn-primary btncenter" name="btnsend">Log Out</button>
+            </div>
+          </form>
+        </div>      
+      </div>        
     </div> 
     <!-- End BCI Community Member Log Out-->
 

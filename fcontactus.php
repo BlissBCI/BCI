@@ -307,7 +307,10 @@
           <!-- <form action="https://conceptography.org/fcontactus.php" method="POST"> -->
           <!-- <form action="https://conceptography.org/contactmessage.php" method="post"> -->
           <!-- <form action="contactmessage.php" method="post" class="form"> -->
-          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">   
+          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">
+            <div class="textheading">
+              <h2 class="text-center mt-2">Contact Us</h2>
+            </div>   
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name" required>

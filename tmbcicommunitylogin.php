@@ -245,25 +245,26 @@
     <!-- BCI Community Member Log In -->
     <div> 
       <div class="container">
-        <div class="box form-box">
-        <h2 class="text-center mt-2">BCI Community Member Log In</h2>
-      </div>     
-      <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
-        <div class="mb-3">
-            <label for="username" class="form-label fs-5 ml-10 mr-10">Username</label>
-            <input type="username" class="form-control border-primary" id="username" placeholder="Username" required>
+        <div class="card-body">
+          <h2 class="text-center mt-2">BCI Community Member Log In</h2>    
+          <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
+            <div class="mb-3">
+                <label for="username" class="form-label fs-5 ml-10 mr-10">Username</label>
+                <input type="username" class="form-control border-primary" id="username" placeholder="Username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label fs-5 ml-10 mr-10">Password</label>
+              <input type="password" class="form-control border-primary" id="name" placeholder="Password"required>
+            </div>
+              <div class="btnlogin">
+                <button type="submit" class="btn btn-primary" name="btnsend">Log In</button>
+              </div>
+              <div class="link">
+                <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">Sign Up Now!</a></p>
+              </div>  
+          </form>
         </div>
-        <div class="mb-3">
-          <label for="password" class="form-label fs-5 ml-10 mr-10">Password</label>
-          <input type="password" class="form-control border-primary" id="name" placeholder="Password"required>
-        </div>
-          <div class="btnlogin">
-            <button type="submit" class="btn btn-primary" name="btnsend">Log In</button>
-          </div>
-          <div class="link">
-            <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">Sign Up Now!</a></p>
-          </div>  
-      </form>
+      </div>    
     </div> 
     <!-- End BCI Community Member Log In-->
 
