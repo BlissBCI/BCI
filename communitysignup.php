@@ -34,7 +34,7 @@
     
             if ($stmt->execute()) {
                 // Redirect on success
-                header("Location: https://conceptography.org/logout.php");
+                header("Location: https://conceptography.org/tmbcicommunitylogout.php");
                 exit();
             } else {
                 echo "<div class='signupmessage'>
