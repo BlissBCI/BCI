@@ -374,6 +374,32 @@ margin-bottom: 10px;
     margin-left: 42%;
 }
 
+/* Log In */
+.cardcommunitylogin {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+}
+
+.btnlogin {
+    position: relative;
+    margin-left: 42%;
+}
+
+/* Log Out */
+.cardcommunitylogout {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+}
+
+.btnlogout {
+    position: relative;
+    margin-left: 42%;
+}
+
 /* Contact Us */
 .cardcontactus {
     align-items: center;

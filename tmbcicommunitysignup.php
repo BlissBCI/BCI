@@ -253,7 +253,7 @@
             </div>
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
-              <input type="text" class="form-control border-primary" id="username" name="username" placeholder="username" required>
+              <input type="text" class="form-control border-primary" id="username" name="username" placeholder="Username" required>
             </div>
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>

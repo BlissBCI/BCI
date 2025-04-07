@@ -244,18 +244,22 @@
 
     <!-- BCI Community Member Log Out -->
     <div> 
-      <div class="container">
+      <div class="cardcommunitylogout">
         <div class="card-body">
-          <h2 class="text-center mt-2">BCI Community</h2>  
-          <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
+          <!-- text in card body -->
+          <form action="https://conceptography.org/communitylogin.php" method="post" class="form">
+            <div class="textheading">
+              <h2 class="text-center mt-2">BCI Community</h2>
+            </div>
             <div class="btnlogout">
-              <button type="submit" class="btn btn-primary btncenter" name="btnsend">Log Out</button>
+              <button class="btn btn-primary" type="submit">Log Out</button>
             </div>
           </form>
-        </div>      
-      </div>        
-    </div> 
-    <!-- End BCI Community Member Log Out-->
+        </div>
+      </div>
+    </div>
+    <!-- End BCI Community Member Sign Up-->
+
 
     <!-- Divider -->
     <div>

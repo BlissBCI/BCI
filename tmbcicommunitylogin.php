@@ -244,29 +244,34 @@
 
     <!-- BCI Community Member Log In -->
     <div> 
-      <div class="container">
+      <div class="cardcommunitylogin">
         <div class="card-body">
-          <h2 class="text-center mt-2">BCI Community Member Log In</h2>    
-          <form action="https://conceptography.org/tmbcicommunitylogin.php" method="post">
-            <div class="mb-3">
-                <label for="username" class="form-label fs-5 ml-10 mr-10">Username</label>
-                <input type="username" class="form-control border-primary" id="username" placeholder="Username" required>
+          <!-- text in card body -->
+          <form action="https://conceptography.org/communitylogin.php" method="post" class="form">
+            <div class="textheading">
+              <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label fs-5 ml-10 mr-10">Password</label>
-              <input type="password" class="form-control border-primary" id="name" placeholder="Password"required>
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control border-primary" id="username" name="username" placeholder="Username" required>
             </div>
-              <div class="btnlogin">
-                <button type="submit" class="btn btn-primary" name="btnsend">Log In</button>
-              </div>
-              <div class="link">
-                <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">Sign Up Now!</a></p>
-              </div>  
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="btnlogin">
+              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
+              <button class="btn btn-primary" type="submit">Log In</button>
+            </div>
           </form>
+          <div class="link">
+              <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Sign Up Now!</a></p>
+          </div> 
         </div>
-      </div>    
-    </div> 
+      </div>
+    </div>
     <!-- End BCI Community Member Log In-->
+
 
     <!-- Divider -->
     <div>
