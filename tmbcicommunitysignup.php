@@ -244,7 +244,7 @@
     
     <!-- BCI Community Member Sign Up -->
     <div> 
-      <div class="cardcommunitysignup">
+      <div class="cardcommunity">
         <div class="card-body">
 
           <!-- PHP -->
@@ -277,7 +277,7 @@
               <label for="password" class="form-label">Password</label>
               <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
-            <div class="btnsignup">
+            <div class="btncommunity">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
               <button class="btn btn-primary" type="submit" name="submit">Sign Up</button>
             </div>
