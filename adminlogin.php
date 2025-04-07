@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->fetch();
         $stmt->close();
 
-        if (!empty($enteredPassword) && !empty($hashedPasswordFromDatabase)) {
+        if (!empty($password) && !empty($hashedPasswordFromDatabase)) {
             if (password_verify($password, $hashedPasswordFromDatabase)) {
                 // Login success
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
