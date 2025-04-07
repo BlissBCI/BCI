@@ -249,7 +249,7 @@
           <!-- text in card body -->
           <form action="https://conceptography.org/communitylogin.php" method="post" class="form">
             <div class="textheading">
-              <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
+              <h2 class="text-center mt-2">BCI Community Member Log In</h2>
             </div>
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
@@ -265,7 +265,7 @@
             </div>
           </form>
           <div class="link">
-              <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Sign Up Now!</a></p>
+              <p class="fs-5 ml-10 mr-10 text-center">Don't have an account?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">Sign Up Now!</a></p>
           </div> 
         </div>
       </div>
