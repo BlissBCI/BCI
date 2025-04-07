@@ -253,7 +253,7 @@
           <?php else : ?>
 
           <!-- text in card body -->
-          <form action="https://conceptography.org/tmbcicommunitysignup.php" method="post" class="form">
+          <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
             <div class="textheading">
               <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
             </div>
