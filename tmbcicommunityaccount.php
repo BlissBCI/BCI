@@ -242,7 +242,7 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- BCI Community Member Log Out -->
+    <!-- BCI Community Member Account -->
     <div> 
       <div class="cardaccount">
         <div class="card-body">
@@ -261,7 +261,7 @@
         </div>
       </div>
     </div>
-    <!-- End BCI Community Member Sign Up-->
+    <!-- End BCI Community Member Account-->
 
 
     <!-- Divider -->
