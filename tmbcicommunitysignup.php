@@ -248,7 +248,7 @@
         <div class="box form-box">
         <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
       </div>     
-      <form action="https://conceptography.org/memberlogin.php" method="post">
+      <form action="https://conceptography.org/communitysignup.php" method="post">
         <div class="mb-3">
             <label for="username" class="form-label fs-5 ml-10 mr-10">Username</label>
             <input type="username" class="form-control border-primary" id="username" placeholder="Username">
