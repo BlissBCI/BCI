@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $password = $_POST['password'];
 
     // Prepare SQL query
-    $stmt = $conn->prepare("SELECT Password FROM admins WHERE Username = ?");
+    $stmt = $conn->prepare("SELECT Password FROM admin WHERE Username = ?");
     $stmt->bind_param("s", $username);
     
     if ($stmt->execute()) {
