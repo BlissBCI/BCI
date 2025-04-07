@@ -261,7 +261,7 @@
             </div>
             <div class="btnlogin">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary" type="submit">Log In</button>
+              <button class="btn btn-primary" type="submit" name="submit">Log In</button>
             </div>
           </form>
           <div class="link">
