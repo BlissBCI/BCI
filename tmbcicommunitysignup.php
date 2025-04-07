@@ -250,8 +250,7 @@
           <!-- PHP -->
           <?php
 
-          include("https://conceptography.org/communitysignup.php");
-          if(isset($POST['submit'])){
+          if(isset($_POST['submit'])){
             $username=$_POST['username'];
             $name=$_POST['name'];
             $country=$_POST['country'];
@@ -267,7 +266,9 @@
                     </div><br>";
               echo  "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
             }else{
-              mysqli_query($conn,"INSERT INTO users(Username, Name, Country, Email, Password) VALUES ('$username','$name','$country','$email','$password')") or ("Error Occured!");
+              $insert_query="INSERT INTO users(Username, Name, Country, Email, Password) VALUES ('$username','$name','$country','$email','$password')";
+
+              if(mysqli_query($conn, $insert_query)){
               echo  "<div class='signupmessage'>
                       <p>Sign Up Successful!</p>
                     </div><br>";
@@ -275,6 +276,9 @@
             }
           }else{
 
+            echo "Error: " . mysqli_error($conn);
+
+          }
           ?>
           
           <!-- text in card body -->
@@ -304,7 +308,7 @@
             </div>
             <div class="btnsignup">
               <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary" type="submit">Sign Up</button>
+              <button class="btn btn-primary" type="submit" name="submit">Sign Up</button>
             </div>
           </form>
           <div class="link">

@@ -252,7 +252,7 @@
               <h2 class="text-center mt-2">BCI Community</h2>
             </div>
             <div class="btnlogout">
-              <button class="btn btn-primary" type="submit">Log Out</button>
+              <button class="btn btn-primary" type="submit" name="submit">Log Out</button>
             </div>
           </form>
         </div>
