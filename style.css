@@ -364,19 +364,6 @@ border-radius: 0.5rem;
 }
 
 /* Sign Up, Log In, Log Out */
-.cardcommunity {
-    align-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    border: 1px solid #0d6efd;
-    border-radius: 0.5rem;
-}
-
-.btncommunity {
-    position: relative;
-    margin-left: 42%;
-}
-
 .cardcommunitysignup {
     align-items: center;
     margin-left: 500px;
