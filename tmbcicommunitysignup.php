@@ -312,7 +312,7 @@
           </div> 
         </div>
       </div>
-      <?php }
+      <?php } ?>
       <!-- END PHP -->
     </div>
     <!-- End BCI Community Member Sign Up-->
