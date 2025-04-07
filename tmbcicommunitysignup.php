@@ -246,45 +246,11 @@
     <div> 
       <div class="cardcommunitysignup">
         <div class="card-body">
-          
+
           <!-- PHP -->
-          <?php
-
-          if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
-            $username = trim($_POST['username']);
-            $name     = trim($_POST['name']);
-            $country  = trim($_POST['country']);
-            $email    = trim($_POST['email']);
-            $password = trim($_POST['password']);
-
-            // Check if email already exists
-            $stmt = $conn->prepare("SELECT Email FROM users WHERE Email = ?");
-            $stmt->bind_param("s", $email);
-            $stmt->execute();
-            $stmt->store_result();
-
-            if ($stmt->num_rows > 0) {
-                $message = "<div class='signupmessage'>
-                                <p>This email is already in use, please use a different one!</p>
-                            </div><br>
-                            <a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
-            } else {
-                // Insert user into database
-                $stmt = $conn->prepare("INSERT INTO users (Username, Name, Country, Email, Password) VALUES (?, ?, ?, ?, ?)");
-                $stmt->bind_param("sssss", $username, $name, $country, $email, $password);
-                
-                if ($stmt->execute()) {
-                    $message = "<div class='signupmessage'>
-                                    <p>Sign Up Successful!</p>
-                                </div><br>
-                                <a href='https://conceptography.org/communitylogin.php'><button class='btn'>Log In</button>";
-                } else {
-                    $message = "Error: " . $stmt->error;
-                }
-            }
-            $stmt->close();
-          }
-          ?>
+          <?php if (!empty($signupmessage)) : ?>
+            <?= $signupmessage ?>
+          <?php else : ?>
 
           <!-- text in card body -->
           <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
@@ -318,11 +284,11 @@
           </form>
           <div class="link">
               <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Log In Now!</a></p>
-          </div> 
+          </div>
+          <?php endif; ?>
+          <!-- END PHP -->
         </div>
       </div>
-      <?php endif; ?>
-      <!-- END PHP -->
     </div>
     <!-- End BCI Community Member Sign Up-->
 
