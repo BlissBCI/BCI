@@ -244,7 +244,7 @@
     
     <!-- BCI Community Member Sign Up -->
     <div> 
-      <div class="cardsignup">
+      <div class="cardcommunitysignup">
         <div class="card-body">
 
           <!-- PHP -->
