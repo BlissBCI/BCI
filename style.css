@@ -388,6 +388,22 @@ border-radius: 0.5rem;
     color: black;
 }
 
+/* Community Account */
+.cardaccount {
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
+    border: 5px solid red !important;
+}
+
+.btnaccount {
+    position: relative;
+    margin-left: 42%;
+}
+
+
 /* Community Log In */
 .cardlogin {
     align-items: center;
