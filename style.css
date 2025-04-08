@@ -17,10 +17,13 @@
     border: #0d6efd;
 }
 
-.navbar .navbar-nav .nav-link.active {
+.navbar-nav.active {
     color: black;
 }
-  
+
+.navbar-link.active {
+    color: black;
+}
 
 /* Change background color*/
 body {
