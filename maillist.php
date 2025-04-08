@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['submit'])) {
               </div><br>
               <a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
     } else {
-        // Insert user data into database
+        // Insert data into database
         $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
         $stmt->bind_param("ss", $name, $email);
 
