@@ -486,6 +486,11 @@ border-radius: 0.5rem;
     margin-left: 42%;
 }
 
+.btnback {
+    position: relative;
+    margin-left: 42%;
+}
+
 .form-invalid{
     outline:2px solid red !important;
 }
