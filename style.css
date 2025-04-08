@@ -345,6 +345,11 @@ border-radius: 0.5rem;
     margin-left: 600px;
 }
 
+/* License photo */
+.licenseimage {
+    margin-left: 600px;
+}
+
 /* Text Indent */
 .textindent {
     margin-left: 50px;
