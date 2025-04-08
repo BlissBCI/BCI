@@ -345,13 +345,6 @@ border-radius: 0.5rem;
     margin-left: 600px;
 }
 
-/* License photo */
-.licenseimage {
-    display: flex;
-    justify-content: center; /* Horizontal */
-    align-items: center; /* Vertical */
-}
-
 /* Text Indent */
 .textindent {
     margin-left: 50px;
