@@ -1,9 +1,6 @@
-<?php 
-
-  $message_sent = false;
-
+<?php
+  
 ?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -227,17 +224,17 @@
 
     <!-- Main Menu -->
     <div>
-      <div class = "navmain">
+      <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
-    </div>      
+    </div>  
     <!-- End Main Menu -->
 
     <!-- Divider -->
@@ -248,92 +245,28 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- Bliss Sub Menu -->
-    <div>
-      <div class = "navsub">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smblissaboutblissymbolics">About Blissymbolics</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhyisblissused">Why Is Bliss Used?</a></h4>
-           </li>
-           <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhousesbliss">Who Uses Bliss?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhereisblissused">Where Is Bliss Used?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisshowisblissused">How Is Bliss Used – Workshop</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissav">BCI Authorised Vocabulary (AV)</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslearnmore">Learn More</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissbciarchives">BCI Archives</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslicensing">Licensing</a></h4>
-          </li>
-        </ul>
-      </div>      
-    </div>
-    <!-- End Bliss Sub Menu -->
-
-    <!-- Contact Us -->
-
-    <!-- PHP -->
-    <?php
-    if($message_sent):
-    ?>
-        <h2>Thank you for contacting us, we'll reply to your message as soon as we can</h2>
-    <?php
-    else:
-    ?>
-
+    <!-- Contact Message Sent -->
     <div> 
-      <hr>
-      <div class="cardcontactus">
+      <div class="cardmessagesent">
         <div class="card-body">
           <!-- text in card body -->
           <form action="https://conceptography.org/contactmessage.php" method="post" class="form">
             <div class="textheading">
-              <h2 class="text-center mt-2">Contact Us</h2>
-            </div>   
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name" required>
+              <h2 class="text-center mt-2">Message Sent</h2>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
+            <div class = "articletext">  
+              <p class="fs-5 ml-10 mr-10">Thank you for contacting us!</p> 
+              <p class="fs-5 ml-10 mr-10">We will reply to your message as soon as we can.</p>
             </div>
-            <div class="mb-3">
-              <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control border-primary" id="subject" name="subject" placeholder="Subject" required>
+            <div class="btnadminlogout">
+              <button class="btn btn-primary" type="submit" name="submit">Back</button>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control border-primary" id="message" name="message" placeholder="Write message" rows="3" required></textarea>
-            </div>
-            <div class="contactus-footer">
-              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
-              <button class="btn btn-primary" type="submit" name="submit">Send Message</button>
-            </div>
-          </form>  
+          </form>
         </div>
       </div>
     </div>
-    <?php
-    endif;
-    ?>
-    <!-- End PHP -->
+    <!-- End Contact Message Sent-->
 
-    <!-- End Contact Us -->
 
     <!-- Divider -->
     <div>
@@ -395,8 +328,8 @@
           <div class="footer">
             <div class="rightfooter ml-0">
               <h5><a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
-              <h5><a class="nav-link text-primary" href="#">BCI</a></h5>
-              <h5><a class="nav-link text-primary" href="#">Blissymbolics</a></h5>
+              <h5><a class="nav-link text-primary" href="https://conceptography.org/mmbci.html">BCI</a></h5>
+              <h5><a class="nav-link text-primary" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h5>
               <h5><a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact Us</a></h5>
             <!--</nav>-->
             </div>
