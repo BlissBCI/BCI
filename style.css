@@ -495,3 +495,7 @@ border-radius: 0.5rem;
     padding-right: 275px;
 }
 
+a.nav-link.text-primary.active {
+    color: black !important;
+  }
+  
