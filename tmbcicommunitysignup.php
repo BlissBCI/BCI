@@ -37,7 +37,7 @@
           <div class="container"> 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a>
+                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a>
                 <li class="nav-itemtm">
                   <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a>
                 </li>
@@ -83,7 +83,7 @@
                 <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a>
               </li>
               <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a>
+                <a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a>
               </li>
               <li class="nav-itemtm">
                 <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a>
@@ -305,7 +305,7 @@
       <div class="col">
         <div class="footer">
           <div class="leftfooter ml-5">     
-            <b><a class="nav-link text-primary active" data-bs-toggle="modal" data-bs-target="#exampleModal">BCI Mailing List</a></b>
+            <b><a class="nav-link text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">BCI Mailing List</a></b>
             <!-- End Nav -->   
 
             <!-- Modal -->
@@ -343,7 +343,7 @@
 
             <!-- Nav --> 
             <b><a class="nav-link text-primary" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></b>
-            <b><a class="nav-link text-primary" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></b>
+            <b><a class="nav-link text-primary active" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></b>
             <b><a class="nav-link text-primary" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></b>
           </div>
         </div>      
