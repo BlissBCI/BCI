@@ -43,9 +43,9 @@
           <div class="container"> 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a>
+                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a>
                 <li class="nav-itemtm">
-                  <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a>
+                  <a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a>
                 </li>
                 <li class="nav-itemtm">
                   <a class="text-center text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Mailing List</a>
@@ -348,7 +348,7 @@
       <div class="col">
         <div class="footer">
           <div class="leftfooter ml-5">     
-            <b><a class="nav-link text-primary active" data-bs-toggle="modal" data-bs-target="#exampleModal">BCI Mailing List</a></b>
+            <b><a class="nav-link text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">BCI Mailing List</a></b>
             <!-- End Nav -->   
 
             <!-- Modal -->
@@ -407,7 +407,7 @@
               <b><a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></b>
               <b><a class="nav-link text-primary" href="https://conceptography.org/mmbci.html">BCI</a></b>
               <b><a class="nav-link text-primary" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></b>
-              <b><a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact BCI</a></b>
+              <b><a class="nav-link text-primary active" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact BCI</a></b>
             </div>
           </div>   
         </div>
