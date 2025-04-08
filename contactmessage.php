@@ -21,7 +21,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         mail($to, $subject, $body);
 
         // ✅ Redirect after mail is sent
-        header("Location: https://conceptography.org/contactmessagesent.php"); 
+        header("Location: https://conceptography.org/contactmessagesent.html"); 
         exit(); 
     } else {
         $invalid_class_name = "form-invalid";
