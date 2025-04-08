@@ -20,7 +20,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
         mail($to, $subject, $body);
 
-        // ✅ Redirect after mail is sent
+        //Redirect after mail is sent
         header("Location: https://conceptography.org/contactmessagesent.html"); 
         exit(); 
     } else {
