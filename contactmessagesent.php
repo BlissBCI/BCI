@@ -250,18 +250,19 @@
       <div class="cardmessagesent">
         <div class="card-body">
           <!-- text in card body -->
-          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">
             <div class="textheading">
               <h2 class="text-center mt-2">Message Sent</h2>
             </div>
             <div class = "articletext">  
-              <p class="fs-5 ml-10 mr-10">Thank you for contacting us!</p> 
-              <p class="fs-5 ml-10 mr-10">We will reply to your message as soon as we can.</p>
+              <p class="fs-5 ml-10 mr-10 text-center">Thank you for contacting us!</p> 
+              <p class="fs-5 ml-10 mr-10 text-center">We will reply to your message as soon as we can.</p>
             </div>
-            <div class="btnadminlogout">
+            <div class="link">
+              <a class="btn btn-primary" href="https://conceptography.org/fcontactus.php" role="button">Back</a>
+            </div> 
+            <!--<div class="btnadminlogout">
               <button class="btn btn-primary" type="submit" name="submit">Back</button>
-            </div>
-          </form>
+            </div>-->
         </div>
       </div>
     </div>
