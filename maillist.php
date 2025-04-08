@@ -22,7 +22,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['submit'])) {
                 //<p>This email is already in use, please use a different one!</p>
               //</div><br>
               //<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
-            // Redirect on success
+            
+            // Redirect on email already in use
             header("Location: https://conceptography.org/maillistemailused.html");
             exit();      
     } else {
