@@ -18,10 +18,13 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['submit'])) {
     $stmt->store_result();
 
     if ($stmt->num_rows > 0) {
-        echo "<div class='maillistmessage'>
-                <p>This email is already in use, please use a different one!</p>
-              </div><br>
-              <a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
+        //echo "<div class='maillistmessage'>
+                //<p>This email is already in use, please use a different one!</p>
+              //</div><br>
+              //<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
+            // Redirect on success
+            header("Location: https://conceptography.org/maillistemailused.html");
+            exit();      
     } else {
         // Insert data into database
         $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
