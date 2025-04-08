@@ -488,7 +488,8 @@ border-radius: 0.5rem;
 
 .btnback {
     position: relative;
-    margin-left: 42%;
+    /*margin-left: 42%;*/
+    margin-left: 52%;
 }
 
 .form-invalid{
