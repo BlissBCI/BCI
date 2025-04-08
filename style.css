@@ -15,17 +15,12 @@
 
 .navbar {
     border: #0d6efd;
-    .navbar-nav li a {
-        color: #eee;
-        &:hover, &:focus, &:active {
-          color: #18BC9C;
-          background-color: transparent;
-          -webkit-box-shadow: none;
-          -moz-box-shadow: none;
-          box-shadow: none;
-        }
-      }
 }
+
+.navbar .navbar-nav .nav-link.active {
+    color: black;
+}
+  
 
 /* Change background color*/
 body {
