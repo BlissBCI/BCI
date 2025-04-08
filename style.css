@@ -17,12 +17,10 @@
     border: #0d6efd;
 }
 
-.navbar-nav.active {
-    color: black;
-}
-
-.navbar-link.active {
-    color: black;
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: black !important;
 }
 
 /* Change background color*/
