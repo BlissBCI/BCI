@@ -347,7 +347,9 @@ border-radius: 0.5rem;
 
 /* License photo */
 .licenseimage {
-    margin-left: 600px;
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* Vertical */
 }
 
 /* Text Indent */
