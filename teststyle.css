@@ -13,8 +13,14 @@
     border: #0d6efd;
 }*/
 
-.navbar {
-    border: #0d6efd;
+.navbar-default .navbar-nav > .active > a {
+    background: #000000;
+    color: white;
+}
+
+.navbar-default .navbar-link > .active > a {
+    background: #000000;
+    color: white;
 }
 
 /* Change background color*/
