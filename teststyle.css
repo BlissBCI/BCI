@@ -65,6 +65,12 @@ body {
     visibility: visible;
 }
 
+.navbar bg-body-tertiary {
+    align-items: left;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
 /* BCI Email modal */
 .modalemailconsent {
     text-align:justify
