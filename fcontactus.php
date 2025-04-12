@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
 
     } else {
         $alert_message = 'Please enter a valid email address.';
-        $alert_class = 'alert-warning';
+        $alert_class = 'alert-danger';
         $invalid_class_name = 'is-invalid';
     }
 }
