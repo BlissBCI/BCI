@@ -2,8 +2,6 @@
 <?php
 $alert_message = '';
 $alert_class = '';
-$alert_class_name = '';
-$invalid_class_email = '';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['email'] != '') {
 
@@ -28,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     } else {
         $alert_message = 'Please enter a valid email address.';
         $alert_class = 'alert-danger';
-        $invalid_class_email = 'is-invalid';
     }
 }
 ?>
@@ -201,7 +198,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         <!-- End PHP -->
         <div class="card-body">
           <!-- text in card body -->
-          <!--<form action="https://conceptography.org/contactmessage.php" method="post" class="form">-->
           <form action="https://conceptography.org/fcontactus.php" method="post" class="form">  
             <div class="textheading">
               <h2 class="text-center mt-2">Contact Us</h2>
@@ -223,7 +219,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
               <textarea class="form-control border-primary" id="message" name="message" placeholder="Write message" rows="3" required></textarea>
             </div>
             <div class="contactus-footer">
-              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
               <button class="btn btn-primary" type="submit" name="submit">Send Message</button>
             </div>
           </form>  
