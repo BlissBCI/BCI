@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $name     = trim($_POST['name']);
     $country  = trim($_POST['country']);
     $email    = trim($_POST['email']);
-    $password = trim($_POST['password']); // Reminder: consider hashing for production
+    $password = trim($_POST['password']);
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $alert_message = "Please enter a valid email address.";
-        $alert_class = "alert-warning";
+        $alert_class = "alert-danger";
     } else {
         // Check if the email already exists
         $stmt = $conn->prepare("SELECT Email FROM users WHERE Email = ?");
@@ -213,7 +213,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
+              <input type="email" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
