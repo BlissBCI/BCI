@@ -118,11 +118,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                           Sign up for the BCI mailing list!
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="name">Name:</span>
-                            <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
+                            <input type="text" class="form-control" placeholder="Name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
                           </div>  
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="email">Email address:</span>
-                            <input type="email" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="email" id="email" name="email" required>
                           </div>  
                           <div class="modalemailconsent mt-3">
                             <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
