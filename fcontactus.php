@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         $body = "From: $name\r\nEmail: $email\r\nMessage: $message\r\n";
 
         if (mail($to, $subject, $body)) {
-            $alert_message = 'Your message has been sent successfully!';
+            $alert_message = <p class="fs-5 ml-10 mr-10 text-center">'Your message has been sent successfully!'</p>;
             $alert_class = 'alert-success';
         } else {
             $alert_message = 'Something went wrong. Please try again.';
