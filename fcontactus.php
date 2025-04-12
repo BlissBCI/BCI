@@ -259,6 +259,7 @@
       </div>
     <?php endif; ?>
 
+
     <div> 
       <hr>
       <div class="cardcontactus">
@@ -292,9 +293,6 @@
         </div>
       </div>
     </div>
-    <?php
-    endif;
-    ?>
     <!-- End PHP -->
 
     <!-- End Contact Us -->
