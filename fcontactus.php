@@ -2,7 +2,8 @@
 <?php
 $alert_message = '';
 $alert_class = '';
-$invalid_class_name = '';
+$alert_class_name = '';
+$invalid_class_email = '';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['email'] != '') {
 
