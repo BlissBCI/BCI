@@ -1,7 +1,34 @@
-<?php 
+<?php
+$alert_message = '';
+$alert_class = '';
+$invalid_class_name = '';
 
-  $message_sent = false;
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['email'] != '') {
 
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+
+        $to = "gatillom@yahoo.com";
+        $body = "From: $name\r\nEmail: $email\r\nMessage: $message\r\n";
+
+        if (mail($to, $subject, $body)) {
+            $alert_message = 'Your message has been sent successfully!';
+            $alert_class = 'alert-success';
+        } else {
+            $alert_message = 'Something went wrong. Please try again.';
+            $alert_class = 'alert-danger';
+        }
+
+    } else {
+        $alert_message = 'Please enter a valid email address.';
+        $alert_class = 'alert-warning';
+        $invalid_class_name = 'is-invalid';
+    }
+}
 ?>
 
 <!doctype html>
@@ -259,13 +286,13 @@
       </div>
     <?php endif; ?>
 
-
     <div> 
       <hr>
       <div class="cardcontactus">
         <div class="card-body">
           <!-- text in card body -->
-          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">
+          <!--<form action="https://conceptography.org/contactmessage.php" method="post" class="form">-->
+          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">  
             <div class="textheading">
               <h2 class="text-center mt-2">Contact Us</h2>
             </div>   
