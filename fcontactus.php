@@ -204,15 +204,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
             </div>   
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name" required>
+              <input type="name" class="form-control border-primary <?=$invalid_class_name ?? "" ?>" id="name" name="name" placeholder="Name" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="text" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
+              <input type="email" class="form-control border-primary" id="email" name="email" placeholder="email@example.com" required>
             </div>
             <div class="mb-3">
               <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control border-primary" id="subject" name="subject" placeholder="Subject" required>
+              <input type="subject" class="form-control border-primary" id="subject" name="subject" placeholder="Subject" required>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
