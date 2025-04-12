@@ -9,23 +9,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
 
-    $stmt = $conn->prepare("SELECT Email FROM mail WHERE Email = ?");
-    $stmt->bind_param("s", $email);
-    $stmt->execute();
-    $stmt->store_result();
-
-    if ($stmt->num_rows > 0) {
-        $alert_message = "This email is already in use.";
-        $alert_class = "alert-danger";
+    // Validate email format
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $alert_message = "Please enter a valid email address.";
+        $alert_class = "alert-warning";
     } else {
-        $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
-        $stmt->bind_param("ss", $name, $email);
-        if ($stmt->execute()) {
-            $alert_message = "You've been added to the BCI mailing list!";
-            $alert_class = "alert-success";
-        } else {
-            $alert_message = "Error: " . $stmt->error;
+        // Check if email already exists
+        $stmt = $conn->prepare("SELECT Email FROM mail WHERE Email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $stmt->store_result();
+
+        if ($stmt->num_rows > 0) {
+            $alert_message = "This email is already in use.";
             $alert_class = "alert-danger";
+        } else {
+            // Insert into DB
+            $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
+            $stmt->bind_param("ss", $name, $email);
+            if ($stmt->execute()) {
+                $alert_message = "You've been added to the BCI mailing list!";
+                $alert_class = "alert-success";
+            } else {
+                $alert_message = "Error: " . $stmt->error;
+                $alert_class = "alert-danger";
+            }
         }
     }
 }
@@ -114,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                           </div>  
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="email">Email address:</span>
-                            <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
+                            <input type="email" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
                           </div>  
                           <div class="modalemailconsent mt-3">
                             <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
