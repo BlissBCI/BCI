@@ -184,22 +184,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     <!-- End Divider -->
 
     <!-- Contact Us -->
-
-    <!-- PHP -->
-    <?php if (!empty($alert_message)): ?> 
-      <div class="alert <?php echo $alert_class; ?> alert-dismissible fade show mt-3 d-flex justify-content-center align-items-center" role="alert">
-        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
-          <use xlink:href="#info-fill" />
-        </svg>
-        <?php echo $alert_message; ?>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-    <?php endif; ?>
-    <!-- End PHP -->
-
     <div> 
       <hr>
       <div class="cardcontactus">
+        <!-- PHP -->
+        <?php if (!empty($alert_message)): ?> 
+          <div class="alert <?php echo $alert_class; ?> alert-dismissible fade show mt-3 d-flex justify-content-center align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+              <use xlink:href="#info-fill" />
+            </svg>
+            <?php echo $alert_message; ?>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        <?php endif; ?>
+        <!-- End PHP -->
         <div class="card-body">
           <!-- text in card body -->
           <!--<form action="https://conceptography.org/contactmessage.php" method="post" class="form">-->
