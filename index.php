@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body text-center">
-                          <form action="maillist.php" method="post"> 
+                          <form action="index.php" method="post"> 
                           Sign up for the BCI mailing list!
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="name">Name:</span>
