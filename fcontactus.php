@@ -63,186 +63,94 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     
     <!-- Top Menu -->
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="https://conceptography.org/index.html">
-              <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" alt="BCI logo " width="300" height="120"> 
-            </a>
-          </div>
-          <div class="container"> 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a>
-                <li class="nav-itemtm">
-                  <a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a>
-                </li>
-                <li class="nav-itemtm">
-                  <a class="text-center text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Mailing List</a>
-                </li>
+    <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid"></div>-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <!--<div class="container-fluid align-items-center">-->
+        <div class="container-fluid align-items-center d-flex justify-content-between">    
+          <a class="navbar-brand" href="https://conceptography.org/index.html">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_whitebg.jpg" alt="BCI logo " width="300" height="120"> 
+          </a>
+        </div>
+        <div class="container">
+          <!--<div class="mx-auto order-0">
+            <div class="position-absolute start-50 translate-middle-x">
+              <ul class="navbar-nav flex-row"> 
+                <li class="nav-itemtm">-->
+                  <div class="mx-auto">
+                    <ul class="navbar-nav d-flex flex-row gap-3 text-center">
+                      <li class="nav-item">  
+                  <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
+                  <li class="nav-itemtm">
+                    <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
+                  </li>
+                  <li class="nav-itemtm">
+                    <h5><a class="text-center text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Mailing List</a></h5>
+                  </li>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join The BCI Mailing List</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body text-center">
-                        <form action="maillist.php" method="post"> 
-                        Sign up for the BCI mailing list!
-                        <div class="input-group mb-3 mt-3">
-                          <span class="input-group-text" id="name">Name:</span>
-                          <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
-                        </div>  
-                        <div class="input-group mb-3 mt-3">
-                          <span class="input-group-text" id="email">Email address:</span>
-                          <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
-                        </div>  
-                        <div class="modalemailconsent mt-3">
-                          <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join The BCI Mailing List</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button class="btn btn-primary" type="submit" name="submit">Submit</button>
-                      </form>  
+                        <div class="modal-body text-center">
+                          <form action="maillist.php" method="post"> 
+                          Sign up for the BCI mailing list!
+                          <div class="input-group mb-3 mt-3">
+                            <span class="input-group-text" id="name">Name:</span>
+                            <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
+                          </div>  
+                          <div class="input-group mb-3 mt-3">
+                            <span class="input-group-text" id="email">Email address:</span>
+                            <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
+                          </div>  
+                          <div class="modalemailconsent mt-3">
+                            <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+                        </form>  
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </li>
-              <!-- End Modal -->
+                </li>
+                <!-- End Modal -->
 
-              <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a>
-              </li>
-              <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a>
-              </li>
-              <li class="nav-itemtm">
-                <a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit"><i class="fa fa-search"></i>
-            </form>
+                <li class="nav-itemtm">
+                  <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></h5>
+                </li>
+                <li class="nav-itemtm">
+                  <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
+                </li>
+                <li class="nav-itemtm">
+                  <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>    
       </nav>
     </div>
     <!-- End Top Menu -->
 
-    <!-- Banner Message Carousel -->
+    <!-- Search Menu -->
     <div>
-      <div>
-        <div>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-innerup">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 1</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 2</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 3</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 4</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 5</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 6</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 7</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 8</h6>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
+      <div>  
+        <nav class="navbar bg-transparent justify-content-center py-2">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </nav>
       </div>
     </div>  
-    <!-- End Banner Message Carousel -->
-
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
+    <!-- End Search Menu -->
 
     <!-- Divider -->
     <div> 
