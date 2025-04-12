@@ -5,10 +5,6 @@ $alert_class = '';
 
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCImaillist");
 
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
@@ -19,12 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $stmt->store_result();
 
     if ($stmt->num_rows > 0) {
-        $alert_message = "This email is already in use. Please use a different one!";
+        $alert_message = "This email is already in use.";
         $alert_class = "alert-danger";
     } else {
         $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
         $stmt->bind_param("ss", $name, $email);
-
         if ($stmt->execute()) {
             $alert_message = "You've been added to the BCI mailing list!";
             $alert_class = "alert-success";
