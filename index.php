@@ -429,5 +429,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
     <!-- End Footer -->
+
+    <!-- Modal PHP -->                    
+    <?php if (!empty($alert_message)): ?>
+    <script>
+      const myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+      window.addEventListener('load', () => {
+        myModal.show();
+      });
+    </script>
+    <?php endif; ?>
+    <!-- End Modal PHP -->
+
   </body>
 </html>
