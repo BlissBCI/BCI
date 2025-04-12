@@ -1,3 +1,4 @@
+<!-- PHP -->
 <?php
 $alert_message = '';
 $alert_class = '';
@@ -16,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         $body = "From: $name\r\nEmail: $email\r\nMessage: $message\r\n";
 
         if (mail($to, $subject, $body)) {
-            $alert_message = <p class="fs-5 ml-10 mr-10 text-center">'Your message has been sent successfully!'</p>;
+            $alert_message = 'Your message has been sent successfully!';
             $alert_class = 'alert-success';
         } else {
             $alert_message = 'Something went wrong. Please try again.';
@@ -30,6 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     }
 }
 ?>
+<!-- End PHP -->
 
 <!doctype html>
 <html lang="en">
@@ -276,8 +278,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     <!-- Contact Us -->
 
     <!-- PHP -->
-    <?php if (!empty($alert_message)): ?>
-      <div class="alert <?php echo $alert_class; ?> alert-dismissible fade show mt-3" role="alert">
+    <?php if (!empty($alert_message)): ?> 
+      <div class="alert <?php echo $alert_class; ?> alert-dismissible fade show mt-3 d-flex justify-content-center align-items-center" role="alert">
         <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
           <use xlink:href="#info-fill" />
         </svg>
@@ -285,6 +287,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
     <?php endif; ?>
+    <!-- End PHP -->
 
     <div> 
       <hr>
@@ -320,8 +323,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         </div>
       </div>
     </div>
-    <!-- End PHP -->
-
     <!-- End Contact Us -->
 
     <!-- Divider -->
