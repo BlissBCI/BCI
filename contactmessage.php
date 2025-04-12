@@ -20,11 +20,17 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
         mail($to, $subject, $body);
 
-        //Redirect after mail is sent
-        header("Location: https://conceptography.org/contactmessagesent.html"); 
-        exit(); 
+        if (mail($to, $subject, $body)) {
+            $alert_message = 'Your message has been sent successfully!';
+            $alert_class = 'alert-success';
+        } else {
+            $alert_message = 'Something went wrong. Please try again.';
+            $alert_class = 'alert-danger';
+        }
+
     } else {
-        $invalid_class_name = "form-invalid";
+        $alert_message = 'Please enter a valid email address.';
+        $alert_class = 'alert-warning';
     }
 }
 ?>
