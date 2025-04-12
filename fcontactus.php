@@ -228,10 +228,10 @@
       <div class = "navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
@@ -246,52 +246,18 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- Bliss Sub Menu -->
-    <div>
-      <div class = "navsub">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smblissaboutblissymbolics">About Blissymbolics</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhyisblissused">Why Is Bliss Used?</a></h4>
-           </li>
-           <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhousesbliss">Who Uses Bliss?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhereisblissused">Where Is Bliss Used?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisshowisblissused">How Is Bliss Used – Workshop</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissav">BCI Authorised Vocabulary (AV)</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslearnmore">Learn More</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissbciarchives">BCI Archives</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslicensing">Licensing</a></h4>
-          </li>
-        </ul>
-      </div>      
-    </div>
-    <!-- End Bliss Sub Menu -->
-
     <!-- Contact Us -->
 
     <!-- PHP -->
-    <?php
-    if($message_sent):
-    ?>
-        <h2>Thank you for contacting us, we'll reply to your message as soon as we can</h2>
-    <?php
-    else:
-    ?>
+    <?php if (!empty($alert_message)): ?>
+      <div class="alert <?php echo $alert_class; ?> alert-dismissible fade show mt-3" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+          <use xlink:href="#info-fill" />
+        </svg>
+        <?php echo $alert_message; ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <?php endif; ?>
 
     <div> 
       <hr>
