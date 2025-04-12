@@ -201,15 +201,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             </div>
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
-              <input type="text" class="form-control border-primary" id="username" name="username" placeholder="Username" required>
+              <input type="username" class="form-control border-primary" id="username" name="username" placeholder="Username" required>
             </div>
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control border-primary" id="name" name="name" placeholder="Name" required>
+              <input type="name" class="form-control border-primary" id="name" name="name" placeholder="Name" required>
             </div>
             <div class="mb-3">
               <label for="country" class="form-label">Country</label>
-              <input type="text" class="form-control border-primary" id="country" name="country" placeholder="Country" required>
+              <input type="country" class="form-control border-primary" id="country" name="country" placeholder="Country" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
@@ -217,7 +217,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
-              <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
+              <input type="password" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
             <div class="btnsignup">
               <button class="btn btn-primary" type="submit" name="submit">Sign Up</button>
