@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                           Sign up for the BCI mailing list!
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="name">Name:</span>
-                            <input type="text" class="form-control" placeholder="Name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
+                            <input type="name" class="form-control" placeholder="Name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
                           </div>  
                           <div class="input-group mb-3 mt-3">
                             <span class="input-group-text" id="email">Email address:</span>
