@@ -193,7 +193,7 @@ body {
     margin-bottom: 300px;
 }*/
 
-.carousel-control-prevph {
+.btnprevph {
     border: #0d6efd;
     width: 50px;
     height: 50px;
@@ -203,7 +203,7 @@ body {
     margin-bottom: 0px;
 }
 
-.carousel-control-nextph {
+.btnnextph {
     border: #0d6efd;
     width: 50px;
     height: 50px;
