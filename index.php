@@ -1,3 +1,42 @@
+<!-- PHP -->
+<?php
+$alert_message = '';
+$alert_class = '';
+
+$conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCImaillist");
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+
+    $stmt = $conn->prepare("SELECT Email FROM mail WHERE Email = ?");
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $stmt->store_result();
+
+    if ($stmt->num_rows > 0) {
+        $alert_message = "This email is already in use. Please use a different one!";
+        $alert_class = "alert-danger";
+    } else {
+        $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
+        $stmt->bind_param("ss", $name, $email);
+
+        if ($stmt->execute()) {
+            $alert_message = "You've been added to the BCI mailing list!";
+            $alert_class = "alert-success";
+        } else {
+            $alert_message = "Error: " . $stmt->error;
+            $alert_class = "alert-danger";
+        }
+    }
+}
+?>
+<!-- End PHP -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -57,6 +96,16 @@
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
+                      
+                      <!-- PHP -->  
+                      <?php if (!empty($alert_message)): ?>
+                        <div class="alert <?= $alert_class ?> alert-dismissible fade show mt-3" role="alert">
+                          <?= $alert_message ?>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                      <?php endif; ?>
+                      <!-- End PHP --> 
+                      
                         <div class="modal-header">
                           <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join The BCI Mailing List</h1>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
