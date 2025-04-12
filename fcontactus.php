@@ -292,7 +292,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
         <div class="card-body">
           <!-- text in card body -->
           <!--<form action="https://conceptography.org/contactmessage.php" method="post" class="form">-->
-          <form action="https://conceptography.org/contactmessage.php" method="post" class="form">  
+          <form action="https://conceptography.org/fcontactus.php" method="post" class="form">  
             <div class="textheading">
               <h2 class="text-center mt-2">Contact Us</h2>
             </div>   
