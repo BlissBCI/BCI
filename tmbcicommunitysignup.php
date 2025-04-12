@@ -1,3 +1,54 @@
+<!-- PHP -->
+<?php
+$alert_message = '';
+$alert_class = '';
+
+$conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIsignup") or die ("Couldn't connect");
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
+    $username = trim($_POST['username']);
+    $name     = trim($_POST['name']);
+    $country  = trim($_POST['country']);
+    $email    = trim($_POST['email']);
+    $password = trim($_POST['password']); // Reminder: consider hashing for production
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $alert_message = "Please enter a valid email address.";
+        $alert_class = "alert-warning";
+    } else {
+        // Check if the email already exists
+        $stmt = $conn->prepare("SELECT Email FROM users WHERE Email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $stmt->store_result();
+
+        if ($stmt->num_rows > 0) {
+            $alert_message = "This email is already in use. Please use a different one.";
+            $alert_class = "alert-danger";
+        } else {
+            // Insert user data into database
+            $stmt = $conn->prepare("INSERT INTO users (Username, Name, Country, Email, Password) VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssss", $username, $name, $country, $email, $password);
+
+            if ($stmt->execute()) {
+                $alert_message = "Your account has been created successfully!";
+                $alert_class = "alert-success";
+            } else {
+                $alert_message = "Error: " . $stmt->error;
+                $alert_class = "alert-danger";
+            }
+        }
+
+        $stmt->close();
+    }
+}
+?>
+<!-- End PHP -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -98,117 +149,6 @@
     </div>
     <!-- End Top Menu -->
 
-    <!-- Banner Message Carousel -->
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-innerup">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 1</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 2</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 3</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 4</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 5</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 6</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 7</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 8</h6>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-    <!-- End Banner Message Carousel -->
-
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
-
     <!-- Divider -->
     <div> 
       <div class="pagebreaktop" style="width: 98.85%">
@@ -222,10 +162,10 @@
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
@@ -246,12 +186,16 @@
         <div class="card-body">
 
           <!-- PHP -->
-          <?php if (!empty($signupmessage)) : ?>
-            <?= $signupmessage ?>
-          <?php else : ?>
+          <?php if (!empty($alert_message)): ?>
+            <div class="alert <?= $alert_class ?> alert-dismissible fade show mt-3" role="alert">
+              <?= $alert_message ?>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          <?php endif; ?>
+          <!-- End PHP -->
 
           <!-- text in card body -->
-          <form action="https://conceptography.org/communitysignup.php" method="post" class="form">
+          <form action="https://conceptography.org/tbcicommunitysignup.php" method="post" class="form">
             <div class="textheading">
               <h2 class="text-center mt-2">BCI Community Member Sign Up</h2>
             </div>
@@ -276,15 +220,12 @@
               <input type="text" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
             </div>
             <div class="btnsignup">
-              <!-- <button type="button" class="btn btn-primary" name="btnsend">Send message</button> -->
               <button class="btn btn-primary" type="submit" name="submit">Sign Up</button>
             </div>
           </form>
           <div class="link">
               <p class="fs-5 ml-10 mr-10 text-center">Already a member?<a class="link" aria-current="page" href="https://conceptography.org/tmbcicommunitylogin.php">Log In Now!</a></p>
           </div>
-          <?php endif; ?>
-          <!-- END PHP -->
         </div>
       </div>
     </div>
