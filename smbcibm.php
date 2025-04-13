@@ -210,7 +210,7 @@
     <!-- End BCI Sub Menu -->
 
     <!-- BCI Board of Directors -->
-    <div> 
+    <!--<div> 
       <div class="textheading">
         <h2 class="text-center mt-2">BCI Board of Directors</h2>
       </div>
@@ -331,7 +331,182 @@
           </div>
         </div>
       </div>  
-    </div>  
+    </div>-->  
+    <!-- End BCI Board of Directors -->
+
+    <!-- End BCI Board of Directors -->
+    <div> 
+      <div class="textheading">
+        <h2 class="text-center mt-2">BCI Board of Directors</h2>
+      </div> 
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Rein Aksberg<br>Citizenship: Sweden</h5>
+              <p class="card-text text-center"><b>President</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Sally Millar<br>Citizenship: UK</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Annalu Waller<br>Citizenship: Scotland and South Africa</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Andrius Raščius<br>Citizenship: Iceland and Lithuania</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Nadia Browning<br>Citizenship: Canada</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Nadia Browning is an occupational therapist with over 40 years of experience working with individuals with complex communication needs, their families and staff. She graduated in Occupational Therapist in Rio de Janeiro in 1978 and completed her Master of Science degree from the University of Western Ontario (UWO), London, Ontario, Canada (2001). In 1980, Nadia was trained by BCI to use and teach Blissymbols. She became the first trained therapist in Brazil. Nadia has worked in the field of AAC with multidisciplinary teams in a variety of organizations in Brazil, Canada and the United Kingdom. Nadia has taught at universities in Brazil, Canada, Germany and Chile. Nadia continues to present national and international workshops. Nadia was the Chair of the Executive Council of the International Society of Augmentative and Alternative Communication (ISAAC) from 2018 to 2021. She has been an active member of ISAAC since 1987. Currently serving on the BCI board of directors.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Ariné Kuyler<br>Citizenship: South Africa</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Dr Ariné Kuyler is currently a postdoctoral research fellow in the Department of Inclusive Education at the University of South Africa. She is a speech-language pathologist and completed her Master's and PhD in Augmentative and Alternative Communication at the University of Pretoria in South Africa. She has worked with children with intellectual, learning and physical disabilities in public schools in South Africa. Her research focuses on disability, AAC, and communication partner training in the context of school and health. She is particularly interested in profound intellectual and multiple disabilities, palliative care, AI, digital healthcare and the impact on communication and AAC. Her passion is also to incorporate Bliss to empower children with disabilities to access literacy, communication and to improve their participation in all contexts.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Jenny Kimhag<br>Citizenship: Sweden</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Louisa Alberts<br>Citizenship: South Africa</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Russell Galvin<br>Citizenship: Canada</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Francesco Ganzaroli<br>Citizenship: Italy</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Peter Zein<br>Citizenship: UK</h5>
+              <p class="card-text text-center"><b>Secretary</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardbm mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center">Halla Harpa Stéfansdóttir<br>Citizenship: Iceland</h5>
+              <p class="card-text text-center"><b>Observer</b></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- End BCI Board of Directors -->
 
     <!-- Divider -->
