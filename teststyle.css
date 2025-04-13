@@ -354,6 +354,29 @@ body {
         margin-bottom: 10px;
         }*/
 
+.cardbcibm {
+    /*  position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;*/
+        padding: 0px;
+        border: 1px solid #0d6efd;
+        margin-left: 320px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 0.5rem;
+        }
+
+.text-justify {
+    text-align: justify;
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    }
+          
+          
 /* Contact Us */
 .cardcontactus {
     align-items: center;
