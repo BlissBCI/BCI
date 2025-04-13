@@ -398,7 +398,7 @@
       <div class="cardbm mb-3" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/BCIBM/Nadia.jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -412,7 +412,7 @@
       <div class="cardbm mb-3" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/BCIBM/Arine2024(10).jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
