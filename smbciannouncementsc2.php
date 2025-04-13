@@ -175,7 +175,7 @@
           <p class="fs-5 ml-10 mr-10">We watched our new film <a class="link" href="https://www.youtube.com/watch?v=2H8e3jtrLs0">“Celebrating 50 Years of Bliss!”</a> and listened to guest speakers from our Bliss community.</p>
           <p class="fs-5 ml-10 mr-10">Many thanks to Nora Rothschild, Penny Parnes, and Rebecca Chan for facilitating.</p>
           <p class="fs-5 ml-10 mr-10">You can now view the film here.</p>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/2H8e3jtrLs0?si=H_CRyB56385eAX0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>    
         </div>

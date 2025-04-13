@@ -173,11 +173,11 @@
           <p class="fs-4 ml-10 mr-10 text-center"><b>This film called Prelude to ISAAC was shown at the digital ISAAC meeting on the 12th of August.</b></p>
           <p class="fs-5 ml-10 mr-10">The film is produced by Penny Parnes, Lynnette Norris, Judy wine and Shirley who all were very actively involved in introducing Blissymbolics as a mean of linguistic communication for children without functional speech in the 70ties. In the film, they interview many of the people, teachers, SLPs, technicians, parents, etc. who were involved in the Bliss work that eventually led to the creation of ISAAC and the concept.</p>
           <p class="fs-5 ml-10 mr-10">View with captions here.</p>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc37jCLUM-o?si=3MDPYIshOyO5piLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>    
           <p class="fs-5 ml-10 mr-10">or without captions here.</p>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_xpIqqy_aVs?si=jlyBv1Rh54avfHM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>  
         </div>
