@@ -163,25 +163,23 @@
     </div>
     <!-- End BCI Announcements Header -->
 
-    <!-- BCI Annual General Meeting March 26, 2024 -->
+    <!-- Celebrating 50 years of Bliss! -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">BCI Annual General Meeting March 26, 2024</h2>
+        <h2 class="text-center mt-2">Celebrating 50 years of Bliss!</h2>
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>March 26th 2024, BCI Annual General Meeting (AGM) will be held on Zoom<br>
-            19:00 CET corresponding to 14:00 EST, 18:00 UTC/GMT, 20:00 EET</b>
-          </p>
-          <p class="fs-5 ml-10 mr-10">The Zoom link and the Agenda and appropriate documents will be distributed to all Members of 2024 one week before the meeting.<br>
-            Motions from Members must be received by the Board no later than three weeks before the AGM thus on March 5th.<br>
-            Members have the right to vote, To pay the Membership fee for 2024, see information under Membership in the left column. Whether you become a member for the first time or renew your membership you need to fill in the Membership form.<br>
-            The formal membership notice can be found at: BCI AGM Notice 2024.<br>
-          </p>
+          <p class="fs-4 ml-10 mr-10 text-center">On November 24th 2021, we celebrated our 50th Anniversary of Blissymbolics, 1971-2021!</p>
+          <p class="fs-5 ml-10 mr-10">Thank you to everyone who joined us - 119 Zoom connections with many of those shared by multiple people.</p>
+          <p class="fs-5 ml-10 mr-10">We watched our new film “Celebrating 50 Years of Bliss!”<a class="link" href="https://www.youtube.com/watch?v=2H8e3jtrLs0"> and listened to guest speakers from our Bliss community.</p>
+          <p class="fs-5 ml-10 mr-10">Many thanks to Nora Rothschild, Penny Parnes, and Rebecca Chan for facilitating.</p>
+          <p class="fs-5 ml-10 mr-10">You can now view the film here.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2H8e3jtrLs0?si=H_CRyB56385eAX0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>  
     </div>
-    <!-- End BCI Annual General Meeting March 26, 2024 -->
+    <!-- Celebrating 50 years of Bliss! -->
 
     <!-- Divider -->
     <div>
