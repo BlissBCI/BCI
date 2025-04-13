@@ -169,6 +169,7 @@
         <h2 class="text-center mt-2">BCI Annual General Meeting (AGM) April 25 2022</h2>
       </div>  
       <div>
+        <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Team%20Meeting.jpg" class="rounded d-block mx-auto" alt="Meetings" width="400" height="250">
         <div class="articletext">
           <p class="fs-4 ml-10 mr-10 text-center"><b>ATTENTION:</b> The BCI Annual General Meeting (AGM) scheduled for March 15th 2022 has been postponed and will now be held on:, on Zoom</p>
           <p class="fs-4 ml-10 mr-10 text-center"><b>April 25th 2022</b>, on Zoom<br></p>
