@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                   <div class="mx-auto">
                     <ul class="navbar-nav d-flex flex-row gap-3 text-center">
                       <li class="nav-item">  
-                  <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/index.php">BCI Home</a></h5>
+                  <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
                   <li class="nav-itemtm">
                     <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
                   </li>
@@ -328,11 +328,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php">About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
-    </div> 
+    </div>
     <!-- End Main Menu -->
 
     <!-- Divider -->
