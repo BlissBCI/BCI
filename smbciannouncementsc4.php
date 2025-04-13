@@ -163,39 +163,23 @@
     </div>
     <!-- End BCI Announcements Header -->
 
-    <!-- Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
+    <!-- Prelude To ISAAC -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022</h2>
+        <h2 class="text-center mt-2">Prelude To ISAAC Movie</h2>
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Minneapolis, Minnesota<br>
-            New Location! Hilton Minneapolis Hotel<br>
-            Presentation Length: 1 hour<br>
-            Date and Time (Central Daylight Time):<br>
-            October 20, 2022<br>
-            1:30 pm - 2:30 pm</b>
-          </p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Presentation Title</b><br>
-            Next-Gen Tactile Symbols 3D-Printed Blissymbolics</p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Presenters</b></p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Andrea Newall</b><br>
-            Institution: University Lecturer in AAC, Speech, Language, and Hearing Program<br> 
-            Position: Speech Language Pathologist, AAC Specialist, Southern California School District</p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Anitha Muthukumaran</b><br>
-            Institution: Douglas County School Districts; University of Northern Colorado, Greeley<br> 
-            Position: Teacher of Students with Visual Impairments; Special Education Doctoral Student</p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Ken Hackbarth</b><br>
-            Institution:Volksswitch<br>
-            Position: Distinguished Member of Technical Staff; Founder and President</p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Description of Presentation</b></p>
-          <p class="fs-5 ml-10 mr-10">In this session we'll introduce you to a new generation of tactile symbols that are perfect for use with non-speaking individuals who are blind, deaf/blind, or visually impaired – including students with cognitive disabilities. The symbols benefit from two different technologies: 3D-printing and Blissymbolics. 3D-printing makes it inexpensive to create these tactile symbols. Blissymbolics provides a rich, conceptual language to develop communication skills with low cognitive requirements. The presentation will highlight the experiences shared by several teachers of students with visual impairments (TVIs) and speech language pathologists (SLPs) how they collaborate and use these tactile symbols with their students. The session will include how educators can get free access to these tactile symbols and supporting materials.
-          </p>
+          <p class="fs-4 ml-10 mr-10 text-center"><b>This film called Prelude to ISAAC was shown at the digital ISAAC meeting on the 12th of August.</b></p>
+          <p class="fs-5 ml-10 mr-10">The film is produced by Penny Parnes, Lynnette Norris, Judy wine and Shirley who all were very actively involved in introducing Blissymbolics as a mean of linguistic communication for children without functional speech in the 70ties. In the film, they interview many of the people, teachers, SLPs, technicians, parents, etc. who were involved in the Bliss work that eventually led to the creation of ISAAC and the concept.</p>
+          <p class="fs-5 ml-10 mr-10">View with captions here.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc37jCLUM-o?si=3MDPYIshOyO5piLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="fs-5 ml-10 mr-10">or without captions here.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_xpIqqy_aVs?si=jlyBv1Rh54avfHM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>  
     </div>
-    <!-- End Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
+    <!-- End Prelude To ISAAC -->
 
     <!-- Divider -->
     <div>
@@ -279,6 +263,6 @@
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->
+    <!-- End Footer -->  
   </body>
 </html>

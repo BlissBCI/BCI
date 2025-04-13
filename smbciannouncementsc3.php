@@ -166,17 +166,11 @@
     <!-- BCI Annual General Meeting March 28, 2023 -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">BCI Annual General Meeting March 28, 2023</h2>
+        <h2 class="text-center mt-2">A new book for children in Finnish, Swedish and Bliss</h2>
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>March 28th 2023, BCI Annual General Meeting (AGM) will be held on Zoom<br>
-            13:00 EDT, 17:00 GMT, 18:00 CET and 19:00 EET</b>
-          </p>
-          <p class="fs-5 ml-10 mr-10">The Zoom link and the Agenda and appropriate documents will be distributed to all     Members of 2023 one week before the meeting.<br>
-            Motions from Members must be received by the Board no later than three weeks before the AGM thus on March 7th.<br>
-            Members have the right to vote, To pay the Membership fee for 2023, see information under Membership in the left column. Whether you become a member for the first time or renew your membership you need to fill in the Membership form.
-          </p>
+          <p class="fs-4 ml-10 mr-10 text-center">Created by Marjaana Ala-Sorvari (with help from Diak and Folkhälsan, and proofreading by Leena Raveikko and Gitta Lönnqvist), the book is called "Mökkikissa" in Finnish and "Stugkatten" in Swedish.</p>
         </div>
       </div>  
     </div>

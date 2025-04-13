@@ -234,7 +234,7 @@
               <div class="card text-center text-primary" style="width: 30rem;">
                 <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
                 <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbciannouncementsc1.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 25, 2025</a></h5>
+                  <h5><a href="https://conceptography.org/smbciannouncementsc1.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Closing the Gap 40th Annual Conference October 19-21, 2022</a></h5>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@
               <div class="card text-center text-primary" style="width: 30rem;">
                 <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
                 <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbciannouncementsc2.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 26, 2024</a></h5>
+                  <h5><a href="https://conceptography.org/smbciannouncementsc2.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Celebrating 50 years of Bliss!</a></h5>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@
               <div class="card text-center text-primary" style="width: 30rem;">
                 <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
                 <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbciannouncementsc3.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 28, 2023</a></h5>
+                  <h5><a href="https://conceptography.org/smbciannouncementsc3.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">A new book for children in Finnish, Swedish and Bliss</a></h5>
                 </div>
               </div>
             </div>
@@ -273,7 +273,7 @@
               <div class="card text-center text-primary" style="width: 30rem;">
                 <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
                 <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbciannouncementsc4.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Closing the Gap 40th Annual Conference October 19-21, 2022</a></h5>
+                  <h5><a href="https://conceptography.org/smbciannouncementsc4.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Prelude To ISAAC</a></h5>
                 </div>
               </div>
             </div>

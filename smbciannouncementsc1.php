@@ -163,24 +163,39 @@
     </div>
     <!-- End BCI Announcements Header -->
 
-    <!-- BCI Annual General Meeting March 25, 2025 -->
+    <!-- Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">BCI Annual General Meeting March 25, 2025</h2>
+        <h2 class="text-center mt-2">Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022</h2>
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>March 25th 2025, BCI Annual General Meeting (AGM) will be held on Zoom
-            12:00 EDT, 16:00 GMT, 17:00 CET and 18:00 EET</b>
+          <p class="fs-4 ml-10 mr-10 text-center"><b>Minneapolis, Minnesota<br>
+            New Location! Hilton Minneapolis Hotel<br>
+            Presentation Length: 1 hour<br>
+            Date and Time (Central Daylight Time):<br>
+            October 20, 2022<br>
+            1:30 pm - 2:30 pm</b>
           </p>
-          <p class="fs-5 ml-10 mr-10">The Zoom link and the Agenda and appropriate documents will be distributed  to all Members of 2025 one week before the meeting.<br>
-            Motions from Members must be received by the Board no later than March 10th.<br>
-            Members have the right to vote, To pay the Membership fee for 2025, see information under Membership in the left column. Whether you become a member for the first time or renew your membership you need to fill in the Membership form.
+          <p class="fs-4 ml-10 mr-10 text-center"><b>Presentation Title</b><br>
+            Next-Gen Tactile Symbols 3D-Printed Blissymbolics</p>
+          <p class="fs-4 ml-10 mr-10 text-center"><b>Presenters</b></p>
+          <p class="fs-5 ml-10 mr-10 text-center"><b>Andrea Newall</b><br>
+            Institution: University Lecturer in AAC, Speech, Language, and Hearing Program<br> 
+            Position: Speech Language Pathologist, AAC Specialist, Southern California School District</p>
+          <p class="fs-5 ml-10 mr-10 text-center"><b>Anitha Muthukumaran</b><br>
+            Institution: Douglas County School Districts; University of Northern Colorado, Greeley<br> 
+            Position: Teacher of Students with Visual Impairments; Special Education Doctoral Student</p>
+          <p class="fs-5 ml-10 mr-10 text-center"><b>Ken Hackbarth</b><br>
+            Institution:Volksswitch<br>
+            Position: Distinguished Member of Technical Staff; Founder and President</p>
+          <p class="fs-4 ml-10 mr-10 text-center"><b>Description of Presentation</b></p>
+          <p class="fs-5 ml-10 mr-10">In this session we'll introduce you to a new generation of tactile symbols that are perfect for use with non-speaking individuals who are blind, deaf/blind, or visually impaired – including students with cognitive disabilities. The symbols benefit from two different technologies: 3D-printing and Blissymbolics. 3D-printing makes it inexpensive to create these tactile symbols. Blissymbolics provides a rich, conceptual language to develop communication skills with low cognitive requirements. The presentation will highlight the experiences shared by several teachers of students with visual impairments (TVIs) and speech language pathologists (SLPs) how they collaborate and use these tactile symbols with their students. The session will include how educators can get free access to these tactile symbols and supporting materials.
           </p>
         </div>
       </div>  
     </div>
-    <!-- End BCI Annual General Meeting March 25, 2025 -->
+    <!-- End Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
 
     <!-- Divider -->
     <div>
@@ -264,6 +279,6 @@
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->  
+    <!-- End Footer -->
   </body>
 </html>
