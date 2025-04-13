@@ -1,3 +1,7 @@
+<!-- PHP Main Menu -->
+  <?php $current_page = 'mmbci'; ?>
+<!-- End Main Menu -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -112,19 +116,18 @@
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <h2>
-              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbci.php' ? 'active' : '' ?>" href="https://conceptography.org/mmbci.php">About BCI</a>
+              <a class="fw-bold nav-link <?= $current_page == 'mmbci' ? 'active' : '' ?>" href="mmbci.php">About BCI</a>
             </h2>
           </li>
           <li class="nav-item">
             <h2>
-              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbliss.php' ? 'active' : '' ?>" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a>
+              <a class="fw-bold nav-link <?= $current_page == 'mmbliss' ? 'active' : '' ?>" href="mmbliss.php">About Blissymbolics</a>
             </h2>
           </li>
         </ul>
       </div>
-    </div>  
+    </div>
     <!-- End Main Menu -->
-
 
     <!-- Main Menu -->
     <div>
