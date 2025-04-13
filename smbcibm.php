@@ -117,7 +117,7 @@
           </li>
           <li class="nav-item">
             <h2>
-              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbliss.php' ? '' : '' ?>" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a>
+              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbliss.php' ? 'active' : '' ?>" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a>
             </h2>
           </li>
         </ul>
@@ -148,6 +148,35 @@
       </div>
     </div>  
     <!-- End Divider -->
+
+    <!-- BCI Sub Menu -->
+    <div class="navsub">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbcimoreaboutbci.php' ? 'active' : '' ?>" href="https://conceptography.org/smbcimoreaboutbci.php">More About BCI</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbcibm.php' ? 'active' : '' ?>" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
+         </li>
+         <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbcine.php' ? 'active' : '' ?>" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbciannouncements.php' ? 'active' : '' ?>" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbciinternationalpanel.php' ? 'active' : '' ?>" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbcimeetings.php' ? 'active' : '' ?>" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'smbcisupport.php' ? 'active' : '' ?>" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
+        </li>
+      </ul>      
+    </div>
+    <!-- End BCI Sub Menu -->
+
 
     <!-- BCI Sub Menu -->
     <div class="navsub">
