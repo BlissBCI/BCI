@@ -98,117 +98,6 @@
     </div>
     <!-- End Top Menu -->
 
-    <!-- Banner Message Carousel -->
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-innerup">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 1</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 2</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 3</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 4</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 5</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 6</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 7</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 8</h6>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-    <!-- End Banner Message Carousel -->
-
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
-
     <!-- Divider -->
     <div> 
       <div class="pagebreaktop" style="width: 98.85%">
@@ -222,10 +111,10 @@
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php"> About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="fw-bold nav-link" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
@@ -244,70 +133,71 @@
     <div class="navsub">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smbciaboutbci.html">About BCI</a></h4>
+          <h4><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/smbcimoreaboutbci.php">More About BCI</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcibm.html">BCI Board Members</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
          </li>
          <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcinews.html">BCI News</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciannouncements.html">BCI Announcements</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciinternationalpanel.html">BCI International Panel</a></h4>
+          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcimeetings.html">BCI Meetings</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h4>
-         </li>
-        </ul>
-      </div>      
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
+        </li>
+      </ul>      
     </div>
     <!-- End BCI Sub Menu -->
 
-    <!-- BCI Announcements Header --> 
+    <!-- BCI BCI International Panel Header --> 
     <div class="textheading">
-      <h2 class="text-center mt-2">BCI Announcements</h2>
+      <h2 class="text-center mt-2">BCI International Panel </h2>
     </div>
-    <!-- End BCI Announcements Header -->
+    <!-- End BCI International Panel Header -->
 
-    <!-- Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
+    <!-- BCI International Panel  -->
     <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022</h2>
+        <h2 class="text-center mt-2">International Panel </h2>
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Minneapolis, Minnesota<br>
-            New Location! Hilton Minneapolis Hotel<br>
-            Presentation Length: 1 hour<br>
-            Date and Time (Central Daylight Time):<br>
-            October 20, 2022<br>
-            1:30 pm - 2:30 pm</b>
-          </p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Presentation Title</b><br>
-            Next-Gen Tactile Symbols 3D-Printed Blissymbolics</p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Presenters</b></p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Andrea Newall</b><br>
-            Institution: University Lecturer in AAC, Speech, Language, and Hearing Program<br> 
-            Position: Speech Language Pathologist, AAC Specialist, Southern California School District</p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Anitha Muthukumaran</b><br>
-            Institution: Douglas County School Districts; University of Northern Colorado, Greeley<br> 
-            Position: Teacher of Students with Visual Impairments; Special Education Doctoral Student</p>
-          <p class="fs-5 ml-10 mr-10 text-center"><b>Ken Hackbarth</b><br>
-            Institution:Volksswitch<br>
-            Position: Distinguished Member of Technical Staff; Founder and President</p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Description of Presentation</b></p>
-          <p class="fs-5 ml-10 mr-10">In this session we'll introduce you to a new generation of tactile symbols that are perfect for use with non-speaking individuals who are blind, deaf/blind, or visually impaired – including students with cognitive disabilities. The symbols benefit from two different technologies: 3D-printing and Blissymbolics. 3D-printing makes it inexpensive to create these tactile symbols. Blissymbolics provides a rich, conceptual language to develop communication skills with low cognitive requirements. The presentation will highlight the experiences shared by several teachers of students with visual impairments (TVIs) and speech language pathologists (SLPs) how they collaborate and use these tactile symbols with their students. The session will include how educators can get free access to these tactile symbols and supporting materials.
-          </p>
+        <p class="fs-5 ml-10 mr-10">The International Panel is a working group within BCI. The object of the group is to develop Blissymbolics so that the vocabulary grows and its high standard is maintained. A broad international representation on the panel is needed to ensure that each new Bliss-word is built on the core meaning of a concept.          
+        </p>
+        <p class="fs-5 ml-10 mr-10">The requirements for being a member of the International Panel and attending the panel meetings are as follows:<br>
+        <i class="fa fa-square" aria-hidden="true"></i>You have a membership in BCI<br>
+        <i class="fa fa-square" aria-hidden="true"></i>You are an AAC user or have other experience in AAC work<br>
+        <i class="fa fa-square" aria-hidden="true"></i>The BCI Board has approved you as a member<br>
+        </p>
+        <p class="fs-5 ml-10 mr-10">To be considered as a new member of the IP, you can:<br> 
+        <i class="fa fa-square" aria-hidden="true"></i>be recommended to the BCI Board by another panel member<br>
+        <i class="fa fa-square" aria-hidden="true"></i>send a personal request to the BCI Board<br>
+        </p>
+        <p class="fs-5 ml-10 mr-10">The Board welcomes new participants! For questions contact <a class="link" href="https://conceptography.org/fcontactus.html">bci@blissymbolics.org</a>.<br>
+        </p>
+        <p class="fs-5 ml-10 mr-10 text-center">Please fill out the form below as a request to the BCI Board to become a member of the International Panel.<br>
+        By signing up for the new International Panel list you also agree to the GDPR (General Data Protection Regulation).
+        </p>
         </div>
       </div>  
     </div>
-    <!-- End Closing the Gap 40TH ANNUAL CONFERENCE OCTOBER 19-21, 2022 -->
+    <!-- BCI International Panel  -->
+
+    <!-- Google Form -->
+    <div>
+      <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXjVAjQalOVXJwOthE-UhRpviVCxj3Oiavoo95BlgDmZeBIQ/viewform?embedded=true&pli=1" width="1600" height="1725" frameborder="0" marginheight="0" marginwidth="0">International Panel Application</iframe>
+      </div>
+    </div>
+    <!-- End Google Form -->
 
     <!-- Divider -->
     <div>
