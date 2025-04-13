@@ -172,10 +172,12 @@
         <div class="articletext">
           <p class="fs-4 ml-10 mr-10 text-center">On November 24th 2021, we celebrated our 50th Anniversary of Blissymbolics, 1971-2021!</p>
           <p class="fs-5 ml-10 mr-10">Thank you to everyone who joined us - 119 Zoom connections with many of those shared by multiple people.</p>
-          <p class="fs-5 ml-10 mr-10">We watched our new film “Celebrating 50 Years of Bliss!”<a class="link" href="https://www.youtube.com/watch?v=2H8e3jtrLs0"> and listened to guest speakers from our Bliss community.</p>
+          <p class="fs-5 ml-10 mr-10">We watched our new film <a class="link" href="https://www.youtube.com/watch?v=2H8e3jtrLs0">“Celebrating 50 Years of Bliss!”</a> and listened to guest speakers from our Bliss community.</p>
           <p class="fs-5 ml-10 mr-10">Many thanks to Nora Rothschild, Penny Parnes, and Rebecca Chan for facilitating.</p>
           <p class="fs-5 ml-10 mr-10">You can now view the film here.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/2H8e3jtrLs0?si=H_CRyB56385eAX0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2H8e3jtrLs0?si=H_CRyB56385eAX0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>    
         </div>
       </div>  
     </div>
