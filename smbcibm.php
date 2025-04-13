@@ -376,7 +376,17 @@
             <div class="card-body">
               <h5 class="card-title text-center">Annalu Waller<br>Citizenship: Scotland and South Africa</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-center"><small class="text-body-secondary">Research<br>
+              Annalu Waller is a chartered rehabilitation engineer and Professor of Human Communication Technologies at the University of Dundee. Annalu directs the Dundee Augmentative and Alternate Communication (AAC) Research Group.
+              Annalu has worked in the field of AAC since 1985, designing communication systems for and with nonspeaking individuals. She established the first AAC assessment and training centre in South Africa in 1987 before coming to Dundee in 1989. Her PhD developed narrative technology support for adults with acquired aphasia following stroke. Her primary research areas are human computer interaction, natural language processing, personal narrative and assistive technology. In particular, she focuses on empowering end users, including disabled adults and children, by involving them in the design and use of technology.
+              Annalu has been Principal Investigator on several interdisciplinary research projects together with industry and practitioners from rehabilitation engineering, special education, speech and language therapy, nursing and dentistry. She is a trustee/director of a number of national and international organisations representing disabled people. 
+              Annalu was awarded an OBE in 2016 for services to people with Complex Communication Needs and is an Honorary Fellow of the Royal College of Speech and Language Therapists.
+              Annalu is an ordained priest in the Scottish Episcopal (Anglican) Church and is an honoray chaplain within the University Chaplaincy team.<br>
+              Teaching<br>
+              Annalu has over 30 years of teaching experience during which she has taught introductory programming (Pascal, C, Java); Database Systems; Human Computer Interaction and aspects of Assistive Technology to a variety of undergraduate, postgraduate and professional students. Her teaching philosophy stems from a desire to enable students to reach their individual potential and to equip them as future leaders.
+              Annalu and members of the Straight Talking Group deliver teaching on AAC and inclusive practice across disciplines. The group supports students, researchers and industry by sharing their expertise as people who use AAC. The group has developed bespoke workshops for 2nd year medical students and have introduced students to "the person behind the disability" for the past ten years.<br>
+              Expertise related to UN Sustainable Development Goals<br>
+              In 2015, UN member states agreed to 17 global Sustainable Development Goals (SDGs) to end poverty, protect the planet and ensure prosperity for all.</small></p>
             </div>
           </div>
         </div>
