@@ -169,6 +169,7 @@
         <h2 class="text-center mt-2">BCI Annual General Meeting March 26, 2024</h2>
       </div>  
       <div>
+        <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Team%20Meeting.jpg" class="rounded d-block mx-auto" alt="Meetings" width="400" height="250">
         <div class="articletext">
           <p class="fs-4 ml-10 mr-10 text-center"><b>March 26th 2024, BCI Annual General Meeting (AGM) will be held on Zoom<br>
             19:00 CET corresponding to 14:00 EST, 18:00 UTC/GMT, 20:00 EET</b>
