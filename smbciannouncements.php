@@ -98,6 +98,14 @@
     </div>
     <!-- End Top Menu -->
 
+    <!-- Divider -->
+    <div> 
+      <div class="pagebreak" style="width: 100%">
+        <hr class="bg-primary border-0 border-top border-primary"/>
+      </div>
+    </div>  
+    <!-- End Divider -->    
+
     <!-- Main Menu -->
     <div>
       <div class="navmain">
