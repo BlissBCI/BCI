@@ -348,7 +348,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Rein Aksberg<br>Citizenship: Sweden</h5>
               <p class="card-text text-center"><b>President</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -362,7 +362,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Sally Millar<br>Citizenship: UK</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -376,7 +376,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Annalu Waller<br>Citizenship: Scotland and South Africa</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Research<br>
+              <p class="card-text text-justify"><small class="text-body-secondary">Research<br>
               Annalu Waller is a chartered rehabilitation engineer and Professor of Human Communication Technologies at the University of Dundee. Annalu directs the Dundee Augmentative and Alternate Communication (AAC) Research Group.
               Annalu has worked in the field of AAC since 1985, designing communication systems for and with nonspeaking individuals. She established the first AAC assessment and training centre in South Africa in 1987 before coming to Dundee in 1989. Her PhD developed narrative technology support for adults with acquired aphasia following stroke. Her primary research areas are human computer interaction, natural language processing, personal narrative and assistive technology. In particular, she focuses on empowering end users, including disabled adults and children, by involving them in the design and use of technology.
               Annalu has been Principal Investigator on several interdisciplinary research projects together with industry and practitioners from rehabilitation engineering, special education, speech and language therapy, nursing and dentistry. She is a trustee/director of a number of national and international organisations representing disabled people. 
@@ -400,7 +400,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Andrius Raščius<br>Citizenship: Iceland and Lithuania</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -414,7 +414,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Nadia Browning<br>Citizenship: Canada</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Nadia Browning is an occupational therapist with over 40 years of experience working with individuals with complex communication needs, their families and staff. She graduated in Occupational Therapist in Rio de Janeiro in 1978 and completed her Master of Science degree from the University of Western Ontario (UWO), London, Ontario, Canada (2001). In 1980, Nadia was trained by BCI to use and teach Blissymbols. She became the first trained therapist in Brazil. Nadia has worked in the field of AAC with multidisciplinary teams in a variety of organizations in Brazil, Canada and the United Kingdom. Nadia has taught at universities in Brazil, Canada, Germany and Chile. Nadia continues to present national and international workshops. Nadia was the Chair of the Executive Council of the International Society of Augmentative and Alternative Communication (ISAAC) from 2018 to 2021. She has been an active member of ISAAC since 1987. Currently serving on the BCI board of directors.</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Nadia Browning is an occupational therapist with over 40 years of experience working with individuals with complex communication needs, their families and staff. She graduated in Occupational Therapist in Rio de Janeiro in 1978 and completed her Master of Science degree from the University of Western Ontario (UWO), London, Ontario, Canada (2001). In 1980, Nadia was trained by BCI to use and teach Blissymbols. She became the first trained therapist in Brazil. Nadia has worked in the field of AAC with multidisciplinary teams in a variety of organizations in Brazil, Canada and the United Kingdom. Nadia has taught at universities in Brazil, Canada, Germany and Chile. Nadia continues to present national and international workshops. Nadia was the Chair of the Executive Council of the International Society of Augmentative and Alternative Communication (ISAAC) from 2018 to 2021. She has been an active member of ISAAC since 1987. Currently serving on the BCI board of directors.</small></p>
             </div>
           </div>
         </div>
@@ -428,7 +428,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Ariné Kuyler<br>Citizenship: South Africa</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Dr Ariné Kuyler is currently a postdoctoral research fellow in the Department of Inclusive Education at the University of South Africa. She is a speech-language pathologist and completed her Master's and PhD in Augmentative and Alternative Communication at the University of Pretoria in South Africa. She has worked with children with intellectual, learning and physical disabilities in public schools in South Africa. Her research focuses on disability, AAC, and communication partner training in the context of school and health. She is particularly interested in profound intellectual and multiple disabilities, palliative care, AI, digital healthcare and the impact on communication and AAC. Her passion is also to incorporate Bliss to empower children with disabilities to access literacy, communication and to improve their participation in all contexts.</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Dr Ariné Kuyler is currently a postdoctoral research fellow in the Department of Inclusive Education at the University of South Africa. She is a speech-language pathologist and completed her Master's and PhD in Augmentative and Alternative Communication at the University of Pretoria in South Africa. She has worked with children with intellectual, learning and physical disabilities in public schools in South Africa. Her research focuses on disability, AAC, and communication partner training in the context of school and health. She is particularly interested in profound intellectual and multiple disabilities, palliative care, AI, digital healthcare and the impact on communication and AAC. Her passion is also to incorporate Bliss to empower children with disabilities to access literacy, communication and to improve their participation in all contexts.</small></p>
             </div>
           </div>
         </div>
@@ -442,7 +442,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Jenny Kimhag<br>Citizenship: Sweden</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -456,7 +456,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Louisa Alberts<br>Citizenship: South Africa</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -470,7 +470,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Russell Galvin<br>Citizenship: Canada</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -484,7 +484,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Francesco Ganzaroli<br>Citizenship: Italy</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -498,7 +498,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Peter Zein<br>Citizenship: UK</h5>
               <p class="card-text text-center"><b>Secretary</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
@@ -512,7 +512,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">Halla Harpa Stéfansdóttir<br>Citizenship: Iceland</h5>
               <p class="card-text text-center"><b>Observer</b></p>
-              <p class="card-text text-center"><small class="text-body-secondary">Text</small></p>
+              <p class="card-text text-justify"><small class="text-body-secondary">Text</small></p>
             </div>
           </div>
         </div>
