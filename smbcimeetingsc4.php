@@ -170,7 +170,7 @@
       </div>  
       <div>
         <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>ATTENTION:</b> The BCI Annual General Meeting (AGM) scheduled for March 15th 2022 has been postponed and will now be held on:, on Zoom<br></p>
+          <p class="fs-4 ml-10 mr-10 text-center"><b>ATTENTION:</b> The BCI Annual General Meeting (AGM) scheduled for March 15th 2022 has been postponed and will now be held on:, on Zoom</p>
           <p class="fs-4 ml-10 mr-10 text-center"><b>April 25th 2022</b>, on Zoom<br></p>
           <p class="fs-4 ml-10 mr-10 text-center"><b>12:00 EDT, 16:00 GMT, 18:00 CET and 19:00 EET</b></p>
           <p class="fs-5 ml-10 mr-10">The Zoom link, agenda and documents will be distributed to all Members of 2022 one week before the meeting.<br>
