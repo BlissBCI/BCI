@@ -98,117 +98,6 @@
     </div>
     <!-- End Top Menu -->
 
-    <!-- Banner Message Carousel -->
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-innerup">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 1</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 2</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 3</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 4</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 5</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 6</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 7</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 8</h6>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-    <!-- End Banner Message Carousel -->
-
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
-
     <!-- Divider -->
     <div> 
       <div class="pagebreaktop" style="width: 98.85%">
@@ -222,10 +111,10 @@
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php"> About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="fw-bold nav-link" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
@@ -244,65 +133,154 @@
     <div class="navsub">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smbciaboutbci.html">About BCI</a></h4>
+          <h4><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/smbcimoreaboutbci.php">More About BCI</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcibm.html">BCI Board Members</a></h4>
+          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
          </li>
          <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcinews.html">BCI News</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciannouncements.html">BCI Announcements</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciinternationalpanel.html">BCI International Panel</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcimeetings.html">BCI Meetings</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h4>
-         </li>
-        </ul>
-      </div>      
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
+        </li>
+      </ul>      
     </div>
     <!-- End BCI Sub Menu -->
 
-    <!-- BCI News Header --> 
-    <div class = "textheading">
-      <h2 class = "text-center mt-2">BCI News</h2>
-    </div>
-    <!-- End BCI News Header -->
-
-    <!-- Blissymbolics Success in South Africa -->
-    <div>
-      <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Blissymbolics%20Success%20in%20South%20Africa%201.jpg" class="rounded d-block mx-auto" alt="Blissymbolics Success in South Africa" width="400" height="250">
+    <!-- BCI Board of Directors -->
+    <div> 
       <div class="textheading">
-        <h2 class="text-center mt-2">Blissymbolics Success in South Africa</h2>
-      </div>  
+        <h2 class="text-center mt-2">BCI Board of Directors</h2>
+      </div>
+      <div> 
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Rein Aksberg<br>Citizenship: Sweden</p>
+              <div class="card-text text-center"><b>President</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Sally Millar<br>Citizenship: UK</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Annalu Waller<br>Citizenship: Scotland and South Africa</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Andrius Raščius<br>Citizenship: Iceland and Lithuania</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
       <div>
-        <div class="articletext">
-          <p class="fs-4 ml-10 mr-10 text-center"><b>The wonderful story of Louisa Alberts using Blissymbolics with Special Needs Learners</b>
-          </p>
-          <p class="fs-5 ml-10 mr-10">A Blissymbolics classroom was opened at Platorand School in Belfast, South Africa in 2014. Many graduates have gone on to great success with the inspired teaching of Louisa Alberts who in turn was helped by Margareta Jennishce of BCI, and others.<br>
-          Read it here:
-          </p>
-          <div>
-            <div class="pdfsouthafrica">
-            <!-- <iframe src="assets/Blissymbolics_Update_from_South_Africa_2023-09-26.pdf" width="1600" height="2650" frameborder="0" marginheight="0" marginwidth="0">Blissymbolics in South Africa</iframe> -->
-
-            <!-- <iframe src="https://www.blissymbolics.net/content/Blissymbolics_Update_from_South_Africa_2023-09-26.pdf" width="1600" height="2650" frameborder="0" marginheight="0" marginwidth="0">Blissymbolics in South Africa</iframe> -->
-
-            <embed src="https://drive.google.com/file/d/11BZb2sBVTFQKHpOTEryjHjtH8vYKkpIg/view?usp=sharing" width="820" height="7925" type="pdf"><!-- was working earlier, not won't load -->
-
-            <!-- <object src="https://www.blissymbolics.net/content/Blissymbolics_Update_from_South_Africa_2023-09-26.pdf" width="1600" height="2650" type="application/pdf"></object> -->
-            </div>    
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Nadia Browning<br>Citizenship: Canada</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Andrea Lee<br>Citizenship: UK</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Ariné Kuyler<br>Citizenship: South Africa</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Jenny Kimhag<br>Citizenship: Sweden</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Louisa Alberts<br>Citizenship: South Africa</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Russell Galvin<br>Citizenship: Canada</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Francesco Ganzaroli<br>Citizenship: Italy</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Peter Zein<br>Citizenship: UK</p>
+              <div class="card-text text-center"><b>Secretary</b></div>
+          </div>
+        </div>
+      </div>
+      <div>  
+        <div class="cardbcibm" style="width: 18rem;">
+          <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Halla Harpa Stéfansdóttir<br>Citizenship: Iceland</p>
+              <div class="card-text text-center"><b>Observer</b></div>
           </div>
         </div>
       </div>  
-    </div>
-    <!-- End Blissymbolics Success in South Africa -->
+    </div>  
+    <!-- End BCI Board of Directors -->
 
     <!-- Divider -->
     <div>

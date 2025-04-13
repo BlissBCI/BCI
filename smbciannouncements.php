@@ -168,64 +168,15 @@
     </div>  
     <!-- End Banner Message Carousel -->
 
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
-
-    <!-- Divider -->
-    <div> 
-      <div class="pagebreaktop" style="width: 98.85%">
-        <hr class="bg-primary border-0 border-top border-primary"/>
-      </div>
-    </div>  
-    <!-- End Divider -->
-
     <!-- Main Menu -->
     <div>
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php"> About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="fw-bold nav-link" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
@@ -244,54 +195,93 @@
     <div class="navsub">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smbciaboutbci.html">About BCI</a></h4>
+          <h4><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/smbcimoreaboutbci.php">More About BCI</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcibm.html">BCI Board Members</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
          </li>
          <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcinews.html">BCI News</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciannouncements.html">BCI Announcements</a></h4>
+          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbciinternationalpanel.html">BCI International Panel</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcimeetings.html">BCI Meetings</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h4>
-         </li>
-        </ul>
-      </div>      
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
+        </li>
+      </ul>      
     </div>
     <!-- End BCI Sub Menu -->
 
-    <!-- About BCI -->
-    <div> 
-      <div class = "textheading">
-        <h2 class = "text-center mt-2">About BCI</h2>
-      </div>  
-      <div>
-        <div class = "articletext">
-          <p class="fs-5 ml-10 mr-10">Blissymbolics Communication International (BCI) is a non-profit, charitable organization that received the perpetual, worldwide, exclusive licence from C.K. Bliss (1975, 1982) for the use and publication of Blissymbols for persons with communication, language and learning difficulties. BCI is now using its copyright to provide widest possible access to Blissymbolics under licensing conditions for both free and proprietary use (see Licensing information). BCI is giving leadership world-wide to the development of the system of Blissymbolics and to its use - primarily by persons with severe speech and physical impairments. Since recent years (upon request from the last representatives of the Australian Semantography Trust) BCI also encourages wider use of Blissymbolics outside of the AAC field.
-          </p>  
-          <p class="fs-5 ml-10 mr-10">Since its incorporation in Ontario, Canada, in 1975, BCI has supported Blissymbol use through the training of professionals, assistance to Blissymbol users, consultation, publications, technology and software development, and projects related to Blissymbol applications. Some professionals associated with BCI have been working with Blissymbolics since the system's first application to children with cerebral palsy in 1971. Since 2011 BCI has moved its home base to Sweden.
-          </p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>Funding</b></p>
-          <p class="fs-5 ml-10 mr-10">Over the years, funding support has been received from many groups including the Ministry of Education, Province of Ontario; the Department of Communications (now Industry Canada), Government of Canada; The Ontario Crippled Children's Centre; The Easter Seal Society of Ontario; the Ontario Federation for Cerebral Palsy; and charitable foundations; service clubs; private industry and private individuals. Since the move to Sweden the BCI work has been supported by DART, SPSM, the Chelha and IDO foundations. We continue to encourage funding from various sources world-wide.
-          </p>
-          <p class="fs-4 ml-10 mr-10 text-center"><b>BCI online</b></p>
-          <p class="fs-5 ml-10 mr-10">In the last dozen or so years, BCI has been striving to further enhance communication opportunities by bringing access to the internet to Bliss users. 
-          </p>
-          <p class="fs-5 ml-10 mr-10">We have gradually moved towards having most of the development and management of BCI itself being done on the internet. We hope that this new and more accessible version of our website  will increase even further the opportunities for all, eventually including  more of those who do not speak, to participate in all aspects of BCI's life and work.
-          </p>
-        </div>
-      </div>  
+    <!-- BCI Announcements Header --> 
+    <div class = "textheading">
+      <h2 class = "text-center mt-2">BCI Announcements</h2>
+    </div>
+    <!-- End BCI Announcements Header -->
+
+    <!-- 2 Grid Card -->
+    <div>      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 d-flex justify-content-center">
+            <div class="card">
+              <div class="card text-center text-primary" style="width: 30rem;">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+                <div class="card-body">
+                  <h5><a href="https://conceptography.org/smbciannouncementsc1.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 25, 2025</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center">
+            <div class="card">
+              <div class="card text-center text-primary" style="width: 30rem;">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+                <div class="card-body">
+                  <h5><a href="https://conceptography.org/smbciannouncementsc2.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 26, 2024</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
     </div>  
-    <!-- End About BCI -->
+    <!-- End 2 Grid Card-->
+
+    <!-- 2 Grid Card -->
+    <div>      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 d-flex justify-content-center">
+            <div class="card">
+              <div class="card text-center text-primary" style="width: 30rem;">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+                <div class="card-body">
+                  <h5><a href="https://conceptography.org/smbciannouncementsc3.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 28, 2023</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center">
+            <div class="card">
+              <div class="card text-center text-primary" style="width: 30rem;">
+                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
+                <div class="card-body">
+                  <h5><a href="https://conceptography.org/smbciannouncementsc4.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Closing the Gap 40th Annual Conference October 19-21, 2022</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>  
+    <!-- End 2 Grid Card-->
 
     <!-- Divider -->
     <div>
@@ -375,6 +365,6 @@
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->
+    <!-- End Footer -->  
   </body>
 </html>
