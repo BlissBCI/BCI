@@ -111,6 +111,26 @@
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
+            <h2>
+              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbci.php' ? 'active' : '' ?>" href="https://conceptography.org/mmbci.php">About BCI</a>
+            </h2>
+          </li>
+          <li class="nav-item">
+            <h2>
+              <a class="fw-bold nav-link <?= basename($_SERVER['PHP_SELF']) == 'mmbliss.php' ? '' : '' ?>" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a>
+            </h2>
+          </li>
+        </ul>
+      </div>
+    </div>  
+    <!-- End Main Menu -->
+
+
+    <!-- Main Menu -->
+    <div>
+      <div class="navmain">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
             <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php"> About BCI</a></h2>
           </li>
           <li class="nav-item">
