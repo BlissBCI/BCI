@@ -325,10 +325,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">About BCI</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php">About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h2>
+            <h2><a class="nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
