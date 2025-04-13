@@ -98,117 +98,6 @@
     </div>
     <!-- End Top Menu -->
 
-    <!-- Banner Message Carousel -->
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-innerup">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo1.png" class="d-block w-100" alt="Banner 1">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 1</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo2.png" class="d-block w-100" alt="Banner 2">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 2</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo3.png" class="d-block w-100" alt="Banner 3">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 3</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo4.png" class="d-block w-100" alt="Banner 4">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 4</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo5.png" class="d-block w-100" alt="Banner 5">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 5</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo6.png" class="d-block w-100" alt="Banner 6">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 6</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo7.png" class="d-block w-100" alt="Banner 7">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 7</h6>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/Bliss%20Banner%20Photo8.png" class="d-block w-100" alt="Banner 8">
-                <div class="carousel-caption text-primary">
-                  <h6>Banner 8</h6>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextup btn btn-primary" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-    <!-- End Banner Message Carousel -->
-
-    <!-- Photo Carousel Basic -->
-    <div>
-    <div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20243ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20242ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC20241ed.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 3">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 3</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Photo Carousel Basic -->
-
     <!-- Divider -->
     <div> 
       <div class="pagebreaktop" style="width: 98.85%">
@@ -219,17 +108,17 @@
 
     <!-- Main Menu -->
     <div>
-      <div class ="navmain">
+      <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="text-primary nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html">BCI</a></h2>
+            <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.php"> About BCI</a></h2>
           </li>
           <li class="nav-item">
-            <h2><a class="text-primary nav-link" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></h2>
+            <h2><a class="fw-bold nav-link" href="https://conceptography.org/mmbliss.php">About Blissymbolics</a></h2>
           </li>
         </ul>
       </div>
-    </div>      
+    </div>  
     <!-- End Main Menu -->
 
     <!-- Divider -->
@@ -240,41 +129,33 @@
     </div>  
     <!-- End Divider -->
 
-    <!-- Bliss Sub Menu -->
-    <div>
-      <div class ="navsub">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <h4><a class="nav-link active" aria-current="page" href="https://conceptography.org/smblissaboutblissymbolics.html">About Blissymbolics</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhyisblissused.html">Why Is Bliss Used?</a></h4>
-           </li>
-           <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhousesbliss.html">Who Uses Bliss?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisswhereisblissused.html">Where Is Bliss Used?</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisshowisblissused.html">How Is Bliss Used – Workshop</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissav.html">BCI Authorised Vocabulary (AV)</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslearnmore.html">Learn More</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblissbciarchives.html">BCI Archives</a></h4>
-          </li>
-          <li class="nav-item">
-            <h4><a class="nav-link" href="https://conceptography.org/smblisslicensing.html">Licensing</a></h4>
-          </li>
-        </ul>
-      </div>      
+    <!-- BCI Sub Menu -->
+    <div class="navsub">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/smbcimoreaboutbci.php">More About BCI</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
+         </li>
+         <li class="nav-item">
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
+        </li>
+      </ul>      
     </div>
-    <!-- End Bliss Sub Menu -->
+    <!-- End BCI Sub Menu -->
 
     <!-- Welcome -->
     <div> 
@@ -282,7 +163,7 @@
         <h2 class="text-center mt-2">Welcome</h2>
       </div>  
       <div>
-        <div class="articletext">
+        <div class = "articletext">
           <p class="fs-5 ml-10 mr-10">Blissymbolics is a semantic graphical language that is currently composed of more than 5000 authorized symbols - Bliss-characters and Bliss-words. It is a generative language that allows its users to create new Bliss-words as needed. It is used by individuals with severe speech and physical impairments around the world, but also by others for language learning and support, or just for the fascination and joy of this unique language representation.
           </p>
           <p class="fs-5 ml-10 mr-10">Blissymbolics Communication International is a non-profit, charitable organization that holds the perpetual, worldwide rights for the use and publication of Blissymbols. BCI provides leadership in the development of the system of Blissymbolics. Blissymbolics is offered for all to use under a choice of two generous licensing schemes - either a free, copyleft license, or a proprietary license agreement. See under Licensing for more information.
@@ -374,7 +255,6 @@
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->  
-    
+    <!-- End Footer -->
   </body>
 </html>
