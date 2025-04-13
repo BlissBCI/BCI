@@ -139,7 +139,7 @@
           <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcibm.php">BCI Board Members</a></h4>
          </li>
          <li class="nav-item">
-          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
+          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbcinews.php">BCI News</a></h4>
         </li>
         <li class="nav-item">
           <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciannouncements.php">BCI Announcements</a></h4>
@@ -148,7 +148,7 @@
           <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbciinternationalpanel.php">BCI International Panel</a></h4>
         </li>
         <li class="nav-item">
-          <h4><a class="fw-bold nav-link active" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimeetings.php">BCI Meetings</a></h4>
         </li>
         <li class="nav-item">
           <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcisupport.php">Support BCI</a></h4>
@@ -157,71 +157,31 @@
     </div>      
     <!-- End BCI Sub Menu -->
 
-    <!-- BCI Meetings -->
+    <!-- BCI Meetings Header --> 
+    <div class = "textheading">
+      <h2 class = "text-center mt-2">BCI Meetings</h2>
+    </div>
+    <!-- End BCI Meetings Header -->
+
+    <!-- BCI Annual General Meeting March 26, 2024 -->
     <div> 
-      <div class = "textheading">
-        <h2 class = "text-center mt-2">BCI Meetings</h2>
+      <div class="textheading">
+        <h2 class="text-center mt-2">BCI Annual General Meeting March 26, 2024</h2>
       </div>  
-    </div>  
-    <!-- End BCI Meetings -->
-
-    <!-- 2 Grid Card -->
-    <div>      
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6 d-flex justify-content-center">
-            <div class="card">
-              <div class="card text-center text-primary" style="width: 30rem;">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
-                <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbcimeetingsc1.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 25, 2025</a></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 d-flex justify-content-center">
-            <div class="card">
-              <div class="card text-center text-primary" style="width: 30rem;">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
-                <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbcimeetings2.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 26, 2024</a></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-      </div>
-    </div>  
-    <!-- End 2 Grid Card-->
-
-    <!-- 2 Grid Card -->
-    <div>      
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6 d-flex justify-content-center">
-            <div class="card">
-              <div class="card text-center text-primary" style="width: 30rem;">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
-                <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbcimeetingsc3.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting<br> March 28, 2023</a></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 d-flex justify-content-center">
-            <div class="card">
-              <div class="card text-center text-primary" style="width: 30rem;">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_ed.jpg" class="card-img-top rounded d-block mx-auto" alt="...">
-                <div class="card-body">
-                  <h5><a href="https://conceptography.org/smbcimeetingsc4.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">BCI Annual General Meeting (AGM)<br> April 25 2022</a></h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-      </div>
-    </div>  
-    <!-- End 2 Grid Card-->
+      <div>
+        <div class="articletext">
+          <p class="fs-4 ml-10 mr-10 text-center"><b>March 26th 2024, BCI Annual General Meeting (AGM) will be held on Zoom<br>
+            19:00 CET corresponding to 14:00 EST, 18:00 UTC/GMT, 20:00 EET</b>
+          </p>
+          <p class="fs-5 ml-10 mr-10">The Zoom link and the Agenda and appropriate documents will be distributed to all Members of 2024 one week before the meeting.<br>
+            Motions from Members must be received by the Board no later than three weeks before the AGM thus on March 5th.<br>
+            Members have the right to vote, To pay the Membership fee for 2024, see information under Membership in the left column. Whether you become a member for the first time or renew your membership you need to fill in the Membership form.<br>
+            The formal membership notice can be found at: BCI AGM Notice 2024.<br>
+          </p>
+        </div>
+      </div>  
+    </div>
+    <!-- End BCI Annual General Meeting March 26, 2024 -->
 
     <!-- Divider -->
     <div>
