@@ -1,45 +1,3 @@
-<!-- PHP -->
-<?php
-$alert_message = '';
-$alert_class = '';
-
-$conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCImaillist");
-
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
-    $name = trim($_POST['name']);
-    $email = trim($_POST['email']);
-
-    // Validate email format
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $alert_message = "Please enter a valid email address.";
-        $alert_class = "alert-warning";
-    } else {
-        // Check if email already exists
-        $stmt = $conn->prepare("SELECT Email FROM mail WHERE Email = ?");
-        $stmt->bind_param("s", $email);
-        $stmt->execute();
-        $stmt->store_result();
-
-        if ($stmt->num_rows > 0) {
-            $alert_message = "This email is already in use.";
-            $alert_class = "alert-danger";
-        } else {
-            // Insert into DB
-            $stmt = $conn->prepare("INSERT INTO mail (Name, Email) VALUES (?, ?)");
-            $stmt->bind_param("ss", $name, $email);
-            if ($stmt->execute()) {
-                $alert_message = "You've been added to the BCI mailing list!";
-                $alert_class = "alert-success";
-            } else {
-                $alert_message = "Error: " . $stmt->error;
-                $alert_class = "alert-danger";
-            }
-        }
-    }
-}
-?>
-<!-- End PHP -->
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -433,17 +391,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
     <!-- End Footer -->
-
-    <!-- Modal PHP -->                    
-    <?php if (!empty($alert_message)): ?>
-    <script>
-      const myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-      window.addEventListener('load', () => {
-        myModal.show();
-      });
-    </script>
-    <?php endif; ?>
-    <!-- End Modal PHP -->
-
   </body>
 </html>
