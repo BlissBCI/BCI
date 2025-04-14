@@ -18,25 +18,25 @@
 }
 
 /* Nav change text color*/
-/* Navbar change text color*/
+/* Navbar - change text color on all states */
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
-.navbar .nav-link.active {
+.navbar .nav-link:active {
   color: black !important;
 }
 
-/* Navmain change text color*/
-.navmain .nav-item .nav-link:hover,
-.navmain .nav-item .nav-link:focus,
-.navmain .nav-item .nav-link:active {
-    color: black !important;
+/* Navmain - change text color on all states */
+.navmain .nav-link:hover,
+.navmain .nav-link:focus,
+.navmain .nav-link:active {
+  color: black !important;
 }
 
-/* Navsub change text color*/
-.navsub .nav-item .nav-link:hover,
-.navsub .nav-item .nav-link:focus,
-.navsub .nav-item .nav-link:active {
-    color: black !important;
+/* Navsub - change text color on all states */
+.navsub .nav-link:hover,
+.navsub .nav-link:focus,
+.navsub .nav-link:active{
+  color: black !important;
 }
 
 /* Change background color*/
