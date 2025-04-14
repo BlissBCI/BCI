@@ -144,7 +144,7 @@
       <div class="navmain">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <h2><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/mmbci.html"> About BCI</a></h2>
+            <h2><a class="fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbci.html"> About BCI</a></h2>
           </li>
           <li class="nav-item">
             <h2><a class="fw-bold nav-link" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h2>
@@ -166,7 +166,7 @@
     <div class="navsub">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <h4><a class="fw-bold nav-link" aria-current="page" href="https://conceptography.org/smbcimoreaboutbci.html">More About BCI</a></h4>
+          <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcimoreaboutbci.html">More About BCI</a></h4>
         </li>
         <li class="nav-item">
           <h4><a class="fw-bold nav-link" href="https://conceptography.org/smbcibm.html">BCI Board Members</a></h4>
@@ -289,19 +289,5 @@
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
     <!-- End Footer -->
-    <!-- Active Page -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const currentUrl = window.location.href;
-        document.querySelectorAll(".nav-link").forEach(link => {
-          if (link.href === currentUrl) {
-            link.classList.add("active");
-          } else {
-            link.classList.remove("active");
-          }
-        });
-      });
-    </script>
-    <!-- End Active Page -->
   </body>
 </html>
