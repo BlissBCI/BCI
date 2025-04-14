@@ -23,6 +23,12 @@
   color: black !important;
 }
 
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item .nav-link:active {
+    color: black !important;
+}
+
 /* Change background color*/
 body {
     background-color: white;
