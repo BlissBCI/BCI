@@ -17,15 +17,25 @@
     border: #0d6efd;
 }
 
+/* Nav change text color*/
+/* Navbar change text color*/
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
   color: black !important;
 }
 
-.nav-item .nav-link:hover,
-.nav-item .nav-link:focus,
-.nav-item .nav-link:active {
+/* Navmain change text color*/
+.navmain .nav-item .nav-link:hover,
+.navmain .nav-item .nav-link:focus,
+.navmain .nav-item .nav-link:active {
+    color: black !important;
+}
+
+/* Navsub change text color*/
+.navsub .nav-item .nav-link:hover,
+.navsub .nav-item .nav-link:focus,
+.navsub .nav-item .nav-link:active {
     color: black !important;
 }
 
