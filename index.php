@@ -276,42 +276,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     </div>  
     <!-- End Photo Carousel -->
     
-
-    <!-- Photo Carousel Basic -->
-    <!--<div>
-      <div>
-        <div>
-          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-innerph">
-              <div class="carousel-item active">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC2024.3.1.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 1">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 1</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/ISAAC2024.3.2.jpg" class="d-block w-100" alt="Samara at ISAAC 2024 Photo set 2">
-                <div class="carousel-captionph text-primary">
-                  <h5>Samara at ISAAC 2024 Photo set 2</h5>
-                </div>
-              </div>
-            </div>
-            <div>
-              <button class="carousel-control-prevph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-nextph btn btn-primary" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-    <!-- End Photo Carousel Basic -->
-
     <!-- Divider -->
     <div> 
       <div class="pagebreaktop" style="width: 98.85%">
