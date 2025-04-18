@@ -22,21 +22,21 @@
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link:active {
-  color: black !important;
+    color: black !important;
 }
 
 /* Navmain - change text color on all states */
 .navmain .nav-link:hover,
 .navmain .nav-link:focus,
 .navmain .nav-link:active {
-  color: black !important;
+    color: black !important;
 }
 
 /* Navsub - change text color on all states */
 .navsub .nav-link:hover,
 .navsub .nav-link:focus,
 .navsub .nav-link:active{
-  color: black !important;
+    color: black !important;
 }
 
 /* Change background color*/
@@ -333,13 +333,13 @@ width: 100%;
 text-align: center;
 font-size: 18px;*/
 
-padding: 0px;
-border: 1px solid #0d6efd;
-margin-left: 670px;
-margin-right: 0px;
-margin-top: 10px;
-margin-bottom: 10px;
-border-radius: 0.5rem;
+    padding: 0px;
+    border: 1px solid #0d6efd;
+    margin-left: 670px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
 }
 
 .cardbcibmsec {
@@ -350,13 +350,13 @@ text-align: center;
 font-size: 18px;
 border: 1px solid #0d6efd;*/
 
-padding: 0px; 
-margin-left: 100px;
-margin-right: 0px;
-margin-top: 10px;
-margin-bottom: 10px;
-column-count: 5;
-border-radius: 0.5rem;
+    padding: 0px; 
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    column-count: 5;
+    border-radius: 0.5rem;
 }
 
 .cardbm {
@@ -448,7 +448,6 @@ border-radius: 0.5rem;
     position: relative;
     margin-left: 42%;
 }
-
 
 /* Community Log In */
 .cardlogin {
@@ -557,5 +556,4 @@ border-radius: 0.5rem;
 
 a.nav-link.text-primary.active {
     color: black !important;
-  }
-  
+}
