@@ -211,15 +211,15 @@ body {
 }*/
 
 .carousel-control-prev {
-    width: 25px;
-    height: 25px;
-    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
 }
 
 .carousel-control-next {
-    width: 25px;
-    height: 25px;
-    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
 }
 
 /*.carousel-control-prev*/
