@@ -184,11 +184,11 @@ body {
     margin-right: 0px;
 }
 
-.carousel-innerph {
+/*.carousel-innerph {
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
-}
+}*/
 
 /*.carousel-control-prevph {
     border: #0d6efd;
@@ -210,6 +210,18 @@ body {
     margin-bottom: 300px;
 }*/
 
+.carouselprevph .carousel-control-prev {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+.carouselnextp .carousel-control-next {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
 /*.carousel-control-prev*/
 .carouselprevph {
     border: #0d6efd;
@@ -226,7 +238,7 @@ body {
 }
 
 /*.carousel-control-next*/ 
-.carouselnextph{
+.carouselnextph {
     border: #0d6efd;
     width: 50px;
     height: 50px;
