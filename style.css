@@ -210,15 +210,15 @@ body {
     margin-bottom: 300px;
 }*/
 
-.carousel-control-prev-icon {
+.carousel-control-prevph {
     width: 50px;
-    height: 100px;
+    height: 50px;
     margin-top: 180px;
 }
 
-.carousel-control-next-icon {
+.carousel-control-nextph {
     width: 50px;
-    height: 100px;
+    height: 50px;
     margin-top: 180px;
 }
 
