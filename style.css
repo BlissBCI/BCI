@@ -210,13 +210,13 @@ body {
     margin-bottom: 300px;
 }*/
 
-.carouselprevph .carousel-control-prev {
+.carousel-control-prev {
     width: 25px;
     height: 25px;
     margin-top: 6px;
 }
 
-.carouselnextph .carousel-control-next {
+.carousel-control-next {
     width: 25px;
     height: 25px;
     margin-top: 6px;
