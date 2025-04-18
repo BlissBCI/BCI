@@ -150,7 +150,8 @@ body {
     margin-left: 1510px;
     margin-right: 0px;
     margin-top: 34px;
-    margin-bottom: 200px;
+    /*margin-bottom: 10px;*/
+    margin-bottom: 20px;
 }
 
 .carousel-control-prev-icon {
@@ -175,19 +176,19 @@ body {
 
 .carousel-innerph {
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.carousel-captionph {
+.carousel-innerph .carousel-caption {
     margin-left: 550px;
     margin-right: 0px;
 }
 
 /*.carousel-innerph {
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }*/
 
 /*.carousel-control-prevph {
@@ -209,6 +210,18 @@ body {
     margin-top: -65px;
     margin-bottom: 300px;
 }*/
+
+.carousel-control-prevph {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.carousel-control-nextph {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+}
 
 /*.carousel-control-prev*/
 .carouselprevph {
@@ -238,18 +251,6 @@ body {
     margin-right: 0px;
     margin-top: -65px;
     margin-bottom: 200px;
-}
-
-.carousel-control-prevph {
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
-}
-
-.carousel-control-nextph {
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
 }
 
 /* Divider */
