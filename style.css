@@ -176,8 +176,8 @@ body {
 
 .carousel-innerph {
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-innerph .carousel-caption {
@@ -187,8 +187,8 @@ body {
 
 /*.carousel-innerph {
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }*/
 
 /*.carousel-control-prevph {
@@ -212,15 +212,15 @@ body {
 }*/
 
 .carousel-control-prevph {
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 .carousel-control-nextph {
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 /*.carousel-control-prev*/
