@@ -423,19 +423,6 @@
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
     <!-- End Footer -->
-  </body>
-  <script>
-    document.getElementById("searchForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form from reloading the page
-  
-      const keyword = document.getElementById("searchInput").value.toLowerCase();
-      const bodyText = document.body.innerText.toLowerCase();
-  
-      if (keyword && bodyText.includes(keyword)) {
-        alert(`Found: "${keyword}" on this page.`);
-      } else {
-        alert(`Sorry, "${keyword}" not found on this page.`);
-      }
-    });
-  </script>   
+    <script src="https://conceptography.org/search.js"></script>
+  </body>  
 </html>
