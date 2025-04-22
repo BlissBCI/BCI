@@ -228,47 +228,12 @@
     <div class="row">
       <div class="col">
         <div class="footer">
-          <div class="leftfooter ml-5">     
-            <b><a class="nav-link text-primary active" data-bs-toggle="modal" data-bs-target="#exampleModal">BCI Mailing List</a></b>
-            <!-- End Nav -->   
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join The BCI Mailing List</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body text-center">
-                    <form action="maillist.php" method="post"> 
-                    Sign up for the BCI mailing list!
-                    <div class="input-group mb-3 mt-3">
-                      <span class="input-group-text" id="name">Name:</span>
-                      <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1" id="name" name="name" required>
-                    </div>  
-                    <div class="input-group mb-3 mt-3">
-                      <span class="input-group-text" id="email">Email address:</span>
-                      <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="email" id="email" name="email" required>
-                    </div>  
-                    <div class="modalemailconsent mt-3">
-                      <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button class="btn btn-primary" type="submit" name="submit">Submit</button>
-                  </form>  
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Modal -->
-
-            <!-- Nav --> 
-            <b><a class="nav-link text-primary" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></b>
-            <b><a class="nav-link text-primary" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></b>
-            <b><a class="nav-link text-primary" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></b>
+          <div class="navbar leftfooter ml-5">
+            <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/index.html">BCI Home</a></h5>   
+            <h5><a class="text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Newsletter Sign Up</a></h5>
+            <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></h5>
+            <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h5>
+            <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
           </div>
         </div>      
       </div>
@@ -284,11 +249,11 @@
         <!-- Right Footer Menu -->
         <div class="col">
           <div class="footer">
-            <div class="rightfooter ml-0">
-              <b><a class="nav-link text-primary" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></b>
-              <b><a class="nav-link text-primary" href="https://conceptography.org/mmbci.html">BCI</a></b>
-              <b><a class="nav-link text-primary" href="https://conceptography.org/mmbliss.html">Blissymbolics</a></b>
-              <b><a class="nav-link text-primary" class="text-xxl-end" href="https://conceptography.org/fcontactus.php">Contact BCI</a></b>
+            <div class="navbar rightfooter flex-column align-items-end ml-0">  
+              <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/mmbci.html">About BCI</a></h5>
+              <h5><a class="text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h5>
+              <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
+              <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
             </div>
           </div>   
         </div>
@@ -296,6 +261,6 @@
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->
+    <!-- End Footer -->    
   </body>
 </html>
