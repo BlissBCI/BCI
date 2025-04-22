@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const searchForm = document.getElementById("searchForm");
-    const searchInput = document.getElementById("searchInput");
+    const form = document.getElementById("searchForm");
+    const input = document.getElementById("searchInput");
   
-    if (searchForm && searchInput) {
-      searchForm.addEventListener("submit", function (event) {
-        event.preventDefault();
+    if (form && input) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent page reload
+        alert("Search handler is working!"); // For debugging
   
-        const keyword = searchInput.value.toLowerCase();
+        const keyword = input.value.toLowerCase();
         const bodyText = document.body.innerText.toLowerCase();
   
         if (keyword && bodyText.includes(keyword)) {
@@ -16,5 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     }
-  });
-  
+  });  
