@@ -7,12 +7,6 @@
     font: size 18px;*/
 }
 
-/*Change background color does not work
-.navbartop {
-    background-color: white;
-    border: #0d6efd;
-}*/
-
 .navbar {
     border: #0d6efd;
 }
@@ -42,13 +36,7 @@
 /* Change background color*/
 body {
     background-color: white;
-    /*border: 5px solid red !important;*/
 }
-
-/* Style the heading does not work*/
-/*h1 {
-    font-size: 24px;
-}*/
 
 /* Nav Bar and Menu Bar*/
 /* Nav Bar link */
@@ -146,11 +134,9 @@ body {
     border: #0d6efd;
     width: 55px;
     height: 50px;
-    /*margin-left: 1513px;*/
     margin-left: 1510px;
     margin-right: 0px;
     margin-top: 34px;
-    /*margin-bottom: 10px;*/
     margin-bottom: 10px;
 }
 
@@ -228,10 +214,6 @@ body {
     border: #0d6efd;
     width: 50px;
     height: 50px;
-    /*margin-left: 195px;
-    margin-right: 0px;
-    margin-top: 160px;
-    margin-bottom: 0px;*/
     margin-left: 30px;
     margin-right: 0px;
     margin-top: 140px;
@@ -243,47 +225,15 @@ body {
     border: #0d6efd;
     width: 50px;
     height: 50px;
-    /*margin-left: 1370px;
-    margin-right: 0px;
-    margin-top: -65px;
-    margin-bottom: 200px;*/
     margin-left: 1350px;
     margin-right: 0px;
     margin-top: -65px;
     margin-bottom: 200px;
 }
 
-/* Divider */
-.pagebreaktop {
-    /*margin: 1rem 0;*/
-    /*margin: 0px;
-    color: inherit;
-    background-color: currentColor;
-    border: 0;*/
-    margin-left: 10px;
-    /*opacity: 0.25;*/
-}
-
-/*.pagebreak {
-    margin: 1rem 0;*/
-    /*width: 100%;*/
-    
-    /*margin: 0px;
-    color: inherit;
-    background-color: currentColor;
-    border: 0;*/
-    
-    /*opacity: 0.25;*/
-/*}*/
-
 /* Card */
 .card {
-    /*padding: .5rem*/
-    /*padding: 1.5 rem*/
-    /*width 300px;*/
-    /*height: 100px; padding:50px;*/
     padding: 0px;
-    /*border: 1px solid #0d6efd;*/
     border: 1px solid #0d6efd;
 }
 
@@ -303,7 +253,6 @@ body {
     position: absolute;
     margin-left: 47.5%;
     transform: translateX(-50%);
-    /*margin-bottom: 200px; does not work */
 }
 
 .paypallogo {
@@ -313,26 +262,11 @@ body {
 }
 
 .iframe {
-    /*width: 150%; width does not change */
-    /*width: 100%;  width does not change */
     width: 100vw; /* Full viewport width */
-    /*height: 100vh;  Full viewport height */
 }
-
-/*.pdfsouthafrica {
-    display: flex;
-    justify-content: center; /* Horizontal */
-    /*align-items: center; /* Vertical */
-/*}*/
 
 /* BCI Board of Directors Cards */
 .cardbcibm {
-/*position: absolute;
-top: 50%;
-width: 100%;
-text-align: center;
-font-size: 18px;*/
-
     padding: 0px;
     border: 1px solid #0d6efd;
     margin-left: 670px;
@@ -343,13 +277,6 @@ font-size: 18px;*/
 }
 
 .cardbcibmsec {
-/*position: absolute;
-top: 50%;
-width: 100%;
-text-align: center;
-font-size: 18px;
-border: 1px solid #0d6efd;*/
-
     padding: 0px; 
     margin-left: 100px;
     margin-right: 0px;
@@ -360,12 +287,6 @@ border: 1px solid #0d6efd;*/
 }
 
 .cardbm {
-    /*position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;*/
-    
     padding: 0px;
     border: 1px solid #0d6efd;
     margin-left: 320px;
@@ -381,7 +302,6 @@ border: 1px solid #0d6efd;*/
     margin: 0;
     padding: 0;
   }
-  
 
 /* About Blissymbolics */
 /* Lee Merlich's photo */
