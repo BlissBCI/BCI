@@ -170,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
     <!-- End Top Menu -->
 
     <!-- Search Menu -->
-    <div>
+    <!--<div>
       <div>  
         <nav class="navbar bg-transparent justify-content-center py-2">
           <form class="d-flex" role="search">
@@ -179,7 +179,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && $_POST['em
           </form>
         </nav>
       </div>
-    </div>  
+    </div>-->  
     <!-- End Search Menu -->
 
     <!-- Divider -->
