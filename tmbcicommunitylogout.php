@@ -178,6 +178,11 @@
               <button class="btn btn-primary" type="submit" name="submit">Log Out</button>
             </div>
           </form>
+            <div>
+              <p class="fs-5 ml-10 mr-10 text-center">Placeholder for Members Area<br> 
+                Forum, Member chat, Member Correspondence, Uploading files<br>
+                Members would have different levels (level 1, level 2, level 3)</p>
+            </div>  
         </div>
       </div>
     </div>
