@@ -41,95 +41,100 @@
           <div class="mx-auto">
             <ul class="navbar-nav d-flex flex-row gap-3 text-center">
               <li class="nav-item">  
-          <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/index.html">BCI Home</a></h5>
-          <li class="nav-itemtm">
-            <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
-          </li>
-          <li class="nav-itemtm">
-            <h5><a class="text-center text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Mailing List</a></h5>
-          </li>
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/index.html">BCI Home</a></h5>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Newsletter Sign Up</a></h5>
+              </li>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                
-                <!-- Alert -->
-                <div id="modalalert"></div>
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Join The BCI Mailing List</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                  <form action="maillist.php" method="post">
-                    Sign up for the BCI mailing list!
-                    <div class="input-group mb-3 mt-3">
-                      <span class="input-group-text" id="name">Name:</span>
-                      <input type="text" class="form-control" placeholder="Name" name="name" required>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    
+                    <!-- Alert -->
+                    <div id="modalalert"></div>
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">The BCI Newsletter</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="input-group mb-3 mt-3">
-                      <span class="input-group-text" id="email">Email address:</span>
-                      <input type="email" class="form-control" placeholder="Email" name="email" required>
+                    <div class="modal-body text-center">
+                      <form action="maillist.php" method="post">
+                        Sign up for the BCI Newsletter!
+                        <div class="input-group mb-3 mt-3">
+                          <span class="input-group-text" id="name">Name:</span>
+                          <input type="text" class="form-control" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="input-group mb-3 mt-3">
+                          <span class="input-group-text" id="email">Email address:</span>
+                          <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="modalemailconsent mt-3">
+                          <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                        </div>
                     </div>
-                    <div class="modalemailconsent mt-3">
-                      <p>When you sign up for the list, your contact information will be stored in BCI's database so that we can send information to you. We will not use the information for any other purpose or share it with any third party. It is regulated in the Data Protection Act that we must have your approval in order to save your data. By signing up for the list, you agree that we will save your information in this way.</p>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+                      </form>
                     </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button class="btn btn-primary" type="submit" name="submit">Submit</button>
-                  </form>
+                  </div>
                 </div>
               </div>
-            </div>
+
+              <!-- Show modal if needed -->
+              <script>
+                const urlParams = new URLSearchParams(window.location.search);
+                const alert = urlParams.get('alert');
+                const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+              
+                const messages = {
+                  'success': {
+                    class: 'alert-success',
+                    text: "You've been added to the BCI mailing list!"
+                  },
+                  'email_exists': {
+                    class: 'alert-danger',
+                    text: "This email is already in use."
+                  },
+                  'invalid_email': {
+                    class: 'alert-danger',
+                    text: "Please enter a valid email address."
+                  },
+                  'error': {
+                    class: 'alert-danger',
+                    text: "Something went wrong. Please try again."
+                  }
+                };
+              
+                if (messages[alert]) {
+                  document.getElementById('modalalert').innerHTML =
+                    `<div class="alert ${messages[alert].class} alert-dismissible fade show m-3" role="alert">
+                      ${messages[alert].text}
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>`;
+                  window.addEventListener('load', () => modal.show());
+                }
+              </script>  
+              <!-- End Modal -->
+
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
+              </li>
+              <li class="nav-itemtm">
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
+              </li>
+            </ul>
           </div>
-
-          <!-- Show modal if needed -->
-          <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const alert = urlParams.get('alert');
-            const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
-          
-            const messages = {
-              'success': {
-                class: 'alert-success',
-                text: "You've been added to the BCI mailing list!"
-              },
-              'email_exists': {
-                class: 'alert-danger',
-                text: "This email is already in use."
-              },
-              'invalid_email': {
-                class: 'alert-danger',
-                text: "Please enter a valid email address."
-              },
-              'error': {
-                class: 'alert-danger',
-                text: "Something went wrong. Please try again."
-              }
-            };
-          
-            if (messages[alert]) {
-              document.getElementById('modalalert').innerHTML =
-                `<div class="alert ${messages[alert].class} alert-dismissible fade show m-3" role="alert">
-                  ${messages[alert].text}
-                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>`;
-              window.addEventListener('load', () => modal.show());
-            }
-          </script>  
-          <!-- End Modal -->
-
-          <li class="nav-itemtm">
-            <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></h5>
-          </li>
-          <li class="nav-itemtm">
-            <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
-          </li>
-          <li class="nav-itemtm">
-            <h5><a class="text-center text-primary fw-bold nav-link" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
-          </li>
-        </ul>   
+        </div>       
       </nav>
     </div>
     <!-- End Top Menu -->
