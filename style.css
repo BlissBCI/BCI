@@ -397,7 +397,8 @@ border: 1px solid #0d6efd;*/
 
 /* Accordion */
 .accordion {
-    margin-left: 150px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .accordion-button {
