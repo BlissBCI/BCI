@@ -1,5 +1,4 @@
 <?php 
-$admin_message = '';
 // Database connection
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIadmin");
 
@@ -28,13 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
                 exit();
             } else {
-                $admin_message = "Incorrect password"; 
+                echo "<div class='adminmessage'>Incorrect password</div>";
             }
         } else {
-            $admin_message = "Missing credentials or user not found."; 
+            echo "<div class='adminmessage'>Missing credentials or user not found.</div>";
         }
     } else {
-        $admin_message = "Database query failed: " . $conn->error; 
+        echo "<div class='adminmessage'>Database query failed: " . $conn->error . "</div>";
     }
 }
 ?>
