@@ -1,9 +1,7 @@
 <?php
-// Start the session
-session_start();
-?>
+$alert_message = '';
+$alert_class = '';
 
-<?php 
 // Database connection
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIadmin");
 
