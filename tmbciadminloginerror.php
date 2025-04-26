@@ -178,7 +178,9 @@ session_start();
     <div> 
       <div class="cardadminlogin">
         <div class="card-body">
-        
+          <div class="textheading">
+            <h2 class="text-center mt-2">BCI Admin Log In</h2>
+          </div>
           <!-- PHP -->  
           <?php
             // Check if there's an alert message in the session
