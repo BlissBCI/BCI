@@ -172,12 +172,10 @@
       <div class="cardadminlogin">
         <div class="card-body">
 
-          <!-- Admin Message -->
-          <?php if (!empty($admin_message)): ?>
-            <div class="adminmessage text-center mt-3">
-              <?php echo $admin_message; ?>
-            </div>
-          <?php endif; ?>
+          <!-- PHP -->
+          <?php if (!empty($adminmessage)) : ?>
+            <?= $adminmessage ?>
+          <?php else : ?>
 
           <!-- text in card body -->
           <form action="https://conceptography.org/adminlogin.php" method="post" class="form">
@@ -196,6 +194,8 @@
               <button class="btn btn-primary" type="submit" name="submit">Log In</button>
             </div>
           </form>
+          <?php endif; ?>
+          <!-- END PHP -->
         </div>
       </div>
     </div>
