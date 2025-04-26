@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid align-items-center d-flex justify-content-between">    
           <a class="navbar-brand" href="https://conceptography.org/index.html">
-            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_whitebg.jpg" alt="BCI logo " width="300" height="120"> 
+            <img src="https://raw.githubusercontent.com/BlissBCI/BCI/refs/heads/main/assets/bci_bliss_logo_whitebg.jpg" alt="BCI logo" width="300" height="120"> 
           </a>
         </div>
         <div class="container">
