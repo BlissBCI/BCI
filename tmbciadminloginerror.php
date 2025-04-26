@@ -194,9 +194,6 @@
           <div class="text-center mt-4">
             <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
           </div>
-
-          <?php endif; ?>
-          <!-- END PHP -->
         </div>
       </div>
     </div>
