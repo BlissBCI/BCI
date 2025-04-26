@@ -47,6 +47,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     }
 }
 ?>
+
+<?php if (!empty($alert_message)): ?>
+    <div class="d-flex justify-content-center mt-4">
+        <div class="alert <?php echo $alert_class; ?> text-center" role="alert" style="max-width: 500px; width: 100%;">
+            <?php echo $alert_message; ?>
+        </div>
+    </div>
+<?php endif; ?>
 <!-- End PHP -->
 
 <!doctype html>
