@@ -225,7 +225,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
           <!-- PHP -->
           <?php if (!empty($alert_message)): ?>
-            <div class="alert <?= $alert_class ?> alert-dismissible fade show mt-3" role="alert">
+            <div class="alert <?= $alert_class ?> alert-dismissible fade show mt-3 text-center" role="alert">
               <?= $alert_message ?>
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
