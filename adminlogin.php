@@ -27,13 +27,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
                 exit();
             } else {
-                echo "<div class='adminmessage'>Incorrect password</div>";
+                // Redirect with error message for incorrect password
+                header("Location: https://conceptography.org/tmbciadminloginerror.php?error=incorrect-password");
+                exit();
             }
         } else {
-            echo "<div class='adminmessage'>Missing credentials or user not found.</div>";
+            // Redirect with error message for missing credentials or user not found
+            header("Location: https://conceptography.org/tmbciadminloginerror.php?error=user-not-found");
+            exit();
         }
     } else {
-        echo "<div class='adminmessage'>Database query failed: " . $conn->error . "</div>";
+        // Redirect with error message for database query failure
+        header("Location: https://conceptography.org/tmbciadminloginerror.php?error=db-query-failed");
+        exit();
     }
 }
 ?>
