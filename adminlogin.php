@@ -27,13 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 header("Location: https://conceptography.org/tmbciadminlogout.php");
                 exit();
             } else {
-                echo "<div class='adminmessage'>Incorrect password</div>";
+                $admin_message = "Incorrect password"; 
             }
         } else {
-            echo "<div class='adminmessage'>Missing credentials or user not found.</div>";
+            $admin_message = "Missing credentials or user not found."; 
         }
     } else {
-        echo "<div class='adminmessage'>Database query failed: " . $conn->error . "</div>";
+        $admin_message = "Database query failed: " . $conn->error; 
     }
 }
 ?>
