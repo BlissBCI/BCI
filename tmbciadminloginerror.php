@@ -173,21 +173,20 @@
         <div class="card-body">
         
           <!-- PHP -->  
-          <?php
-          if (isset($_GET['error'])) {
-              $error = $_GET['error'];
-              $alert_class = isset($_GET['alert_class']) ? $_GET['alert_class'] : 'alert-info';
 
-              // Show different error messages
-              if ($error == 'incorrect-password') {
-                  echo "<div class='adminmessage $alert_class text-center mt-3'>Incorrect username or password. Please try again.</div>";
-              } elseif ($error == 'user-not-found') {
-                  echo "<div class='adminmessage $alert_class text-center mt-3'>Missing credentials or user not found. Please check your details.</div>";
-              } elseif ($error == 'db-query-failed') {
-                  echo "<div class='adminmessage $alert_class text-center mt-3'>Database query failed. Please try again later.</div>";
-              }
+          <?php
+            // Check if there's an alert message
+            if (isset($_SESSION['alert_message'])) {
+                // Display the alert message
+                echo "<div class='adminmessage " . $_SESSION['alert_class'] . " text-center mt-3'>";
+                echo $_SESSION['alert_message'];
+                echo "</div>";
+
+                // Clear session variables after displaying the message
+                unset($_SESSION['alert_message']);
+                unset($_SESSION['alert_class']);
             }
-          ?>          
+          ?>        
           <!-- END PHP -->
   
           <div class="text-center mt-4">
