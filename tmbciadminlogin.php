@@ -1,6 +1,3 @@
-<?php
-  
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -175,10 +172,12 @@
       <div class="cardadminlogin">
         <div class="card-body">
 
-          <!-- PHP -->
-          <?php if (!empty($adminmessage)) : ?>
-            <?= $adminmessage ?>
-          <?php else : ?>
+          <!-- Admin Message -->
+          <?php if (!empty($admin_message)): ?>
+            <div class="adminmessage text-center mt-3">
+              <?php echo $admin_message; ?>
+            </div>
+          <?php endif; ?>
 
           <!-- text in card body -->
           <form action="https://conceptography.org/adminlogin.php" method="post" class="form">
