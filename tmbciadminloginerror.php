@@ -1,3 +1,10 @@
+<!-- PHP -->
+<?php
+// Start the session
+session_start();
+?>
+<!-- END PHP -->
+
 <!doctype html>
 <html lang="en">
   <head>
