@@ -28,17 +28,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 exit();
             } else {
                 // Redirect with alert class for incorrect password
-                header("Location: https://conceptography.org/tmbciadminloginerror.html?error=incorrect-password&alert_class=alert-danger");
+                header("Location: https://conceptography.org/tmbciadminloginerror.php?error=incorrect-password&alert_class=alert-danger");
                 exit();
             }
         } else {
             // Redirect with alert class for missing credentials or user not found
-            header("Location: https://conceptography.org/tmbciadminloginerror.html?error=user-not-found&alert_class=alert-danger");
+            header("Location: https://conceptography.org/tmbciadminloginerror.php?error=user-not-found&alert_class=alert-danger");
             exit();
         }
     } else {
         // Redirect with alert class for database query failure
-        header("Location: https://conceptography.org/tmbciadminloginerror.html?error=db-query-failed&alert_class=alert-danger");
+        header("Location: https://conceptography.org/tmbciadminloginerror.php?error=db-query-failed&alert_class=alert-danger");
         exit();
     }
 }
