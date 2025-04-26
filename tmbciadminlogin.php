@@ -196,7 +196,6 @@
               <button class="btn btn-primary" type="submit" name="submit">Log In</button>
             </div>
           </form>
-          <?php endif; ?>
           <!-- END PHP -->
         </div>
       </div>
