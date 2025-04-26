@@ -262,7 +262,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
             </div>
           </form>
-          <?php endif; ?>
           <!-- END PHP -->
           </div>
         </div>
