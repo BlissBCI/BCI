@@ -1,57 +1,7 @@
 <!-- PHP -->
-<?php 
-$alert_message = '';
-$alert_class = '';
-
-// Database connection
-$conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIadmin");
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Get form input
-    $username = $_POST['username'] ?? '';
-    $password = $_POST['password'] ?? '';
-
-    $query = "SELECT Password FROM admin WHERE Username = ?";
-    $stmt = $conn->prepare($query);
-
-    if ($stmt) {
-        $stmt->bind_param("s", $username);
-        $stmt->execute();
-        $stmt->bind_result($passwordFromDatabase);
-        $stmt->fetch();
-        $stmt->close();
-
-        if (!empty($password) && !empty($passwordFromDatabase)) {
-            if ($password === $passwordFromDatabase) {
-                // Login success
-                header("Location: https://conceptography.org/tmbciadminlogout.php");
-                exit();
-            } else {
-                // Incorrect password alert message
-                $_SESSION['alert_message'] = 'Incorrect username or password. Please try again.';
-                $_SESSION['alert_class'] = 'alert-danger';
-                header("Location: https://conceptography.org/tmbciadminloginerror.php");
-                exit();
-            }
-        } else {
-            // Missing credentials or user not found alert message
-            $_SESSION['alert_message'] = 'Missing credentials or user not found.';
-            $_SESSION['alert_class'] = 'alert-danger';
-            header("Location: https://conceptography.org/tmbciadminloginerror.php");
-            exit();
-        }
-    } else {
-        // Database query failed alert message
-        $_SESSION['alert_message'] = 'Something went wrong. Please try again.';
-        $_SESSION['alert_class'] = 'alert-danger';
-        header("Location: https://conceptography.org/tmbciadminloginerror.php");
-        exit();
-    }
-}
+<?php
+// Start the session
+session_start();
 ?>
 <!-- END PHP -->
 
@@ -244,25 +194,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             }
           ?>
           <!-- END PHP -->
-
-           <!-- text in card body -->
-            <form action="https://conceptography.org/adminlogin.php" method="post" class="form">
-            <div class="textheading">
-              <h2 class="text-center mt-2">BCI Admin Log In</h2>
-            </div>
-            <div class="mb-3">
-              <label for="username" class="form-label">Username</label>
-              <input type="username" class="form-control border-primary" id="username" name="username" placeholder="Username" required>
-            </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">Password</label>
-              <input type="password" class="form-control border-primary" id="password" name="password" placeholder="Password" required>
-            </div>
-            <div class="text-center mt-4">
-              <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
-            </div>
-          </form>
-          <!-- END PHP -->
+  
+          <div class="text-center mt-4">
+            <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
           </div>
         </div>
       </div>
