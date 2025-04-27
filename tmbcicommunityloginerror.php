@@ -1,10 +1,3 @@
-<!-- PHP -->
-<?php
-// Start the session
-session_start();
-?>
-<!-- END PHP -->
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -131,10 +124,10 @@ session_start();
                 <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h5>
               </li>
               <li class="nav-itemtm">
-                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
+                <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
               </li>
               <li class="nav-itemtm">
-                <h5><a class="text-center text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
+                <h5><a class="text-center text-primary fw-bold nav-link" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
               </li>
             </ul>
           </div>
@@ -174,14 +167,15 @@ session_start();
     </div>  
     <!-- End Divider -->
 
-    <!-- BCI Admin Log In Error -->
+    <!-- BCI Community Member Log In -->
     <div> 
-      <div class="cardadminlogin">
+      <div class="cardlogout">
         <div class="card-body">
           <!-- text in card body -->
           <div class="textheading">
             <h2 class="text-center mt-2">BCI Admin Log In</h2>
           </div>
+
           <!-- PHP -->  
           <?php
             // Check if there's an alert message in the session
@@ -197,7 +191,7 @@ session_start();
             }
           ?>
           <!-- End PHP -->
-  
+
           <div class="text-center mt-4">
             <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
           </div>
@@ -205,7 +199,7 @@ session_start();
         </div>
       </div>
     </div>
-    <!-- End BCI Admin Log In Error -->
+    <!-- End BCI Community Member Log In -->
 
 
     <!-- Divider -->
@@ -227,7 +221,7 @@ session_start();
             <h5><a class="text-primary fw-bold nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Newsletter Sign Up</a></h5>
             <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmjoinbci.html">BCI Membership</a></h5>
             <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/smbcisupport.html">Support BCI</a></h5>
-            <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
+            <h5><a class="text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbcicommunitysignup.php">BCI Community</a></h5>
           </div>
         </div>      
       </div>
@@ -246,7 +240,7 @@ session_start();
             <div class="navbar rightfooter flex-column align-items-end ml-0">  
               <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/mmbci.html">About BCI</a></h5>
               <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/mmbliss.html">About Blissymbolics</a></h5>
-              <h5><a class="text-primary fw-bold nav-link active" aria-current="page" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
+              <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/tmbciadminlogin.php">BCI Admin</a></h5>
               <h5><a class="text-primary fw-bold nav-link" href="https://conceptography.org/fcontactus.php">Contact BCI</a></h5>
             </div>
           </div>   
@@ -255,6 +249,6 @@ session_start();
     </div>
     <!-- End Nav-->
     <!-- End Right Footer Menu -->
-    <!-- End Footer -->    
+    <!-- End Footer -->
     </body>
   </html>
