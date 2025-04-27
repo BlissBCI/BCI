@@ -14,6 +14,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
+    if (empty($username) || empty($password)) {
+        $_SESSION['alert_message'] = 'Please enter both username and password.';
+        $_SESSION['alert_class'] = 'alert-danger';
+        header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
+        exit();
+    }
+ 
     $query = "SELECT Password FROM users WHERE Username = ?";
     $stmt = $conn->prepare($query);
 
