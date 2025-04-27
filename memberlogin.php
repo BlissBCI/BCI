@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->close();
 
         if (!empty($passwordFromDatabase)) {
-            // Change this line 👇
+            
             if ($password === $passwordFromDatabase) {
                 // Login success
                 header("Location: https://conceptography.org/tmbcicommunitylogout.php");
