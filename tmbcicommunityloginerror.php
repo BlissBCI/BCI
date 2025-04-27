@@ -173,7 +173,7 @@
         <div class="card-body">
           <!-- text in card body -->
           <div class="textheading">
-            <h2 class="text-center mt-2">BCI Admin Log In</h2>
+            <h2 class="text-center mt-2">BCI Community Member Log In</h2>
           </div>
 
           <!-- PHP -->  
