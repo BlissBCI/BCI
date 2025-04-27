@@ -27,18 +27,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($stmt) {
         $stmt->bind_param("s", $username);
         $stmt->execute();
-        $stmt->bind_result($passwordFromDatabase);
-        $stmt->fetch();
-        $stmt->close();
 
-        if (!empty($passwordFromDatabase)) {
-            
+        $stmt->store_result();
+
+        if ($stmt->num_rows > 0) {
+            // User found
+            $stmt->bind_result($passwordFromDatabase);
+            $stmt->fetch();
+
             if ($password === $passwordFromDatabase) {
                 // Login success
                 header("Location: https://conceptography.org/tmbcicommunitylogout.php");
                 exit();
             } else {
-                // Incorrect password
+                // Password incorrect
                 $_SESSION['alert_message'] = 'Incorrect username or password. Please try again.';
                 $_SESSION['alert_class'] = 'alert-danger';
                 header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
@@ -51,6 +53,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
             exit();
         }
+
+        $stmt->close();
     } else {
         // Database query failed
         $_SESSION['alert_message'] = 'Something went wrong. Please try again.';
