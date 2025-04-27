@@ -32,12 +32,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->close();
 
         if (!empty($passwordFromDatabase)) {
-            if (password_verify($password, $passwordFromDatabase)) {
+            // Change this line 👇
+            if ($password === $passwordFromDatabase) {
                 // Login success
                 header("Location: https://conceptography.org/tmbcicommunitylogout.php");
                 exit();
             } else {
-                // Incorrect password alert message
+                // Incorrect password
                 $_SESSION['alert_message'] = 'Incorrect username or password. Please try again.';
                 $_SESSION['alert_class'] = 'alert-danger';
                 header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
