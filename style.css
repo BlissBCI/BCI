@@ -251,7 +251,7 @@ body {
 
 .btncenter {
     position: absolute;
-    margin-left: 47.5%;
+    margin-left: 50%;
     transform: translateX(-50%);
 }
 
