@@ -1,9 +1,7 @@
 <?php
 // Start the session
 session_start();
-?>
 
-<?php 
 // Database connection
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIsignup");
 
@@ -16,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    $query = "SELECT Password FROM admin WHERE Username = ?";
+    $query = "SELECT Password FROM users WHERE Username = ?";
     $stmt = $conn->prepare($query);
 
     if ($stmt) {
@@ -26,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->fetch();
         $stmt->close();
 
-        if (!empty($password) && !empty($passwordFromDatabase)) {
-            if ($password === $passwordFromDatabase) {
+        if (!empty($passwordFromDatabase)) {
+            if (password_verify($password, $passwordFromDatabase)) {
                 // Login success
                 header("Location: https://conceptography.org/tmbcicommunitylogout.php");
                 exit();
@@ -39,14 +37,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 exit();
             }
         } else {
-            // Missing credentials or user not found alert message
-            $_SESSION['alert_message'] = 'Missing credentials or user not found.';
+            // User not found
+            $_SESSION['alert_message'] = 'User not found. Please sign up first.';
             $_SESSION['alert_class'] = 'alert-danger';
             header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
             exit();
         }
     } else {
-        // Database query failed alert message
+        // Database query failed
         $_SESSION['alert_message'] = 'Something went wrong. Please try again.';
         $_SESSION['alert_class'] = 'alert-danger';
         header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
