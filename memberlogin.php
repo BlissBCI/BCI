@@ -1,7 +1,9 @@
 <?php
 // Start the session
 session_start();
+?>
 
+<?php 
 // Database connection
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIsignup");
 
@@ -14,50 +16,37 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    if (empty($username) || empty($password)) {
-        $_SESSION['alert_message'] = 'Please enter both username and password.';
-        $_SESSION['alert_class'] = 'alert-danger';
-        header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
-        exit();
-    }
-
-    // Prepare SQL statement
-    $query = "SELECT Password FROM users WHERE Username = ?";
+    $query = "SELECT Password FROM admin WHERE Username = ?";
     $stmt = $conn->prepare($query);
 
     if ($stmt) {
         $stmt->bind_param("s", $username);
         $stmt->execute();
-        $stmt->store_result();
+        $stmt->bind_result($passwordFromDatabase);
+        $stmt->fetch();
+        $stmt->close();
 
-        if ($stmt->num_rows > 0) {
-            // Fetch password
-            $stmt->bind_result($passwordFromDatabase);
-            $stmt->fetch();
-
-            // ✅ Correct way to compare hashed password
-            if (password_verify($password, $passwordFromDatabase)) {
+        if (!empty($password) && !empty($passwordFromDatabase)) {
+            if ($password === $passwordFromDatabase) {
                 // Login success
                 header("Location: https://conceptography.org/tmbcicommunitylogout.php");
                 exit();
             } else {
-                // Wrong password
+                // Incorrect password alert message
                 $_SESSION['alert_message'] = 'Incorrect username or password. Please try again.';
                 $_SESSION['alert_class'] = 'alert-danger';
                 header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
                 exit();
             }
         } else {
-            // Username not found
-            $_SESSION['alert_message'] = 'User not found. Please sign up first.';
+            // Missing credentials or user not found alert message
+            $_SESSION['alert_message'] = 'Missing credentials or user not found.';
             $_SESSION['alert_class'] = 'alert-danger';
             header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
             exit();
         }
-
-        $stmt->close();
     } else {
-        // SQL error
+        // Database query failed alert message
         $_SESSION['alert_message'] = 'Something went wrong. Please try again.';
         $_SESSION['alert_class'] = 'alert-danger';
         header("Location: https://conceptography.org/tmbcicommunityloginerror.php");
