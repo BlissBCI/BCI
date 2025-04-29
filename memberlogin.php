@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+// DB connection
 $conn = mysqli_connect("localhost", "concept_maria", "kx18ghS4u-SM", "concept_BCIsignup");
 
 if (!$conn) {
@@ -8,8 +9,8 @@ if (!$conn) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $username = $_POST['username'] ?? '';
-    $password = $_POST['password'] ?? '';
+    $username = trim($_POST['username'] ?? '');
+    $password = trim($_POST['password'] ?? '');
 
     if (empty($username) || empty($password)) {
         $_SESSION['alert_message'] = 'Please enter both username and password.';
