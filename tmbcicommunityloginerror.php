@@ -171,7 +171,7 @@ session_start();
     </div>  
     <!-- End Divider -->
 
-    <!-- BCI Community Member Log In -->
+    <!-- BCI Community Member Log In Error -->
     <div> 
       <div class="cardlogout">
         <div class="card-body">
@@ -179,7 +179,6 @@ session_start();
           <div class="textheading">
             <h2 class="text-center mt-2">BCI Community Member Log In</h2>
           </div>
-
           <!-- PHP -->  
           <?php
             // Check if there's an alert message in the session
@@ -195,15 +194,15 @@ session_start();
             }
           ?>
           <!-- End PHP -->
-
+      
           <div class="text-center mt-4">
-            <a href="https://conceptography.org/tmbciadminlogin.php" class="btn btn-primary">Back to Login</a>
+            <a href="https://conceptography.org/tmbcicommunitylogin.php" class="btn btn-primary">Back to Login</a>
           </div>
           <!-- End text in card body -->
         </div>
       </div>
     </div>
-    <!-- End BCI Community Member Log In -->
+    <!-- End BCI Community Member Log In Error -->
 
 
     <!-- Divider -->
